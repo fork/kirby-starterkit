@@ -1,0 +1,25 @@
+# System files
+# ------------
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+/storage/*.key
+
+# Installation files
+# ---------------
+/vendor
+/kirby
+/site/plugins/*
+
+# Editors
+# (sensitive workspace files)
+# ---------------------------
+*.sublime-workspace
+/.vscode
+/.idea
+
+# License
+# ---------------
+/site/config/.license
