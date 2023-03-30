@@ -94,22 +94,26 @@
         },
         {
             "name": "claviska/simpleimage",
-            "version": "3.7.2",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/claviska/SimpleImage.git",
-                "reference": "82dbef988e356baa5d73993a1351bcb6c0959269"
+                "reference": "226d507cca0c8400d69bee7eb324158e3cbe246e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/82dbef988e356baa5d73993a1351bcb6c0959269",
-                "reference": "82dbef988e356baa5d73993a1351bcb6c0959269",
+                "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/226d507cca0c8400d69bee7eb324158e3cbe246e",
+                "reference": "226d507cca0c8400d69bee7eb324158e3cbe246e",
                 "shasum": ""
             },
             "require": {
                 "ext-gd": "*",
-                "league/color-extractor": "0.3.*",
-                "php": ">=5.6.0"
+                "league/color-extractor": "0.4.*",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.5",
+                "phpstan/phpstan": "^1.10"
             },
             "type": "library",
             "autoload": {
@@ -131,7 +135,7 @@
             "description": "A PHP class that makes working with images as simple as possible.",
             "support": {
                 "issues": "https://github.com/claviska/SimpleImage/issues",
-                "source": "https://github.com/claviska/SimpleImage/tree/3.7.2"
+                "source": "https://github.com/claviska/SimpleImage/tree/4.0.2"
             },
             "funding": [
                 {
@@ -139,7 +143,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-12T14:31:53+00:00"
+            "time": "2023-03-20T15:27:20+00:00"
         },
         {
             "name": "composer/semver",
@@ -314,16 +318,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.14.6",
+            "version": "2.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "f7948baaa0330277c729714910336383286305da"
+                "reference": "e864ac957acd66e1565f25efda61e37791a5db0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/f7948baaa0330277c729714910336383286305da",
-                "reference": "f7948baaa0330277c729714910336383286305da",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/e864ac957acd66e1565f25efda61e37791a5db0b",
+                "reference": "e864ac957acd66e1565f25efda61e37791a5db0b",
                 "shasum": ""
             },
             "require": {
@@ -373,7 +377,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.14.6"
+                "source": "https://github.com/filp/whoops/tree/2.15.1"
             },
             "funding": [
                 {
@@ -381,24 +385,24 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-11-02T16:23:29+00:00"
+            "time": "2023-03-06T18:09:13+00:00"
         },
         {
             "name": "getkirby/cms",
-            "version": "3.9.1",
+            "version": "3.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "617a07aa0151aa4b1a3735b3b5e1a41ccc244a43"
+                "reference": "ce4aaace87ceca1f019a9cfc0293a69e662f9648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/617a07aa0151aa4b1a3735b3b5e1a41ccc244a43",
-                "reference": "617a07aa0151aa4b1a3735b3b5e1a41ccc244a43",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/ce4aaace87ceca1f019a9cfc0293a69e662f9648",
+                "reference": "ce4aaace87ceca1f019a9cfc0293a69e662f9648",
                 "shasum": ""
             },
             "require": {
-                "claviska/simpleimage": "3.7.2",
+                "claviska/simpleimage": "4.0.2",
                 "composer/semver": "3.3.2",
                 "ext-ctype": "*",
                 "ext-curl": "*",
@@ -411,12 +415,12 @@
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
                 "ext-simplexml": "*",
-                "filp/whoops": "2.14.6",
+                "filp/whoops": "2.15.1",
                 "getkirby/composer-installer": "^1.2.1",
                 "laminas/laminas-escaper": "2.12.0",
                 "michelf/php-smartypants": "1.8.1",
                 "php": ">=8.0.0 <8.3.0",
-                "phpmailer/phpmailer": "6.7.1",
+                "phpmailer/phpmailer": "6.8.0",
                 "symfony/polyfill-intl-idn": "1.27.0",
                 "symfony/polyfill-mbstring": "1.27.0"
             },
@@ -481,7 +485,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-01-31T10:07:31+00:00"
+            "time": "2023-03-30T13:10:22+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -532,16 +536,16 @@
         },
         {
             "name": "getkirby/staticache",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/staticache.git",
-                "reference": "cbdced2a301b64144555cffdd3a3398c3481e58e"
+                "reference": "b16c5e3a55222a7ae5d151fafab7d979924ae232"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/staticache/zipball/cbdced2a301b64144555cffdd3a3398c3481e58e",
-                "reference": "cbdced2a301b64144555cffdd3a3398c3481e58e",
+                "url": "https://api.github.com/repos/getkirby/staticache/zipball/b16c5e3a55222a7ae5d151fafab7d979924ae232",
+                "reference": "b16c5e3a55222a7ae5d151fafab7d979924ae232",
                 "shasum": ""
             },
             "require": {
@@ -573,7 +577,7 @@
             "homepage": "https://getkirby.com/plugins/getkirby/staticache",
             "support": {
                 "issues": "https://github.com/getkirby/staticache/issues",
-                "source": "https://github.com/getkirby/staticache/tree/1.0.0"
+                "source": "https://github.com/getkirby/staticache/tree/1.0.1"
             },
             "funding": [
                 {
@@ -581,7 +585,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-01-17T08:48:44+00:00"
+            "time": "2023-03-24T20:59:49+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -647,33 +651,36 @@
         },
         {
             "name": "league/color-extractor",
-            "version": "0.3.2",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/color-extractor.git",
-                "reference": "837086ec60f50c84c611c613963e4ad2e2aec806"
+                "reference": "21fcac6249c5ef7d00eb83e128743ee6678fe505"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/color-extractor/zipball/837086ec60f50c84c611c613963e4ad2e2aec806",
-                "reference": "837086ec60f50c84c611c613963e4ad2e2aec806",
+                "url": "https://api.github.com/repos/thephpleague/color-extractor/zipball/21fcac6249c5ef7d00eb83e128743ee6678fe505",
+                "reference": "21fcac6249c5ef7d00eb83e128743ee6678fe505",
                 "shasum": ""
             },
             "require": {
                 "ext-gd": "*",
-                "php": ">=5.4.0"
+                "php": "^7.3 || ^8.0"
             },
             "replace": {
                 "matthecat/colorextractor": "*"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "~2",
-                "phpunit/phpunit": "~5"
+                "phpunit/phpunit": "^9.5"
+            },
+            "suggest": {
+                "ext-curl": "To download images from remote URLs if allow_url_fopen is disabled for security reasons"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "": "src"
+                    "League\\ColorExtractor\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -699,9 +706,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/color-extractor/issues",
-                "source": "https://github.com/thephpleague/color-extractor/tree/master"
+                "source": "https://github.com/thephpleague/color-extractor/tree/0.4.0"
             },
-            "time": "2016-12-15T09:30:02+00:00"
+            "time": "2022-09-24T15:57:16+00:00"
         },
         {
             "name": "michelf/php-smartypants",
@@ -826,16 +833,16 @@
         },
         {
             "name": "paragonie/csp-builder",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/csp-builder.git",
-                "reference": "1a1a85fcf115400d7753af842403ec6e846319de"
+                "reference": "b0ef3f375f2f0a6eff797cfae2a9c2f6b90ec02a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/csp-builder/zipball/1a1a85fcf115400d7753af842403ec6e846319de",
-                "reference": "1a1a85fcf115400d7753af842403ec6e846319de",
+                "url": "https://api.github.com/repos/paragonie/csp-builder/zipball/b0ef3f375f2f0a6eff797cfae2a9c2f6b90ec02a",
+                "reference": "b0ef3f375f2f0a6eff797cfae2a9c2f6b90ec02a",
                 "shasum": ""
             },
             "require": {
@@ -881,20 +888,20 @@
                 "issues": "https://github.com/paragonie/csp-builder/issues",
                 "source": "https://github.com/paragonie/csp-builder"
             },
-            "time": "2022-12-15T03:49:58+00:00"
+            "time": "2023-03-26T15:49:32+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.7.1",
+            "version": "v6.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "49cd7ea3d2563f028d7811f06864a53b1f15ff55"
+                "reference": "df16b615e371d81fb79e506277faea67a1be18f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/49cd7ea3d2563f028d7811f06864a53b1f15ff55",
-                "reference": "49cd7ea3d2563f028d7811f06864a53b1f15ff55",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/df16b615e371d81fb79e506277faea67a1be18f1",
+                "reference": "df16b615e371d81fb79e506277faea67a1be18f1",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +960,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.7.1"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.8.0"
             },
             "funding": [
                 {
@@ -961,7 +968,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-08T13:30:06+00:00"
+            "time": "2023-03-06T14:43:22+00:00"
         },
         {
             "name": "psr/http-message",
