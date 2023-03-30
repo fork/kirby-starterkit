@@ -28,7 +28,9 @@ RUN apk add --no-cache --virtual .build-dependencies \
 RUN cp /usr/share/zoneinfo/$TIME_ZONE /etc/localtime && echo "$TIME_ZONE" > /etc/timezone
 
 # Activate ERROR_REPORTING
-RUN echo "error_reporting=E_ALL" >> /usr/local/etc/php/conf.d/error_reporting.ini
+RUN echo "error_reporting=E_ALL" >> /usr/local/etc/php/conf.d/error-reporting.ini
+
+RUN echo "upload_max_filesize=50m" >> /usr/local/etc/php/conf.d/php.ini
 
 # Activate Xdebug
 RUN echo "xdebug.start_with_request=yes" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini \
