@@ -23,3 +23,7 @@ Icon
 # License
 # ---------------
 /site/config/.license
+
+# Contents
+# --------
+/content/*
