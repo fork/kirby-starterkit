@@ -2,7 +2,16 @@ title: Site
 
 tabs:
   content:
-    sections:
-      pages:
-        type: pages
+    columns:
+      - width: 1/2
+        sections:
+          singles:
+            type: pages
+            create: default
+            templates:
+              - home
+              - error
+      - width: 1/2
+        sections:
+
   seotab: seo

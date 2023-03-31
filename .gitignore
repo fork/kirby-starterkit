@@ -27,3 +27,5 @@ Icon
 # Contents
 # --------
 /content/*
+!/content/home
+!/content/error

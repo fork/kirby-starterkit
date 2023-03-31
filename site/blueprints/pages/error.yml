@@ -1,0 +1,15 @@
+title: Error
+icon: 💥
+
+options:
+  duplicate: false
+  changeStatus: false
+
+content:
+  sections:
+    fields:
+      type: fields
+      fields:
+        text:
+          type: textarea
+          size: huge
