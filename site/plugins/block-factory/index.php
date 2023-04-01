@@ -1,6 +1,6 @@
 <?php
 
-Kirby::plugin('cookbook/block-factory', [
+Kirby::plugin('fork/block-factory', [
   'blueprints' => [
     'blocks/accordion'   => __DIR__ . '/blueprints/blocks/accordion.yml'
   ],

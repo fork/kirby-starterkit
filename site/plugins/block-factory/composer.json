@@ -1,0 +1,11 @@
+{
+  "name": "fork/blockfactory",
+  "description": "Fork blockfactory",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fork Unstable Media GmbH"
+    }
+  ]
+}
