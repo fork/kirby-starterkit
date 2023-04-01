@@ -5,7 +5,8 @@
     "getkirby/staticache": "^1.0",
     "wearejust/kirby-twig": "^5.0",
     "distantnative/retour-for-kirby": "^4.4",
-    "diesdasdigital/kirby-meta-knight": "^1.2"
+    "diesdasdigital/kirby-meta-knight": "^1.2",
+    "belugadigital/kirby-navigation": "^3.0"
   },
   "config": {
     "optimize-autoloader": true,

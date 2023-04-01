@@ -20,3 +20,29 @@
   <meta name="theme-color" content="#000000"/>
 </head>
 <body>
+  <header>
+    <nav>
+    <?php if($site->navigation()->isNotEmpty()): ?>
+      <ul>
+        <?php foreach($site->navigation()->toStructure() as $nav): ?>
+          <li>
+            <a href="<?php echo $nav->url(); ?>" <?php e($nav->isOpen(), 'aria-current') ?>>
+              <?php echo $nav->text() ?>
+            </a>
+            <?php if($nav->children()->isNotEmpty()): ?>
+              <ul>
+                <?php foreach($nav->children()->toStructure() as $child): ?>
+                  <li>
+                    <a href="<?php echo $child->url() ?>">
+                      <?php echo $child->text() ?>
+                    </a>
+                  </li>
+                <?php endforeach ?>
+              </ul>
+            <?php endif ?>
+          </li>
+        <?php endforeach ?>
+      </ul>
+    <?php endif ?>
+    </nav>
+  </header>

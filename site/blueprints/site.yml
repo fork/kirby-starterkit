@@ -32,6 +32,15 @@ tabs:
             templates: article
             sortable: false
             max: 20
+  navigation:
+    icon: folder-structure
+    fields:
+      navigation:
+        label: Navigation
+        type: navigation
+        levels: 3
+        width: 2/3
+
   globals:
     icon: globe
   seotab:

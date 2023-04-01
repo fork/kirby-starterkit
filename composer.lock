@@ -4,8 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c005e3f005df2f5dba5c4eeca03d609",
+    "content-hash": "9214ebade9248863a5e005a2bc4e2ea0",
     "packages": [
+        {
+            "name": "belugadigital/kirby-navigation",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisbeluga/kirby-navigation.git",
+                "reference": "5bdb46a7834e24c4792e4cf71e4ac2beeba4a754"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisbeluga/kirby-navigation/zipball/5bdb46a7834e24c4792e4cf71e4ac2beeba4a754",
+                "reference": "5bdb46a7834e24c4792e4cf71e4ac2beeba4a754",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "kirby-navigation"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Martin",
+                    "email": "chris@builtbybeluga.com",
+                    "homepage": "https://builtbybeluga.com/"
+                },
+                {
+                    "name": "Ahmet Bora",
+                    "email": "ahmet@getkirby.com",
+                    "homepage": "https://owebstudio.com/"
+                }
+            ],
+            "description": "Kirby 3 field for hierarchical menus with drag & drop level indentation.",
+            "homepage": "https://github.com/chrisbeluga/kirby-navigation",
+            "support": {
+                "issues": "https://github.com/chrisbeluga/kirby-navigation/issues",
+                "source": "https://github.com/chrisbeluga/kirby-navigation/tree/3.0.1"
+            },
+            "time": "2022-09-29T13:28:58+00:00"
+        },
         {
             "name": "bnomei/kirby3-security-headers",
             "version": "2.5.4",
