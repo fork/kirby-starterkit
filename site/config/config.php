@@ -2,7 +2,12 @@
 
 return [
   'hooks' => [],
-  'routes' => [],
+  'routes' => [
+    [
+      'pattern' => 'articles',
+      'action' => fn () => false
+    ]
+  ],
   'cache' => [
     'pages' => [
       'active' => true,

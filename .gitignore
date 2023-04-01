@@ -29,3 +29,6 @@ Icon
 /content/*
 !/content/home
 !/content/error
+!/content/articles
+/content/articles/*
+!/content/articles/articles.txt

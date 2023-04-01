@@ -1,0 +1,11 @@
+type: pages
+label: Articles
+parent: kirby.page("articles")
+info: "{{ page.published }}"
+template: article
+empty: No articles yet
+sortBy: date desc
+image:
+  query: page.cover
+  cover: true
+  ratio: 3/2

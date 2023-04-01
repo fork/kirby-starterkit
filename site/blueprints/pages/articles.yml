@@ -1,0 +1,34 @@
+title: Articles
+
+icon: page
+
+options:
+  preview: false
+  create: false
+  delete: false
+  duplicate: false
+  changeStatus: false
+  changeSlug: false
+  changeTitle: false
+
+columns:
+  - width: 2/3
+    sections:
+      listed:
+        extends: sections/articles
+        label: Published
+        status: listed
+        search: true
+        limit: 2
+
+  - width: 1/3
+    sections:
+      drafts:
+        extends: sections/articles
+        label: Drafts
+        status: draft
+
+      unlisted:
+        extends: sections/articles
+        label: In Review
+        status: unlisted

@@ -1,15 +1,14 @@
 title: Error
-icon: 💥
+icon: bug
 
 options:
+  create: false
+  delete: false
   duplicate: false
+  changeSlug: false
   changeStatus: false
 
-content:
-  sections:
-    fields:
-      type: fields
-      fields:
-        text:
-          type: textarea
-          size: huge
+fields:
+  text:
+    type: textarea
+    size: huge

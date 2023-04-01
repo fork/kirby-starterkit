@@ -2,16 +2,34 @@ title: Site
 
 tabs:
   content:
+    icon: dashboard
     columns:
-      - width: 1/2
+      - width: 2/3
+        sections:
+          pages:
+            label: Pages
+            type: pages
+            search: true
+            create: default
+            templates: default
+            limit: 25
+      - width: 1/3
         sections:
           singles:
             type: pages
-            create: default
+            create: false
+            sortable: false
+            sortBy: "title desc"
+            empty: Please contact admin
             templates:
               - home
               - error
-      - width: 1/2
-        sections:
-
+          articles:
+            extends: sections/articles
+            label: Latest Articles
+            create: article
+            status: all
+            templates: article
+            sortable: false
+            max: 20
   seotab: seo
