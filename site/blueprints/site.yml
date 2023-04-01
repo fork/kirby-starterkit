@@ -32,4 +32,8 @@ tabs:
             templates: article
             sortable: false
             max: 20
-  seotab: seo
+  globals:
+    icon: globe
+  seotab:
+    label: Default SEO
+    extends: seo

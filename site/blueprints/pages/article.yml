@@ -25,4 +25,6 @@ tabs:
                 type: users
               tags: true
 
-  seotab: seo
+  seotab:
+    label: SEO
+    extends: seo
