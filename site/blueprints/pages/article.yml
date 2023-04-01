@@ -8,6 +8,8 @@ tabs:
         fields:
           text:
             type: blocks
+            fieldsets:
+              - accordion
 
       - width: 1/3
         sections:
