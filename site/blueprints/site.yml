@@ -43,6 +43,29 @@ tabs:
 
   globals:
     icon: globe
+    columns:
+      - width: 1/2
+        fields:
+          copyright:
+            type: text
+            placeholder: @2023
+          socialMedia:
+            label: Social Media
+            type: structure
+            fields:
+              service:
+                type: select
+                default: facebook
+                required: true
+                options:
+                  facebook: Facebook
+                  instagram: Instagram
+                  linkedin: LinkedIn
+                  tiktok: TikTok
+                  twitter: Twitter
+              url:
+                label: URL
+                type: url
   seotab:
     label: Default SEO
     extends: seo
