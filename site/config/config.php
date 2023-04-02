@@ -48,4 +48,8 @@ return [
       ]
     ]
   ],
+  'arnoson.kirby-vite' => [
+    'entry' => 'main.ts',
+    'outDir' => 'assets/dist'
+  ]
 ];

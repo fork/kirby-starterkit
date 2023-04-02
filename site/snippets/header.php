@@ -18,6 +18,8 @@
 
   <meta name="msapplication-TileColor" content="#000000"/>
   <meta name="theme-color" content="#000000"/>
+
+  <?= vite()->css() ?>
 </head>
 <body>
   <header>

@@ -18,5 +18,6 @@
     <?php endif ?>
     </nav>
   </footer>
+  <?= vite()->js() ?>
 </body>
 </html>

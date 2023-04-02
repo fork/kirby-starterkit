@@ -17,7 +17,8 @@ Icon
 # (sensitive workspace files)
 # ---------------------------
 *.sublime-workspace
-/.vscode
+/.vscode/*
+!/.vscode/extensions.json
 /.idea
 
 # License
@@ -32,3 +33,19 @@ Icon
 !/content/articles
 /content/articles/*
 !/content/articles/articles.txt
+
+# Frontend
+# --------
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+logs
+*.log
+node_modules
+dist
+.dev
