@@ -193,6 +193,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/alpinejs@npm:^3.7.1":
+  version: 3.7.1
+  resolution: "@types/alpinejs@npm:3.7.1"
+  dependencies:
+    "@vue/reactivity": ^3.2.26
+  checksum: 17159497547baffe8b220e9dca3ae582f0bb82545402598e24632d5f262e7bb6ebc63b9e4e1ed825620816c9f0c5ce2dcf1525ef1e33d7edef7324e24025f63a
+  languageName: node
+  linkType: hard
+
+"@vue/reactivity@npm:^3.2.26":
+  version: 3.2.47
+  resolution: "@vue/reactivity@npm:3.2.47"
+  dependencies:
+    "@vue/shared": 3.2.47
+  checksum: bd61134e4b2f281067e78b23b34d17f1290a0b3fdb0cd7f06424570b4428c899389451a396694144b0af2fc6dbb1459c38e79151119f12c4f818f4c5004b7d16
+  languageName: node
+  linkType: hard
+
+"@vue/reactivity@npm:~3.1.1":
+  version: 3.1.5
+  resolution: "@vue/reactivity@npm:3.1.5"
+  dependencies:
+    "@vue/shared": 3.1.5
+  checksum: b7dfcaa30aacd658502ce9373d4343d3607486796fbaae28d4ac4ab955cec766c8c6a34cb422965b21154b6319e467c54259cd6da2d9b2687501cd9e36f4197c
+  languageName: node
+  linkType: hard
+
+"@vue/shared@npm:3.1.5":
+  version: 3.1.5
+  resolution: "@vue/shared@npm:3.1.5"
+  checksum: a34b942e1aeed5d2b0fe887d0804061d2e799ef9a0d641aaae368c6fa9e2bf311e415f02883f26963bd35d90cac165433cfe74360f7ee88304fccaa144422d83
+  languageName: node
+  linkType: hard
+
+"@vue/shared@npm:3.2.47":
+  version: 3.2.47
+  resolution: "@vue/shared@npm:3.2.47"
+  checksum: 0aa711dc9160fa0e476e6e94eea4e019398adf2211352d0e4a672cfb6b65b104bbd5d234807d1c091107bdc0f5d818d0f12378987eb7861d39be3aa9f6cd6e3e
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^1.0.0":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -227,6 +268,15 @@ __metadata:
     clean-stack: ^2.0.0
     indent-string: ^4.0.0
   checksum: 1101a33f21baa27a2fa8e04b698271e64616b886795fd43c31068c07533c7b3facfcaf4e9e0cab3624bd88f729a592f1c901a1a229c9e490eafce411a8644b79
+  languageName: node
+  linkType: hard
+
+"alpinejs@npm:^3.12.0":
+  version: 3.12.0
+  resolution: "alpinejs@npm:3.12.0"
+  dependencies:
+    "@vue/reactivity": ~3.1.1
+  checksum: e061efe93e815123c15cb244482298b36dd0ae2f246895253c73b5b7d11aec49dd0ee2bd099f2bdc81dd04a6e577ca70d239831b3cefbfa2871d4f90f1862b2b
   languageName: node
   linkType: hard
 
@@ -928,6 +978,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "kirby-starter@workspace:."
   dependencies:
+    "@types/alpinejs": ^3.7.1
+    alpinejs: ^3.12.0
     autoprefixer: latest
     fs: ^0.0.1-security
     path: ^0.12.7
