@@ -1,7 +1,8 @@
 {
-  "parser": "sugarss",
   "map": false,
   "plugins": {
-    "postcss-plugin": {}
+    "postcss-plugin": {},
+    "autoprefixer": {},
+    "postcss-pxtorem": {}
   }
 }
