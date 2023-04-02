@@ -10,7 +10,6 @@ return function ($page) {
         $relatedArticles = array_merge($relatedByPage->toArray(), $relatedArticles);
     }
 
-
     // find articles related by tags
     // overall there should queried 3 teaser so only query as much as needed
     $limit = $totalResults - count($relatedArticles);
