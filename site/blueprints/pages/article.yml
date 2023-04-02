@@ -24,6 +24,12 @@ tabs:
               author:
                 type: users
               tags: true
+              related:
+                label: Related articles
+                type: pages
+                query: page.siblings(false).listed
+                max: 3
+                help: In addition to relations through tags, this field can connect articles with a higher priority.
 
   seotab:
     label: SEO
