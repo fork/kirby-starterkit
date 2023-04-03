@@ -1,0 +1,14 @@
+type: blocks
+fieldsets:
+  - accordion
+  - code
+  - gallery
+  - heading
+  - image
+  - line
+  - list
+  - markdown
+  - quote
+  - table
+  - text
+  - video

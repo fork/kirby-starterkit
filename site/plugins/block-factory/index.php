@@ -9,7 +9,7 @@ Kirby::plugin('fork/block-factory', [
   ],
   'translations' => [
     'en' => [
-      'field.blocks.accordion.name'   => 'Accordion block'
+      'field.blocks.accordion.name'   => 'Accordion'
     ]
   ],
 ]);
