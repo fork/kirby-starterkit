@@ -4,7 +4,8 @@ fieldsets:
   - code
   - gallery
   - heading
-  - image
+  image:
+    extends: blocks/image
   - line
   - list
   - markdown

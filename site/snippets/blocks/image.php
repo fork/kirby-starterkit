@@ -1,31 +1,22 @@
 <?php
 
+use Kirby\Toolkit\Str;
+use Kirby\Toolkit\Html;
+
 /** @var \Kirby\Cms\Block $block */
 $alt     = $block->alt();
 $caption = $block->caption();
-$crop    = $block->crop()->isTrue();
-$link    = $block->link();
-$ratio   = $block->ratio()->or('auto');
 $src     = null;
 
-if ($block->location() == 'web') {
-	$src = $block->src()->esc();
-} elseif ($image = $block->image()->toFile()) {
-	$alt = $alt ?? $image->alt();
-	$src = $image->url();
+if ($image = $block->image()->toFile()) {
+    $alt = $alt->isEmpty() ? $image->alt() : $alt;
+    $src = $image->url();
 }
 
 ?>
 <?php if ($src): ?>
-<figure<?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?>>
-  <?php if ($link->isNotEmpty()): ?>
-  <a href="<?= Str::esc($link->toUrl()) ?>">
-    <img src="<?= $src ?>" alt="<?= $alt->esc() ?>">
-  </a>
-  <?php else: ?>
+<figure>
   <img src="<?= $src ?>" alt="<?= $alt->esc() ?>">
-  <?php endif ?>
-
   <?php if ($caption->isNotEmpty()): ?>
   <figcaption>
     <?= $caption ?>

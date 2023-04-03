@@ -7,7 +7,7 @@ tabs:
       - width: 2/3
         fields:
           blocks:
-            extends: blocks/default
+            extends: blocks/all
 
       - width: 1/3
         sections:
