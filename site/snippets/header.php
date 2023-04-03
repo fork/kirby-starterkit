@@ -23,6 +23,9 @@
 </head>
 <body>
   <header>
+    <a href="/" class="logo">
+      <?= svg("assets/logo.svg") ?>
+    </a>
     <nav>
     <?php if($site->navigation()->isNotEmpty()): ?>
       <ul>
