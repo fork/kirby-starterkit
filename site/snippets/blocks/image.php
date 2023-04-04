@@ -9,7 +9,7 @@ $caption = $block->caption();
 $src     = null;
 
 if ($image = $block->image()->toFile()) {
-    $alt = $alt->isEmpty() ? $image->alt() : $alt;
+    $alt = $alt->or($image->alt());
     $src = $image->url();
 }
 
