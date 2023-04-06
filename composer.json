@@ -7,7 +7,8 @@
     "distantnative/retour-for-kirby": "^4.4",
     "diesdasdigital/kirby-meta-knight": "^1.2",
     "belugadigital/kirby-navigation": "^3.0",
-    "arnoson/kirby-vite": "^3.0"
+    "arnoson/kirby-vite": "^3.0",
+    "jg/kirby-fields-block": "^1.2"
   },
   "config": {
     "optimize-autoloader": true,

@@ -1,6 +1,7 @@
 type: blocks
 fieldsets:
-  - accordion
+  accordion:
+    extends: blocks/accordion
   - code
   - gallery
   - heading
