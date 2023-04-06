@@ -52,8 +52,8 @@
         </ul>
       <?php endif ?>
     </nav>
-    <form>
-      <input type="search" aria-label="Search" name="q" value="<?= html($query) ?>">
+    <form action="search">
+      <input type="search" aria-label="Search" name="q" value="<?= html($query ?? "") ?>">
       <input type="submit" value="Search">
     </form>
   </header>
