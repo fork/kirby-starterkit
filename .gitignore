@@ -33,6 +33,7 @@ Icon
 !/content/articles
 /content/articles/*
 !/content/articles/articles.txt
+!/content/media/media.txt
 !/content/search
 
 # Frontend

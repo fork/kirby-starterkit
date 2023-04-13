@@ -1,0 +1,16 @@
+title: Media
+
+icon: folder
+status: unlisted
+options:
+  create: false
+  delete: false
+  changeStatus: false
+  changeSlug: false
+  changeTemplate: false
+  changeTitle: false
+  preview: false
+  duplicate: false
+
+sections:
+  media: sections/media

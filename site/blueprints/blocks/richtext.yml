@@ -1,0 +1,5 @@
+name: Richtext
+icon: text
+preview: fields
+fields:
+  text: fields/writer/default

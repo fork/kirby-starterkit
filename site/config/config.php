@@ -9,6 +9,10 @@ return [
       'action' => fn () => false
     ],
     [
+      'pattern' => 'media',
+      'action' => fn () => false,
+    ],
+    [
       'pattern' => 'sitemap.xml',
       'action'  => function () {
           $pages = site()->pages()->index();

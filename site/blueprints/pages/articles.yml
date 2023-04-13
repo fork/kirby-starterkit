@@ -1,6 +1,6 @@
 title: Articles
 
-icon: page
+icon: grid
 
 options:
   preview: false
@@ -8,29 +8,33 @@ options:
   delete: false
   duplicate: false
   changeStatus: false
-  changeSlug: false
-  changeTitle: false
 
-columns:
-  - width: 2/3
-    sections:
-      listed:
-        extends: sections/articles
-        label: Published
-        status: listed
-        search: true
-        limit: 30
+tabs:
+  articles:
+    icon: grid
+    label: Articles
+    columns:
+      - width: 2/3
+        sections:
+          listed:
+            extends: sections/articles
+            label: Published
+            status: listed
+            search: true
+            limit: 30
 
-  - width: 1/3
-    sections:
-      drafts:
-        extends: sections/articles
-        label: Drafts
-        status: draft
-        limit: 10
+      - width: 1/3
+        sections:
+          drafts:
+            extends: sections/articles
+            label: Drafts
+            status: draft
+            limit: 10
 
-      unlisted:
-        extends: sections/articles
-        label: In Review
-        status: unlisted
-        limit: 10
+          unlisted:
+            extends: sections/articles
+            label: In Review
+            status: unlisted
+            limit: 10
+
+  stage: sections/stage

@@ -1,22 +1,25 @@
-name: field.blocks.image.name
+name: Image
 icon: image
-preview: image
+preview: fields
 fields:
-  image:
-    label: field.blocks.image.name
-    type: files
-    query: model.images
-    multiple: false
-    image:
-      back: black
-    uploads:
-      template: blocks/image
+  image: fields/image
+  size:
+    label: Size
+    type: select
+    default: narrow
+    options:
+      narrow: Narrow
+      wide: Wide
   alt:
-    label: field.blocks.image.alt
+    label: Alternative Text
+    help: Overrides file alternative text
     type: text
     icon: title
+    width: 1/2
   caption:
-    label: field.blocks.image.caption
+    label: Caption
     type: writer
+    help: Overrides file caption
     icon: text
     inline: true
+    width: 1/2

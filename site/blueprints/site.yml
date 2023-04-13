@@ -4,16 +4,10 @@ tabs:
   content:
     icon: dashboard
     columns:
-      - width: 2/3
+      - width: 1/2
         sections:
-          pages:
-            label: Pages
-            type: pages
-            search: true
-            create: default
-            templates: default
-            limit: 25
-      - width: 1/3
+          articles: sections/articles
+      - width: 1/2
         sections:
           singles:
             type: pages
@@ -24,48 +18,17 @@ tabs:
             templates:
               - home
               - error
-          articles:
-            extends: sections/articles
-            label: Latest Articles
-            create: article
-            status: all
-            templates: article
-            sortable: false
-            max: 20
-  navigation:
-    icon: folder-structure
-    fields:
-      navigation:
-        label: Navigation
-        type: navigation
-        levels: 3
-        width: 2/3
+              - articles
+          pages: sections/pages
 
-  globals:
-    icon: globe
-    columns:
-      - width: 1/2
-        fields:
-          copyright:
-            type: text
-            placeholder: @2023
-          socialMedia:
-            label: Social Media
-            type: structure
-            fields:
-              service:
-                type: select
-                default: facebook
-                required: true
-                options:
-                  facebook: Facebook
-                  instagram: Instagram
-                  linkedin: LinkedIn
-                  tiktok: TikTok
-                  twitter: Twitter
-              url:
-                label: URL
-                type: url
-  seotab:
+  globals: sections/globals
+
+  media:
+    icon: folder
+    label: Media
+    sections:
+      media: sections/media
+
+  seo:
     label: Default SEO
     extends: seo

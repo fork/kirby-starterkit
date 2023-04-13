@@ -1,0 +1,14 @@
+type: files
+multiple: false
+query: site.find('media').images
+layout: cards
+required: true
+label: Image
+image:
+  cover: false
+  ratio: 16/9
+  back: "#323232"
+uploads:
+  accept:
+    extension: jpg, jpeg, png, webp
+  parent: kirby.page('media')

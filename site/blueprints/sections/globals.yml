@@ -1,0 +1,36 @@
+label: Globals
+icon: globe
+
+fields:
+  header:
+    label: Header
+    type: headline
+  navigation:
+    label: Navigation
+    type: navigation
+    levels: 2
+
+  footer:
+    label: Footer
+    type: headline
+  footerNavigation:
+    label: Footer Navigation
+    type: navigation
+    levels: 1
+  socialMedia:
+    label: Social Media
+    type: structure
+    fields:
+      service:
+        type: select
+        default: facebook
+        required: true
+        options:
+          facebook: Facebook
+          instagram: Instagram
+          linkedin: LinkedIn
+          tiktok: TikTok
+          twitter: Twitter
+      url:
+        label: URL
+        type: url

@@ -24,18 +24,20 @@
 </head>
 
 <body>
-  <header>
-    <a href="/" class="logo">
-      <?= svg("assets/logo.svg") ?>
+  <header class="bg-blue flex justify-between items-center p-l">
+    <a href="/" class="block text-3xl uppercase">
+      <?= $site->title() ?>
     </a>
+
     <nav>
       <?php if ($site->navigation()->isNotEmpty()) : ?>
-        <ul>
+        <ul class="flex">
           <?php foreach ($site->navigation()->toStructure() as $nav) : ?>
             <li>
-              <a href="<?php echo $nav->url(); ?>" <?php e($nav->isOpen(), 'aria-current') ?>>
+              <a class="text-xl mr-m" href="<?php echo $nav->url(); ?>" <?php e($nav->isOpen(), 'aria-current') ?>>
                 <?php echo $nav->text() ?>
               </a>
+
               <?php if ($nav->children()->isNotEmpty()) : ?>
                 <ul>
                   <?php foreach ($nav->children()->toStructure() as $child) : ?>
@@ -52,8 +54,9 @@
         </ul>
       <?php endif ?>
     </nav>
+<!-- 
     <form action="search">
       <input type="search" aria-label="Search" name="q" value="<?= html($query ?? "") ?>">
       <input type="submit" value="Search">
-    </form>
+    </form> -->
   </header>

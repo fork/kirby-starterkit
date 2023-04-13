@@ -3,6 +3,10 @@ import kirby from "vite-plugin-kirby";
 
 const cwd = process.cwd();
 
+const input = Object.fromEntries([
+  ["main", "src/main.ts"],
+]);
+
 export default ({ mode }) => ({
   root: "src",
   base: mode === "development" ? "/" : "/assets/dist/",
@@ -14,7 +18,7 @@ export default ({ mode }) => ({
   build: {
     outDir: resolve(cwd, "public/assets/dist"),
     emptyOutDir: true,
-    rollupOptions: { input: resolve(cwd, "src/main.ts") }
+    rollupOptions: { input }
   },
 
   plugins: [kirby()]

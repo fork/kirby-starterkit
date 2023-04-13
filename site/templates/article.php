@@ -4,10 +4,9 @@
 
 <?= snippet('blocks') ?>
 
-<?php
-if (!empty($relatedArticles)):
-    ?>
-  <h2>Related articles</h2>
+<?php if (!empty($relatedArticles)): ?>
+  <h2><?= t('relatedArticles') ?></h2>
+  
   <ul>
     <?php foreach($relatedArticles as $article): ?>
     <li>

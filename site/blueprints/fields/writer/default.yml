@@ -1,0 +1,12 @@
+label: Content
+type: writer
+marks:
+  - bold
+  - italic
+  - link
+  - email
+nodes:
+  - h2
+  - h3
+  - bulletList
+  - orderedList

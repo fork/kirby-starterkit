@@ -15,6 +15,6 @@ tabs:
       text:
         type: blocks
 
-  seotab:
+  seo:
     label: SEO
     extends: seo

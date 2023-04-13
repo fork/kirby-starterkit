@@ -14,15 +14,15 @@ services:
       - ./:/var/www/html/
     networks:
       - kirby
-  nginx:
-    image: nginx:alpine
-    volumes:
-      - ./:/var/www/html/:ro
-      - ./docker/nginx/conf.d:/etc/nginx/conf.d:ro
+  httpd:
+    build:
+      context: "./docker/httpd/"
     depends_on:
       - php
     ports:
       - "80:80"
+    volumes:
+      - ./:/var/www/html/:ro
     networks:
       - kirby
   mailhog:

@@ -1,5 +1,5 @@
-name: Accordion
-icon: server
+name: Table
+icon: table
 preview: fields
 fields:
   items:

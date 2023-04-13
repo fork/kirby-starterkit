@@ -1,0 +1,19 @@
+label: Stage
+icon: grid-top
+columns:
+  - width: 2/3
+    fields:
+      blocks: fields/blocks
+  - width: 1/3
+    fields:
+      cover:
+        extends: fields/image
+        required: false
+      subline:
+        label: Subline
+        type: text
+        maxlength: 80
+      intro:
+        label: Intro
+        type: text
+        maxlength: 200

@@ -1,0 +1,13 @@
+label: Pages
+type: pages
+search: true
+templates: 
+  - default
+  - landing
+limit: 25
+search: true
+
+image:
+  query: page.cover.toFile
+  cover: true
+  ratio: 3/2

@@ -1,0 +1,13 @@
+name: Gallery
+icon: images
+preview: fields
+fields:
+  images:
+    extends: fields/image
+    label: Images
+    multiple: true
+  caption:
+    label: Caption
+    type: writer
+    icon: text
+    inline: true

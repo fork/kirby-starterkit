@@ -1,0 +1,19 @@
+type: files
+label: Media
+parent: kirby.page('media')
+search: true
+empty: No files
+layout: table
+sortable: false
+sortBy: date desc
+columns:
+  size:
+    align: right
+    label: Size
+    width: 1/8
+    value: "{{ file.nicesize }}"
+  uploaded:
+    align: right
+    label: Uploaded
+    width: 1/8
+    value: "{{ file.modified('d.m.Y') }}"

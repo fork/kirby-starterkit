@@ -1,0 +1,11 @@
+type: blocks
+label: Content
+
+fieldsets:
+  accordion: blocks/accordion
+  contact: blocks/contact
+  gallery: blocks/gallery
+  image: blocks/image
+  imageText: blocks/image-text
+  richtext: blocks/richtext
+  table: blocks/table

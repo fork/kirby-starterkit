@@ -1,0 +1,16 @@
+title: File
+
+fields:
+  caption:
+    label: Caption
+    type: writer
+    width: 1/2
+    inline: true
+  copyright:
+    width: 1/2
+    type: text
+  alt:
+    label: Alternative Text
+    help: Used for alt attribute on images
+    type: text
+    width: 1/2

@@ -1,0 +1,17 @@
+name: Contact
+icon: user
+preview: fields
+fields:
+  contact:
+    type: object
+    fields:
+      image:
+        extends: fields/image
+        required: false
+      name:
+        type: text
+        required: true
+      email:
+        type: email
+      phone:
+        type: tel
