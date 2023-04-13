@@ -17,19 +17,29 @@ fields:
     label: Footer Navigation
     type: navigation
     levels: 1
+    width: 1/2
+  metaNavigation:
+    label: Meta Navigation
+    type: navigation
+    levels: 1
+    width: 1/2
+  footerText:
+    extends: fields/writer/default
+    label: Text
+    width: 1/2
   socialMedia:
     label: Social Media
     type: structure
+    width: 1/2
     fields:
       service:
         type: select
-        default: facebook
+        default: instagram
         required: true
         options:
-          facebook: Facebook
           instagram: Instagram
           linkedin: LinkedIn
-          tiktok: TikTok
+          youtube: YouTube
           twitter: Twitter
       url:
         label: URL

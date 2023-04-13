@@ -3,7 +3,6 @@ title: Articles
 icon: grid
 
 options:
-  preview: false
   create: false
   delete: false
   duplicate: false

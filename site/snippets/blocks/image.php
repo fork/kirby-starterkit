@@ -1,26 +1,20 @@
 <?php
 
-use Kirby\Toolkit\Str;
-use Kirby\Toolkit\Html;
-
-/** @var \Kirby\Cms\Block $block */
-$alt     = $block->alt();
-$caption = $block->caption();
-$src     = null;
-
-if ($image = $block->image()->toFile()) {
-    $alt = $alt->or($image->alt());
-    $src = $image->url();
-}
-
+$images = $block->image()->toFiles();
+$multiple = count($images) > 1;
 ?>
-<?php if ($src): ?>
-<figure>
-  <img src="<?= $src ?>" alt="<?= $alt->esc() ?>">
-  <?php if ($caption->isNotEmpty()): ?>
-  <figcaption>
-    <?= $caption ?>
-  </figcaption>
-  <?php endif ?>
-</figure>
-<?php endif ?>
+
+<div class="">
+  <?php foreach ($images as $item): ?>
+  <figure>
+    <img src="<?= $item->url() ?>" alt="<?= $item->alt()->esc() ?>">
+
+    <?php if ($item->caption()->isNotEmpty()): ?>
+      <?php snippet('components/text', [
+        'text' => $item->caption(),
+        'tag' => 'figcaption'
+      ]) ?>
+    <?php endif; ?>
+  </figure>
+  <?php endforeach ?>
+</div>

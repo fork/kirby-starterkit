@@ -18,10 +18,11 @@
     "postcss": "latest",
     "postcss-plugin": "^1.0.0",
     "postcss-pxtorem": "^6.0.0",
+    "sass": "^1.62.0",
     "tailwindcss": "^3.3.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0",
-    "vite-plugin-kirby": "^0.1.4",
+    "vite-plugin-kirby": "0.2.0",
     "vite-plugin-live-reload": "^3.0.2"
   },
   "packageManager": "yarn@3.5.0",

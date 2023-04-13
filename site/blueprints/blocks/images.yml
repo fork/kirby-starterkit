@@ -1,0 +1,9 @@
+name: Images
+icon: image
+preview: fields
+fields:
+  images:
+    extends: fields/image
+    label: Images
+    multiple: true
+    max: 2

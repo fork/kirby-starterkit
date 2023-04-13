@@ -566,7 +566,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.5.0, chokidar@npm:^3.5.3":
+"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.5.0, chokidar@npm:^3.5.3":
   version: 3.5.3
   resolution: "chokidar@npm:3.5.3"
   dependencies:
@@ -1128,6 +1128,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"immutable@npm:^4.0.0":
+  version: 4.3.0
+  resolution: "immutable@npm:4.3.0"
+  checksum: bbd7ea99e2752e053323543d6ff1cc71a4b4614fa6121f321ca766db2bd2092f3f1e0a90784c5431350b7344a4f792fa002eac227062d59b9377b6c09063b58b
+  languageName: node
+  linkType: hard
+
 "imurmurhash@npm:^0.1.4":
   version: 0.1.4
   resolution: "imurmurhash@npm:0.1.4"
@@ -1274,10 +1281,11 @@ __metadata:
     postcss: latest
     postcss-plugin: ^1.0.0
     postcss-pxtorem: ^6.0.0
+    sass: ^1.62.0
     tailwindcss: ^3.3.0
     typescript: ^4.9.3
     vite: ^4.2.0
-    vite-plugin-kirby: ^0.1.4
+    vite-plugin-kirby: 0.2.0
     vite-plugin-live-reload: ^3.0.2
   languageName: unknown
   linkType: soft
@@ -1960,6 +1968,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sass@npm:^1.62.0":
+  version: 1.62.0
+  resolution: "sass@npm:1.62.0"
+  dependencies:
+    chokidar: ">=3.0.0 <4.0.0"
+    immutable: ^4.0.0
+    source-map-js: ">=0.6.2 <2.0.0"
+  bin:
+    sass: sass.js
+  checksum: d5f606aa25afdf3ed9f316602811a40cf3b29f64cb70ea02f4198ae4288f9687de6fcef9f4fd2d58e06c28282d859aa249bdbf7d7d97a3a6a582eeaa8e5607fa
+  languageName: node
+  linkType: hard
+
 "semver@npm:^7.3.5":
   version: 7.3.8
   resolution: "semver@npm:7.3.8"
@@ -2020,7 +2041,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-js@npm:^1.0.2":
+"source-map-js@npm:>=0.6.2 <2.0.0, source-map-js@npm:^1.0.2":
   version: 1.0.2
   resolution: "source-map-js@npm:1.0.2"
   checksum: c049a7fc4deb9a7e9b481ae3d424cc793cb4845daa690bc5a05d428bf41bf231ced49b4cf0c9e77f9d42fdb3d20d6187619fc586605f5eabe995a316da8d377c
@@ -2300,12 +2321,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-kirby@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "vite-plugin-kirby@npm:0.1.4"
+"vite-plugin-kirby@npm:0.2.0":
+  version: 0.2.0
+  resolution: "vite-plugin-kirby@npm:0.2.0"
   dependencies:
     vite-plugin-live-reload: ^3.0.2
-  checksum: ef54c367fd0aff249bf5cb0ecac1c6fd85e5e6e89279d6fae424f7a120ba2d43a868090d3b7cabb5aea2e4d6c0f93e7abbd1813a4a1a43fc1be026d8dcf95bd5
+  checksum: 584881b0c82b79c321b9fb84cdfd154235c581bd1ecdb5e94e665f2ac46e214b2ae15cfeab83dee51bac8c17701570a951da851fc6352134197edaf4175ac51c
   languageName: node
   linkType: hard
 

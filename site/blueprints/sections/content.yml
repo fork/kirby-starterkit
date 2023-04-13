@@ -9,11 +9,8 @@ columns:
       cover:
         extends: fields/image
         required: false
-      subline:
-        label: Subline
-        type: text
-        maxlength: 80
-      intro:
-        label: Intro
+      excerpt:
+        label: Excerpt
+        help: The excerpt is used in the teaser
         type: text
         maxlength: 200

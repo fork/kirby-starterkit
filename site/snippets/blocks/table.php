@@ -1,10 +1,12 @@
 <div>
   <?php foreach ($block->items()->toStructure() as $item) : ?>
-    <h3>
-        <?= $item->title() ?>
-    </h3>
-    <div>
-      <?= $item->text() ?>
-    </div>
+    <?php snippet('components/text', [
+      'text' => $item->title(),
+      'variant' => 'copy-bold'
+    ]) ?>
+
+    <?php snippet('components/text', [
+      'text' => $item->text()
+    ]) ?>
   <?php endforeach ?>
 </div>

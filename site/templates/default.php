@@ -1,8 +1,10 @@
-<?php snippet('header'); ?>
+<?php snippet('layout', slots: true) ?>
 
-<h1><?= $page->title() ?></h1>
+<main>
+  <?php snippet('components/stage', [
+    'title' => $page->title(),
+    'image' => $page->cover()->toFile()
+  ]) ?>
+</main>
 
 <?= snippet('blocks') ?>
-
-<?php snippet('footer'); ?>
-

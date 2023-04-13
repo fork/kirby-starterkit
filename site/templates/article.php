@@ -1,12 +1,18 @@
-<?php snippet('header'); ?>
+<?php snippet('layout', slots: true) ?>
 
-<h1><?= $page->title() ?></h1>
+<main class="max-w-content mx-auto my-xl">
+  <?php snippet('components/text', [
+    'text' => $page->title(),
+    'variant' => 'headline-1',
+    'tag' => 'h1'
+  ]) ?>
 
-<?= snippet('blocks') ?>
+  <?= snippet('blocks') ?>
+</main>
 
 <?php if (!empty($relatedArticles)): ?>
   <h2><?= t('relatedArticles') ?></h2>
-  
+
   <ul>
     <?php foreach($relatedArticles as $article): ?>
     <li>
@@ -17,6 +23,3 @@
     <?php endforeach ?>
   </ul>
 <?php endif ?>
-
-<?php snippet('footer'); ?>
-

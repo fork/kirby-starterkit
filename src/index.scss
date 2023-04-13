@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-30;
+  }
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@layer components {
+  .richtext {
+    h2 {
+      @apply text-headline-2 lg:text-headline-2-lg font-bold;
+    }
+
+    h3 {
+      @apply text-headline-3 lg:text-headline-3-lg font-bold;
+    }
+
+    h4 {
+      @apply text-copy lg:text-copy-lg font-bold;
+    }
+
+    p {
+      @apply text-copy lg:text-copy-lg;
+    }
+
+    h2,
+    h3,
+    h4,
+    p {
+      &:not(:last-child) {
+        @apply mb-s;
+      }
+    }
+  }
+}
