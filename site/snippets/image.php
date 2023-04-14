@@ -23,13 +23,13 @@ $loading = $loading ?? 'lazy';
  */
 ?>
 
-<?php if ($image && $src): ?>
+<?php if (isset($image) && isset($src)): ?>
     <img
         alt="<?= $image->alt() ?>"
         src="<?= $image->thumb($src)->url() ?>"
         loading="<?= $loading ?>"
-        <?php if ($srcset): ?>srcset="<?= $image->srcset($srcset) ?>"<?php endif ?>
-        <?php if ($sizes): ?>sizes="<?= $sizes ?>"<?php endif ?>
-        <?php if ($class): ?>class="<?= $class ?>"<?php endif ?>
+        <?php if (isset($srcset)): ?>srcset="<?= $image->srcset($srcset) ?>"<?php endif ?>
+        <?php if (isset($sizes)): ?>sizes="<?= $sizes ?>"<?php endif ?>
+        <?php if (isset($class)): ?>class="<?= $class ?>"<?php endif ?>
     >
 <?php endif ?>

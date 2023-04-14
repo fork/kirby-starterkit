@@ -1,3 +1,4 @@
+<?php if(isset($pagination)): ?>
 <nav class="max-w-default mx-auto px-m flex items-center justify-center gap-s my-xxl">
 <?php if ($pagination->hasPrevPage()): ?>
     <a href="<?= $pagination->prevPageUrl() ?>" class="block w-s">
@@ -24,3 +25,4 @@
     </div>
   <?php endif; ?>
 </nav>
+<?php endif; ?>

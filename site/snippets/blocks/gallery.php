@@ -1,13 +1,16 @@
 <?php
-die(var_dump($block));
 use Kirby\Cms\Html;
 
-$caption = $block->caption();
-$crop = $block->crop()->isTrue();
-$ratio = $block->ratio()->or('auto');
-
-$attr = Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop]);
 ?>
+<?php if(isset($block)): ?>
+<?php
+
+    $caption = $block->caption();
+    $crop = $block->crop()->isTrue();
+    $ratio = $block->ratio()->or('auto');
+
+    $attr = Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop]);
+    ?>
 <figure<?= $attr ?>>
   <ul>
     <?php foreach ($block->images()->toFiles() as $image): ?>
@@ -22,3 +25,4 @@ $attr = Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop]);
   </figcaption>
   <?php endif ?>
 </figure>
+<?php endif; ?>

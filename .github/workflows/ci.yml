@@ -1,4 +1,4 @@
-name: PHP-CS-Fixer
+name: PHP Code Quality
 
 on:
   push:
@@ -10,19 +10,22 @@ on:
       - "**.php"
 
 jobs:
+  phpstan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: php-actions/composer@v6
+      - uses: php-actions/phpstan@v3
+
   php-cs-fixer:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}
-
-      - name: Install
-        run: composer install
-
+      - uses: actions/checkout@v3
+      - uses: php-actions/composer@v6
       - name: Run php-cs-fixer
         run: ./vendor/bin/php-cs-fixer fix
-
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Apply php-cs-fixer changes

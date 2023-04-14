@@ -9,7 +9,7 @@
 
   <div class="grid-container">
     <div class="col-span-4 md:col-start-3 md:col-span-8 mb-xl flex gap-xs flex-wrap">
-      <?php foreach ($tags as $tag): ?>
+      <?php foreach ($tags ?? [] as $tag): ?>
         <?php snippet('components/tag', [
             'text' => $tag,
             'active' => get('tag') == $tag,
@@ -20,7 +20,7 @@
   </div>
 
   <div class="md:grid md:grid-cols-2 lg:grid-cols-3 gap-x-m gap-y-xl max-w-default mx-auto px-m">
-    <?php foreach ($articles as $article): ?>
+    <?php foreach ($articles ?? [] as $article): ?>
       <?php snippet('components/teaser', [
           'topline' => $article->created()->toDate('d.m.Y'),
           'title' => $article->title(),
@@ -31,9 +31,9 @@
     <?php endforeach ?>
   </div>
 
-  <?php if ($pagination): ?>
+  <?php if (isset($pagination)): ?>
     <?php snippet('components/pagination') ?>
-  <?php endif ?>
+  <?php endif; ?>
 </main>
 
 <?= snippet('blocks') ?>

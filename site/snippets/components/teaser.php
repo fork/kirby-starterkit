@@ -21,7 +21,6 @@ $image = $image ?? null;
                     'height' => 900,
                     'quality' => 80,
                     'crop' => 'center',
-                    'quality' => 80,
                 ],
                 'srcset' => [
                     '1200w' => ['width' => 1200, 'height' => 675, 'crop' => 'center', 'quality' => 80],
