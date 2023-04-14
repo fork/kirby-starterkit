@@ -1,3 +1,4 @@
+<?php if(isset($block)): ?>
 <div class="col-span-4 md:col-start-3 md:col-span-8 mb-xl pb-m border-t-2">
   <?php foreach ($block->items()->toStructure() as $item) : ?>
     <div x-data="{ activeAccordion: false }" class="group border-b-2">
@@ -28,5 +29,6 @@
         <?php endsnippet() ?>
       </section>
     </div>
-  <?php endforeach ?>
+  <?php endforeach; ?>
 </div>
+<?php endif; ?>

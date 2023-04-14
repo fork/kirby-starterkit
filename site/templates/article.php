@@ -11,7 +11,7 @@
   <?= snippet('blocks') ?>
 </main>
 
-<?php if ($relatedArticles->isNotEmpty()): ?>
+<?php if (isset($relatedArticles) && $relatedArticles->isNotEmpty()): ?>
   <div class="md:grid md:grid-cols-2 lg:grid-cols-3 gap-x-m max-w-default mx-auto px-m mb-xxxl">
     <?php snippet('components/text', [
         'text' => t('relatedArticles'),
