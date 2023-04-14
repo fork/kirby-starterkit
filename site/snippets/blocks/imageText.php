@@ -1,11 +1,11 @@
 <?php if (isset($block)) : ?>
   <?php
   $image = $block->image()->toFile();
-  $imagePosition = $block->imagePosition();
+    $imagePosition = $block->imagePosition();
 
-  $imageColumns = $imagePosition == 'left' ? 'md:col-start-1' : 'md:col-start-7';
-  $textColumns = $imagePosition == 'left' ? 'md:col-start-6' : 'md:col-start-1';
-  ?>
+    $imageColumns = $imagePosition == 'left' ? 'md:col-start-1' : 'md:col-start-7';
+    $textColumns = $imagePosition == 'left' ? 'md:col-start-6' : 'md:col-start-1';
+    ?>
 
 
   <div class="grid-container">
