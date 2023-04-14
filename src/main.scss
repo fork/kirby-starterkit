@@ -13,6 +13,16 @@
   }
 }
 
+@layer utilities {
+  .scrollbar-none {
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
 @layer components {
   .grid-container {
     @apply grid grid-cols-4 md:grid-cols-12 gap-x-m max-w-default mx-auto px-m;

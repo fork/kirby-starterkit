@@ -11,5 +11,7 @@ return [
         'relatedArticles' => 'Related articles',
         'readMore' => 'Read more',
         'filterTags' => 'Filter by tags',
+        'prevImages' => 'Scroll to previous images',
+        'nextImages' => 'Scroll to next images',
     ],
 ];

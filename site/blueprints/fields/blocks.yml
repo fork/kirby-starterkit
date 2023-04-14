@@ -5,6 +5,6 @@ fieldsets:
   accordion: blocks/accordion
   gallery: blocks/gallery
   images: blocks/images
-  imageText: blocks/image-text
+  imageText: blocks/imageText
   richtext: blocks/richtext
   table: blocks/table

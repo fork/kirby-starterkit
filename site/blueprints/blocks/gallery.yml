@@ -6,8 +6,5 @@ fields:
     extends: fields/image
     label: Images
     multiple: true
-  caption:
-    label: Caption
-    type: writer
-    icon: text
-    inline: true
+    min: 3
+    help: Add a minimum of three images

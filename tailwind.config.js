@@ -66,7 +66,8 @@ export default {
       white: "#fff"
     },
     maxWidth: {
-      default: "1200px"
+      default: "1200px",
+      full: "1920px"
     },
     extend: {}
   },
