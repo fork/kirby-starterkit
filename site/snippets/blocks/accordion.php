@@ -12,8 +12,8 @@
             'variant' => 'copy-bold',
         ]) ?>
 
-        <div class="group-aria-expanded:rotate-90 w-m">
-          <?= svg('assets/icons/instagram.svg') ?>
+        <div class="group-aria-expanded:rotate-180 w-s">
+          <?= svg('assets/icons/chevron-down.svg') ?>
         </div>
       </button>
 
