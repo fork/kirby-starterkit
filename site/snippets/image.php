@@ -1,6 +1,10 @@
 <?php
+/* Defaults */
+
+$loading = $loading ?? 'lazy';
 /*
   snippet('image', [
+    'image' => $image,
     'class' => 'blog',
     'src' => $image->thumb([
       'width' => 300,
@@ -14,19 +18,18 @@
       '1800w' => ['width' => 1800, 'height' => 1800, 'crop' => 'center', 'quality' => 80],
     ],
     'sizes' => '(min-width: 1280px) 25vw, (min-width: 1024px) 50vw, 100vw',
-    'loading' => 'eager',
-    'class' => 'myImage'
+    'loading' => 'Lazy'
   ])
  */
 ?>
+
 <?php if ($image && $src): ?>
     <img
         alt="<?= $image->alt() ?>"
-        src="<?= $src ?>"
-        loading="<?= $loading ?: 'lazy'; ?>"
+        src="<?= $image->thumb($src)->url() ?>"
+        loading="<?= $loading ?>"
         <?php if ($srcset): ?>srcset="<?= $image->srcset($srcset) ?>"<?php endif ?>
+        <?php if ($sizes): ?>sizes="<?= $sizes ?>"<?php endif ?>
         <?php if ($class): ?>class="<?= $class ?>"<?php endif ?>
-        width="<?= $width ? $width : $image->width(); ?>"
-        height="<?= $height ? $height : $image->height(); ?>"
     >
 <?php endif ?>

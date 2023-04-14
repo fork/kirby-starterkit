@@ -1,10 +1,9 @@
 <?php snippet('layout', slots: true) ?>
 
-<main class="max-w-content mx-auto my-xl">
-  <?php snippet('components/text', [
-      'text' => $page->title(),
-      'variant' => 'headline-1',
-      'tag' => 'h1',
+<main>
+  <?php snippet('components/stage', [
+      'title' => $page->headline()->or($page->title()),
+      'intro' => $page->intro(),
   ]) ?>
 </main>
 

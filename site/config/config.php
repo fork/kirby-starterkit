@@ -4,11 +4,6 @@ return [
     'hooks' => [],
     'routes' => [
         [
-            // articles overview is not a page itself but just a container
-            'pattern' => 'articles',
-            'action' => fn () => false,
-        ],
-        [
             'pattern' => 'media',
             'action' => fn () => false,
         ],

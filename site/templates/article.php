@@ -1,10 +1,11 @@
 <?php snippet('layout', slots: true) ?>
 
-<main class="max-w-content mx-auto my-xl">
-  <?php snippet('components/text', [
-      'text' => $page->title(),
-      'variant' => 'headline-1',
-      'tag' => 'h1',
+<main>
+  <?php snippet('components/stage', [
+      'topline' => $page->created()->toDate('d.m.Y'),
+      'title' => $page->title(),
+      'tags' => $page->tags()->split(),
+      'image' => $page->cover()->toFile(),
   ]) ?>
 
   <?= snippet('blocks') ?>

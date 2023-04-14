@@ -8,5 +8,6 @@ marks:
 nodes:
   - h2
   - h3
+  - h4
   - bulletList
   - orderedList

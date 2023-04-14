@@ -2,6 +2,8 @@ name: Table
 icon: table
 preview: fields
 fields:
+  headline:
+    type: text
   items:
     label: Items
     type: structure

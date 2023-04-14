@@ -9,9 +9,10 @@ export default {
       xl: "1440px"
     },
     spacing: {
-      xxs: "4px",
-      xs: "6px",
-      s: "12px",
+      xxxs: "3px",
+      xxs: "6px",
+      xs: "12px",
+      s: "18px",
       m: "24px",
       l: "36px",
       xl: "48px",
@@ -20,19 +21,19 @@ export default {
     },
     fontSize: {
       "headline-1": ["24px", "24px"],
-      "headline-1-lg": ["54px", "54px"],
+      "headline-1-md": ["45px", "54px"],
 
       "headline-2": ["20px", "22px"],
-      "headline-2-lg": ["36px", "40px"],
+      "headline-2-md": ["35px", "42px"],
 
       "headline-3": ["17px", "21px"],
-      "headline-3-lg": ["24px", "32px"],
+      "headline-3-md": ["24px", "36px"],
 
       copy: ["14px", "21px"],
-      "copy-lg": ["16px", "24px"],
+      "copy-md": ["16px", "24px"],
 
       "copy-small": ["12px", "18px"],
-      "copy-small-lg": ["16px", "24px"]
+      "copy-small-md": ["16px", "24px"]
     },
     colors: {
       primary: {
@@ -41,6 +42,7 @@ export default {
         90: "#747474"
       },
       neutral: {
+        10: "#ffffff",
         30: "#EEEEEE",
         50: "#888888",
         70: "#4D4D4D",
@@ -64,8 +66,7 @@ export default {
       white: "#fff"
     },
     maxWidth: {
-      default: "1440px",
-      content: "750px"
+      default: "1200px"
     },
     extend: {}
   },
