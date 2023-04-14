@@ -55,3 +55,7 @@ dist
 !public/assets/dist
 .dev
 content/home/.lock
+
+# CS Fixer
+# --------
+.php-cs-fixer.cache
