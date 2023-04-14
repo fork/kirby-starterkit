@@ -1,3 +1,4 @@
+<?php if(isset($block)): ?>
 <div>
   <?php foreach ($block->items()->toStructure() as $item): ?>
     <h3>
@@ -11,3 +12,4 @@
     </li>
   <?php endforeach ?>
 </div>
+<?php endif ?>

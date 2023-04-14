@@ -30,7 +30,7 @@ return [
         [
             'pattern' => 'sitemap',
             'action'  => function () {
-                return go('sitemap.xml', 301);
+                go('sitemap.xml', 301);
             },
         ],
     ],

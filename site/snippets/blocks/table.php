@@ -1,5 +1,6 @@
+<?php if(isset($block)):  ?>
 <div>
-  <?php foreach ($block->items()->toStructure() as $item) : ?>
+  <?php foreach ($block->items()->toStructure() as $item): ?>
     <?php snippet('components/text', [
         'text' => $item->title(),
         'variant' => 'copy-bold',
@@ -8,5 +9,6 @@
     <?php snippet('components/text', [
         'text' => $item->text(),
     ]) ?>
-  <?php endforeach ?>
+  <?php endforeach; ?>
 </div>
+<?php endif; ?>

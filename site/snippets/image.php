@@ -19,14 +19,14 @@
   ])
  */
 ?>
-<?php if ($image && $src): ?>
+<?php if (isset($image) && isset($src)): ?>
     <img
         alt="<?= $image->alt() ?>"
         src="<?= $src ?>"
-        loading="<?= $loading ?: 'lazy'; ?>"
-        <?php if ($srcset): ?>srcset="<?= $image->srcset($srcset) ?>"<?php endif ?>
-        <?php if ($class): ?>class="<?= $class ?>"<?php endif ?>
-        width="<?= $width ? $width : $image->width(); ?>"
-        height="<?= $height ? $height : $image->height(); ?>"
+        loading="<?= $loading ?? 'lazy'; ?>"
+        <?php if (isset($srcset)): ?>srcset="<?= $image->srcset($srcset) ?>"<?php endif ?>
+        <?php if (isset($class)): ?>class="<?= $class ?>"<?php endif ?>
+        width="<?= isset($width) ? $width : $image->width(); ?>"
+        height="<?= isset($height) ? $height : $image->height(); ?>"
     >
 <?php endif ?>

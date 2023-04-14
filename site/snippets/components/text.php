@@ -17,4 +17,4 @@ $class = $variants[$variant].' '.$class;
 
 ?>
 
-<<?=$tag?> class="<?= $class ?>"><?= $text ?></<?=$tag?>>
+<<?=$tag?> class="<?= $class ?>"><?= $text ?? '' ?></<?=$tag?>>

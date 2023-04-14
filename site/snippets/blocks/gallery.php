@@ -1,6 +1,5 @@
 <?php
-/** @var \Kirby\Cms\Block $block */
-
+die(var_dump($block));
 use Kirby\Cms\Html;
 
 $caption = $block->caption();

@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <ul>
-  <?php foreach ($results as $result): ?>
+  <?php foreach ($results ?? [] as $result): ?>
   <li>
     <a href="<?= $result->url() ?>">
         <?= $result->title() ?>
@@ -10,6 +10,7 @@
   <?php endforeach ?>
 </ul>
 
+<?php if(isset($pagination)): ?>
 <nav>
   <ul>
 
@@ -35,7 +36,7 @@
     <li>
       <a href="<?= $pagination->nextPageURL() ?>">›</a>
     </li>
-    <?php else : ?>
+    <?php else: ?>
     <li>
       <span>›</span>
     </li>
@@ -43,5 +44,7 @@
 
   </ul>
 </nav>
+
+<?php endif ?>
 
 <?php snippet('footer') ?>

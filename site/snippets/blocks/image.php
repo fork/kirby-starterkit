@@ -1,8 +1,8 @@
+<?php if(isset($block)): ?>
 <?php
-
-$images = $block->image()->toFiles();
-$multiple = count($images) > 1;
-?>
+    $images = $block->image()->toFiles();
+    $multiple = count($images) > 1;
+    ?>
 
 <div class="">
   <?php foreach ($images as $item): ?>
@@ -18,3 +18,4 @@ $multiple = count($images) > 1;
   </figure>
   <?php endforeach ?>
 </div>
+<?php endif; ?>
