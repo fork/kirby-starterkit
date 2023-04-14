@@ -4,7 +4,7 @@
   <?php foreach ($results as $result): ?>
   <li>
     <a href="<?= $result->url() ?>">
-      <?= $result->title() ?>
+        <?= $result->title() ?>
     </a>
   </li>
   <?php endforeach ?>
@@ -17,7 +17,7 @@
     <li>
       <a href="<?= $pagination->prevPageURL() ?>">‹</a>
     </li>
-    <?php else: ?>
+    <?php else : ?>
     <li>
       <span>‹</span>
     </li>
@@ -35,7 +35,7 @@
     <li>
       <a href="<?= $pagination->nextPageURL() ?>">›</a>
     </li>
-    <?php else: ?>
+    <?php else : ?>
     <li>
       <span>›</span>
     </li>

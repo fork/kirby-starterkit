@@ -1,5 +1,5 @@
 <div>
-  <?php foreach ($block->items()->toStructure() as $item) : ?>
+  <?php foreach ($block->items()->toStructure() as $item): ?>
     <h3>
       <button id="accordion-trigger-<?= $block->id() ?>" aria-controls="accordion-panel-<?= $block->id() ?>" aria-expanded="false">
         <?= $item->title() ?>

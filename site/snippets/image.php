@@ -23,7 +23,7 @@
     <img
         alt="<?= $image->alt() ?>"
         src="<?= $src ?>"
-        loading="<?= $loading ?: "lazy"; ?>"
+        loading="<?= $loading ?: 'lazy'; ?>"
         <?php if ($srcset): ?>srcset="<?= $image->srcset($srcset) ?>"<?php endif ?>
         <?php if ($class): ?>class="<?= $class ?>"<?php endif ?>
         width="<?= $width ? $width : $image->width(); ?>"

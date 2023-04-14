@@ -1,5 +1,5 @@
 <?php
-/* Defaults */
+// Defaults
 $title = $title ?? '';
 $image = $image ?? null;
 
@@ -12,8 +12,8 @@ $crops = [];
   <?php endif; ?>
 
   <?php snippet('components/text', [
-    'text' => $title,
-    'variant' => 'headline-1',
-    'tag' => 'h1'
+      'text' => $title,
+      'variant' => 'headline-1',
+      'tag' => 'h1',
   ]) ?>
 </section>

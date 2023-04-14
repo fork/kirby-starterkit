@@ -1,6 +1,6 @@
 <?php
-/* Defaults */
-$target = $target ?? "_self";
+// Defaults
+$target = $target ?? '_self';
 $icon = $icon ?? null;
 $text = $text ?? '';
 $href = $href ?? '';
@@ -11,7 +11,7 @@ $href = $href ?? '';
 
   <?php if ($icon): ?>
     <div class="w-m ml-xs">
-      <?= svg("assets/icons/" . $icon . ".svg") ?>
+      <?= svg('assets/icons/'.$icon.'.svg') ?>
     </div>
-  <? endif; ?>
+  <?php endif; ?>
 </a>

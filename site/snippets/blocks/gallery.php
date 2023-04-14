@@ -4,8 +4,8 @@
 use Kirby\Cms\Html;
 
 $caption = $block->caption();
-$crop    = $block->crop()->isTrue();
-$ratio   = $block->ratio()->or('auto');
+$crop = $block->crop()->isTrue();
+$ratio = $block->ratio()->or('auto');
 
 $attr = Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop]);
 ?>

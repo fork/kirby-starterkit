@@ -5,19 +5,19 @@
     </a>
 
     <nav>
-      <?php if ($site->navigation()->isNotEmpty()) : ?>
+      <?php if ($site->navigation()->isNotEmpty()): ?>
         <ul class="flex gap-m">
-          <?php foreach ($site->navigation()->toStructure() as $item) : ?>
+          <?php foreach ($site->navigation()->toStructure() as $item): ?>
             <li>
               <?php snippet('components/link', [
-                'text' => $item->text(),
-                'href' => $item->url(),
-                'current' => $item->isOpen()
+                  'text' => $item->text(),
+                  'href' => $item->url(),
+                  'current' => $item->isOpen(),
               ]) ?>
 
-              <?php if ($item->children()->isNotEmpty()) : ?>
+              <?php if ($item->children()->isNotEmpty()): ?>
                 <ul>
-                  <?php foreach ($item->children()->toStructure() as $child) : ?>
+                  <?php foreach ($item->children()->toStructure() as $child): ?>
                     <li>
                       <a href="<?php echo $child->url() ?>">
                         <?php echo $child->text() ?>

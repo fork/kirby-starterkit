@@ -2,15 +2,15 @@
 
 <main class="max-w-content mx-auto my-xl">
   <?php snippet('components/text', [
-    'text' => $page->title(),
-    'variant' => 'headline-1',
-    'tag' => 'h1'
+      'text' => $page->title(),
+      'variant' => 'headline-1',
+      'tag' => 'h1',
   ]) ?>
 
   <?= snippet('blocks') ?>
 </main>
 
-<?php if (!empty($relatedArticles)): ?>
+<?php if (! empty($relatedArticles)): ?>
   <h2><?= t('relatedArticles') ?></h2>
 
   <ul>

@@ -2,8 +2,8 @@
 
 <main>
   <?php snippet('components/stage', [
-    'title' => $page->title(),
-    'image' => $page->cover()->toFile()
+      'title' => $page->title(),
+      'image' => $page->cover()->toFile(),
   ]) ?>
 </main>
 

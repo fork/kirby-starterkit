@@ -11,8 +11,8 @@ $multiple = count($images) > 1;
 
     <?php if ($item->caption()->isNotEmpty()): ?>
       <?php snippet('components/text', [
-        'text' => $item->caption(),
-        'tag' => 'figcaption'
+          'text' => $item->caption(),
+          'tag' => 'figcaption',
       ]) ?>
     <?php endif; ?>
   </figure>

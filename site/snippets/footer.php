@@ -7,28 +7,28 @@
   </div>
 
     <nav>
-      <?php if ($site->footerNavigation()->isNotEmpty()) : ?>
+      <?php if ($site->footerNavigation()->isNotEmpty()): ?>
         <ul class="flex">
-          <?php foreach ($site->footerNavigation()->toStructure() as $item) : ?>
+          <?php foreach ($site->footerNavigation()->toStructure() as $item): ?>
             <li>
               <?php snippet('components/link', [
-                'text' => $item->text(),
-                'href' => $item->url(),
-                'current' => $item->isOpen()
+                  'text' => $item->text(),
+                  'href' => $item->url(),
+                  'current' => $item->isOpen(),
               ]) ?>
             </li>
           <?php endforeach ?>
         </ul>
       <?php endif ?>
 
-      <?php if ($site->metaNavigation()->isNotEmpty()) : ?>
+      <?php if ($site->metaNavigation()->isNotEmpty()): ?>
         <ul class="flex mt-m">
-          <?php foreach ($site->metaNavigation()->toStructure() as $item) : ?>
+          <?php foreach ($site->metaNavigation()->toStructure() as $item): ?>
             <li>
               <?php snippet('components/link', [
-                'text' => $item->text(),
-                'href' => $item->url(),
-                'current' => $item->isOpen()
+                  'text' => $item->text(),
+                  'href' => $item->url(),
+                  'current' => $item->isOpen(),
               ]) ?>
             </li>
           <?php endforeach ?>
@@ -40,7 +40,7 @@
         <div class="flex gap-l">
           <?php foreach($site->socialMedia()->toStructure() as $social): ?>
             <a href="<?php echo $social->url(); ?>" target="_blank" rel="noopener noreferrer" class="w-l block hover:text-interaction-50 focus:text-interaction-50">
-              <?= svg("assets/icons/" . $social->service() . ".svg") ?>
+              <?= svg('assets/icons/'.$social->service().'.svg') ?>
             </a>
           <?php endforeach ?>
         </div>
