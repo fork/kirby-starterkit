@@ -33,6 +33,8 @@ Icon
 !/content/articles
 /content/articles/*
 !/content/articles/articles.txt
+!/content/media
+/content/media/*
 !/content/media/media.txt
 !/content/search
 
