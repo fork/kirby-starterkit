@@ -1,9 +1,3 @@
-<?php
-
-use Kirby\Cms\Html;
-
-?>
-
 <?php if (isset($block)) : ?>
   <div class="relative overflow-hidden mb-xl" x-data="Gallery">
     <section class="flex items-center snap-x snap-proximity overflow-x-scroll scrollbar-none max-w-full mx-auto" x-ref="container" x-resizeobserver="onResize" tabindex="0">
