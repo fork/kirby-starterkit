@@ -32,8 +32,9 @@ Icon
 !/content/error
 !/content/articles
 /content/articles/*
-!/content/articles/articles.de.txt
-!/content/media/media.de.txt
+!/content/articles/articles.en.txt
+/content/media/*
+!/content/media/media.en.txt
 !/content/search
 
 # Frontend

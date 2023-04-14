@@ -5,6 +5,7 @@
       'title' => $page->title(),
       'image' => $page->cover()->toFile(),
   ]) ?>
+
+  <?= snippet('blocks') ?>
 </main>
 
-<?= snippet('blocks') ?>
