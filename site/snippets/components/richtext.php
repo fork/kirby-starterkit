@@ -1,5 +1,5 @@
 <?php if(isset($slot)): ?>
-<div class="richtext">
+<div class="richtext <?= $class ?? ''?>">
   <?= $slot ?>
 </div>
 <?php endif; ?>

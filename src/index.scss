@@ -14,26 +14,41 @@
 }
 
 @layer components {
+  .grid-container {
+    @apply grid grid-cols-4 md:grid-cols-12 gap-x-m max-w-default mx-auto px-m;
+  }
+
   .richtext {
     h2 {
-      @apply text-headline-2 lg:text-headline-2-lg font-bold;
+      @apply text-headline-2 md:text-headline-2-md font-bold hyphens-auto;
     }
 
     h3 {
-      @apply text-headline-3 lg:text-headline-3-lg font-bold;
+      @apply text-headline-3 md:text-headline-3-md font-bold hyphens-auto;
     }
 
     h4 {
-      @apply text-copy lg:text-copy-lg font-bold;
+      @apply text-copy md:text-copy-md font-bold hyphens-auto;
     }
 
     p {
-      @apply text-copy lg:text-copy-lg;
+      @apply text-copy md:text-copy-md;
+    }
+
+    p + h2,
+    p + h3,
+    p + h4 {
+      @apply mt-l;
     }
 
     h2,
     h3,
-    h4,
+    h4 {
+      &:not(:last-child) {
+        @apply mb-m;
+      }
+    }
+
     p {
       &:not(:last-child) {
         @apply mb-s;
