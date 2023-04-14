@@ -10,6 +10,6 @@ return [
     'translations' => [
         'relatedArticles' => 'Related articles',
         'readMore' => 'Read more',
-        'filterTags' => 'Filter by tags'
+        'filterTags' => 'Filter by tags',
     ],
 ];
