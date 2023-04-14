@@ -18,6 +18,30 @@
     @apply grid grid-cols-4 md:grid-cols-12 gap-x-m max-w-default mx-auto px-m;
   }
 
+  .headline-2 {
+    @apply text-headline-1 md:text-headline-1-md font-bold hyphens-auto;
+  }
+
+  .headline-2 {
+    @apply text-headline-2 md:text-headline-2-md font-bold hyphens-auto;
+  }
+
+  .headline-3 {
+    @apply text-headline-3 md:text-headline-3-md font-bold hyphens-auto;
+  }
+
+  .headline-3 {
+    @apply text-headline-3 md:text-headline-3-md font-bold hyphens-auto;
+  }
+
+  .copy {
+    @apply text-copy md:text-copy-md hyphens-auto;
+  }
+
+  .copy-small {
+    @apply text-copy-small md:text-copy-small-md hyphens-auto;
+  }
+
   .richtext {
     h2 {
       @apply text-headline-2 md:text-headline-2-md font-bold hyphens-auto;

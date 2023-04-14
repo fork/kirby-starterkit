@@ -10,10 +10,7 @@
       </div>
     <?php endif; ?>
 
-    <?php snippet('components/text', [
-        'text' => $pagination->page().' / '.$pagination->pages(),
-        'variant' => 'copy-bold',
-    ]) ?>
+    <p class="copy font-bold"><?= $pagination->page() . ' / ' . $pagination->pages() ?></p>
 
     <?php if ($pagination->hasNextPage()) : ?>
       <a href="<?= $pagination->nextPageUrl() ?>" class="block w-s">
