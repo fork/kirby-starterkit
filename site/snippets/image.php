@@ -2,6 +2,9 @@
 /* Defaults */
 
 $loading = $loading ?? 'lazy';
+
+$thumb = $image->thumb($src);
+
 /*
   snippet('image', [
     'image' => $image,
@@ -26,7 +29,9 @@ $loading = $loading ?? 'lazy';
 <?php if (isset($image) && isset($src)): ?>
     <img
         alt="<?= $image->alt() ?>"
-        src="<?= $image->thumb($src)->url() ?>"
+        width="<?= $thumb->width() ?>"
+        height="<?= $thumb->height() ?>"
+        src="<?= $thumb->url() ?>"
         loading="<?= $loading ?>"
         <?php if (isset($srcset)): ?>srcset="<?= $image->srcset($srcset) ?>"<?php endif ?>
         <?php if (isset($sizes)): ?>sizes="<?= $sizes ?>"<?php endif ?>
