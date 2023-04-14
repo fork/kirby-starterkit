@@ -14,20 +14,20 @@ $image = $image ?? null;
       <?php if ($image) : ?>
         <?=
         snippet('image', [
-          'image' => $image,
-          'class' => 'blog',
-          'src' => [
-            'width' => 1600,
-            'height' => 900,
-            'quality' => 80,
-            'crop' => 'center',
-          ],
-          'srcset' => [
-            '1200w' => ['width' => 1200, 'height' => 675, 'crop' => 'center', 'quality' => 80],
-          ],
-          'sizes' => '(min-width: 1200px) 1200px, 100vw',
+            'image' => $image,
+            'class' => 'blog',
+            'src' => [
+                'width' => 1600,
+                'height' => 900,
+                'quality' => 80,
+                'crop' => 'center',
+            ],
+            'srcset' => [
+                '1200w' => ['width' => 1200, 'height' => 675, 'crop' => 'center', 'quality' => 80],
+            ],
+            'sizes' => '(min-width: 1200px) 1200px, 100vw',
         ])
-        ?>
+          ?>
       <?php endif; ?>
     </div>
 
@@ -44,7 +44,7 @@ $image = $image ?? null;
     <?php endif; ?>
 
     <?php snippet('components/link', [
-      'text' => t('readMore'),
+        'text' => t('readMore'),
     ]) ?>
   </a>
 </article>

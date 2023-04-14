@@ -1,10 +1,10 @@
 <?php if (isset($block)) : ?>
   <?php
   $images = $block->images()->toFiles();
-  $multiple = count($images) > 1;
+    $multiple = count($images) > 1;
 
-  $class = $multiple ? 'col-span-1' : 'col-span-2';
-  ?>
+    $class = $multiple ? 'col-span-1' : 'col-span-2';
+    ?>
 
   <div class="col-span-4 md:col-span-12 md:grid md:grid-cols-2 md:gap-x-m">
     <?php foreach ($images as $item) : ?>
