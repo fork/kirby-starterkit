@@ -15,15 +15,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: php-actions/composer@v6
-      - uses: php-actions/phpstan@v3
+      - name: Install Composer dependencies
+        run: composer install
+      - name: Run PHPStan
+        run: ./vendor/bin/phpstan analyse
 
   php-cs-fixer:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
-      - uses: php-actions/composer@v6
+      - name: Install Composer dependencies
+        run: composer install
       - name: Run php-cs-fixer
         run: ./vendor/bin/php-cs-fixer fix
       - uses: stefanzweifel/git-auto-commit-action@v4
