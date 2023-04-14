@@ -50,7 +50,7 @@ export default {
       },
 
       interaction: {
-        50: "#6795FF"
+        50: "#FF9900"
       },
       notification: {
         50: "#EFFB5A"

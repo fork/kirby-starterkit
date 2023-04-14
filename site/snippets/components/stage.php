@@ -6,7 +6,6 @@ $intro = $intro ?? null;
 $image = $image ?? null;
 $tags = $tags ?? null;
 
-$crops = [];
 ?>
 
 <section class="grid-container my-xl">
@@ -47,9 +46,11 @@ $crops = [];
     ]) ?>
 
     <?php if ($intro): ?>
-      <?php snippet('components/richtext', slots: true) ?>
-        <?= $intro ?>
-      <?php endsnippet() ?>
+      <div class="mt-s">
+        <?php snippet('components/richtext', slots: true) ?>
+          <?= $intro ?>
+        <?php endsnippet() ?>
+      </div>
     <?php endif; ?>
 
     <?php if ($tags): ?>

@@ -9,5 +9,6 @@ return [
     'url' => '/',
     'translations' => [
         'relatedArticles' => 'Verwandte Artikel',
+        'readMore' => 'Mehr erfahren',
     ],
 ];

@@ -12,15 +12,22 @@
 </main>
 
 <?php if (! empty($relatedArticles)): ?>
-  <h2><?= t('relatedArticles') ?></h2>
+  <div class="md:grid md:grid-cols-2 lg:grid-cols-3 gap-x-m max-w-default mx-auto px-m mb-xxxl">
+    <?php snippet('components/text', [
+        'text' => t('relatedArticles'),
+        'tag' => 'h2',
+        'variant' => 'headline-3',
+        'class' => 'md:col-span-2 lg:col-span-3 mb-l',
+    ]) ?>
 
-  <ul>
-    <?php foreach($relatedArticles as $article): ?>
-    <li>
-      <a href="<?= $article['url'] ?>">
-      <?= $article['content']['title'] ?>
-      </a>
-    </li>
+    <?php foreach ($relatedArticles as $article): ?>
+      <?php snippet('components/teaser', [
+          'topline' => $article->created()->toDate('d.m.Y'),
+          'title' => $article->title(),
+          'excerpt' => $article->excerpt(),
+          'url' => $article->url(),
+          'image' => $article->cover()->toFile(),
+      ]) ?>
     <?php endforeach ?>
-  </ul>
+  </div>
 <?php endif ?>

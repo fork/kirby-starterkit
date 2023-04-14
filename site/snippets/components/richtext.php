@@ -1,3 +1,3 @@
-<div class="richtext">
+<div class="richtext <?= $class ?? ''?>">
   <?= $slot ?>
 </div>
