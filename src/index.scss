@@ -43,9 +43,24 @@
 
     h2,
     h3,
-    h4 {
+    h4,
+    ul,
+    ol {
       &:not(:last-child) {
         @apply mb-m;
+      }
+    }
+
+    h2 {
+      &:not(:first-child) {
+        @apply mt-xl;
+      }
+    }
+
+    h3,
+    h4 {
+      &:not(:first-child) {
+        @apply mt-l;
       }
     }
 
@@ -53,6 +68,18 @@
       &:not(:last-child) {
         @apply mb-s;
       }
+    }
+
+    ul {
+      @apply list-inside list-disc;
+    }
+
+    ol {
+      @apply list-inside list-decimal;
+    }
+
+    li {
+      @apply mb-xxs;
     }
   }
 }

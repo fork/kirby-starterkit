@@ -1,0 +1,145 @@
+Title: About us
+
+----
+
+Blocks: [{"content":{"text":"<p>The name says it. We are still developing ourselves and our work in 'Unstable Media', a constantly changing technology and media landscape. We value instability as a state of movement, of open questions, of shimmering options and possibilities, in short: as a creative state.</p><h3>This instability is at the beginning of every project. </h3><p>What then follows are decisions. Countless decisions, a thousand times \"No!\" and \"Don't go!\", on the way to \"Well, maybe!?\" and \"That's it!\". In the end, everything condenses into a new stability, the solution to a business or communication problem. Whereas, even digital diamonds are not forever. After the completion of a digital product or the launch of a campaign, new spaces open up, for example for adaptation, expansion or optimization. We value sustainable work, and many of our projects can still be seen years later. Nevertheless, it is true that there is no such thing as a truly finished digital product.<br></p><h3>Time ticks faster on the Internet, some claim. </h3><p>Others say that on the web, you're always a tick behind the present. Whether before or behind, we're focusing on the here and now and don't want to bore anyone with stories from the past. At this point, therefore, just this much…<br><br>In the late 1990s, Flat was one of the first internet agencies from the Bundesrepublik whose work attracted attention on the World Wide Web. Some of them were even included in the permanent collection of Architecture &amp; Design at the San Francisco Museum of Modern Art. A lot has happened since then and we have changed as much as we have remained the same. We are still experimenting with new technologies. We still aim to inspire with our design. We still create digital experiences that serve, entertain, support, inspire or touch people in different aspects of their personal and professional lives. In some moments, even all at once.</p>"},"id":"30941205-331c-45c8-90f6-d9719c05ad6e","isHidden":false,"type":"richtext"}]
+
+----
+
+Cover: 
+
+----
+
+Excerpt: Explanation attempt in Theseus' nutshell
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: Explanation attempt in Theseus' nutshell
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2023-04-14 20:50:00
+
+----
+
+Og-type-article-modified-time: 2023-04-14 20:50:00
+
+----
+
+Og-type-article-expiration-time: 2023-04-14 20:50:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default
+
+----
+
+Uuid: UOStnOXtB0DtVBEr

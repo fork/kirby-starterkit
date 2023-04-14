@@ -2,4 +2,12 @@ Title: Articles
 
 ----
 
+Headline: New Power Generation
+
+----
+
+Intro: <p>What would hardware and software be without stardust, oxygen &amp; dreams?</p>
+
+----
+
 Uuid: OfWmF3KRUe9dLMGn

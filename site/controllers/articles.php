@@ -14,7 +14,7 @@ return function ($page) {
     $articles = $articles->paginate(3);
 
     // create a shortcut for pagination
-    $pagination = $articles->pagination()->hasPages() ? $articles->pagination() : null;
+    $pagination = $articles->pagination();
 
     // pass $articles and $pagination to the template
     return compact('articles', 'pagination', 'tags');

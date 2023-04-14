@@ -1,0 +1,181 @@
+Title: Flat
+
+----
+
+Navigation:
+
+- 
+  children: [ ]
+  id: about-us
+  text: About us
+  url: http://localhost/about-us
+  uuid: bsmki0yd90j
+- 
+  children: [ ]
+  id: articles
+  text: Articles
+  url: http://localhost/articles
+  uuid: tpzts37woj
+
+----
+
+Footernavigation:
+
+- 
+  children: [ ]
+  id: home
+  text: Home
+  url: http://localhost
+  uuid: irisl6z2k4g
+
+----
+
+Metanavigation:
+
+- 
+  children: [ ]
+  text: Fork Unstable Media
+  url: https://fork.de
+  popup: true
+  uuid: 2lokfny4ti8
+
+----
+
+Footertext: <h2>We are an agency for the digital aspects of life.</h2><p>Communication, consumption, culture or weather - digital is not always better, but it's hard to imagine our everyday lives without it. With our work, we want to improve the digital aspects of life. To achieve this, we rely on creative solution strategies, attach importance to sustainable design and customized technologies. We are the Flat. Hello!</p>
+
+----
+
+Socialmedia:
+
+- 
+  service: instagram
+  url: >
+    https://www.instagram.com/forkunstablemedia/
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 
