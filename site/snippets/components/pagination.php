@@ -10,7 +10,7 @@
       </div>
     <?php endif; ?>
 
-    <p class="copy font-bold"><?= $pagination->page() . ' / ' . $pagination->pages() ?></p>
+    <p class="copy font-bold"><?= $pagination->page().' / '.$pagination->pages() ?></p>
 
     <?php if ($pagination->hasNextPage()) : ?>
       <a href="<?= $pagination->nextPageUrl() ?>" class="block w-s">

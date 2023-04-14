@@ -6,7 +6,7 @@ return function ($site) {
     $articles = [
         'headline' => $articlePage->headline(),
         'intro' => $articlePage->intro(),
-        'items' => $articlePage->children()->listed()->sortBy('created', 'desc')->limit(3)
+        'items' => $articlePage->children()->listed()->sortBy('created', 'desc')->limit(3),
     ];
 
     return compact('articles');

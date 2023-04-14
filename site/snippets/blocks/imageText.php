@@ -1,11 +1,11 @@
 <?php if (isset($block)) : ?>
   <?php
   $image = $block->image()->toFile();
-  $imagePosition = $block->imagePosition();
+    $imagePosition = $block->imagePosition();
 
-  $imageColumns = $imagePosition == 'left' ? 'md:col-start-1' : 'md:col-start-7';
-  $textColumns = $imagePosition == 'left' ? 'md:col-start-6' : 'md:col-start-1';
-  ?>
+    $imageColumns = $imagePosition == 'left' ? 'md:col-start-1' : 'md:col-start-7';
+    $textColumns = $imagePosition == 'left' ? 'md:col-start-6' : 'md:col-start-1';
+    ?>
 
   <div class="col-span-4 md:col-start-2 md:col-span-10 mb-xxl md:grid md:grid-cols-10">
     <?php if ($block->headline()->isNotEmpty()) : ?>

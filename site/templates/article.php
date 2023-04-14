@@ -2,10 +2,10 @@
 
 <main>
   <?php snippet('components/stage', [
-    'topline' => $page->created()->toDate('d.m.Y'),
-    'title' => $page->title(),
-    'tags' => $page->tags()->split(),
-    'image' => $page->cover()->toFile(),
+      'topline' => $page->created()->toDate('d.m.Y'),
+      'title' => $page->title(),
+      'tags' => $page->tags()->split(),
+      'image' => $page->cover()->toFile(),
   ]) ?>
 
   <?= snippet('blocks') ?>
@@ -17,11 +17,11 @@
 
     <?php foreach ($relatedArticles as $article) : ?>
       <?php snippet('components/teaser', [
-        'topline' => $article->created()->toDate('d.m.Y'),
-        'title' => $article->title(),
-        'excerpt' => $article->excerpt(),
-        'url' => $article->url(),
-        'image' => $article->cover()->toFile(),
+          'topline' => $article->created()->toDate('d.m.Y'),
+          'title' => $article->title(),
+          'excerpt' => $article->excerpt(),
+          'url' => $article->url(),
+          'image' => $article->cover()->toFile(),
       ]) ?>
     <?php endforeach ?>
   </div>
