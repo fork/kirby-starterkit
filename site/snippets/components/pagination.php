@@ -11,8 +11,8 @@
     <?php endif; ?>
 
     <?php snippet('components/text', [
-      'text' => $pagination->page() . ' / ' . $pagination->pages(),
-      'variant' => 'copy-bold',
+        'text' => $pagination->page().' / '.$pagination->pages(),
+        'variant' => 'copy-bold',
     ]) ?>
 
     <?php if ($pagination->hasNextPage()) : ?>
