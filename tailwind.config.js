@@ -20,13 +20,13 @@ export default {
       xxxl: "120px"
     },
     fontSize: {
-      "headline-1": ["24px", "24px"],
+      "headline-1": ["32px", "32px"],
       "headline-1-md": ["45px", "54px"],
 
-      "headline-2": ["20px", "22px"],
+      "headline-2": ["24px", "28px"],
       "headline-2-md": ["35px", "42px"],
 
-      "headline-3": ["17px", "21px"],
+      "headline-3": ["20px", "24px"],
       "headline-3-md": ["24px", "36px"],
 
       copy: ["14px", "21px"],
