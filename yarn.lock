@@ -271,6 +271,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@thoughtbot/tailwindcss-aria-attributes@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@thoughtbot/tailwindcss-aria-attributes@npm:0.2.0"
+  checksum: 97a81633974bead3d1edf791eb65808d8f92c98a3d7074a222bee8c788dbf1bcd8477d567351e3ec8bb7501adc7efc286793785aee79adcf67d9831afb5f0e9e
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -1272,6 +1279,7 @@ __metadata:
   resolution: "kirby-starter@workspace:."
   dependencies:
     "@tailwindcss/aspect-ratio": ^0.4.2
+    "@thoughtbot/tailwindcss-aria-attributes": ^0.2.0
     "@types/alpinejs": ^3.7.1
     alpinejs: ^3.12.0
     autoprefixer: latest

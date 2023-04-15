@@ -11,22 +11,11 @@
             <?php foreach ($site->navigation()->toStructure() as $item) : ?>
               <li>
                 <?php snippet('components/link', [
-                    'text' => $item->text(),
-                    'href' => $item->url(),
-                    'current' => $item->isOpen(),
+                  'text' => $item->text(),
+                  'href' => $item->url(),
+                  'target' => $item->popup()->toBool(), '_blank', '_self',
+                  'current' => $item->url()->value() === kirby()->url('current'),
                 ]) ?>
-
-                <?php if ($item->children()->isNotEmpty()) : ?>
-                  <ul>
-                    <?php foreach ($item->children()->toStructure() as $child) : ?>
-                      <li>
-                        <a href="<?php echo $child->url() ?>">
-                          <?php echo $child->text() ?>
-                        </a>
-                      </li>
-                    <?php endforeach ?>
-                  </ul>
-                <?php endif ?>
               </li>
             <?php endforeach ?>
           </ul>

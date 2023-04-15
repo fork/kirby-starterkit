@@ -13,18 +13,18 @@ $tags = $tags ?? null;
     <div class="col-span-4 md:col-span-12 aspect-w-16 aspect-h-9 mb-l">
       <?=
       snippet('image', [
-          'image' => $image,
-          'class' => 'blog',
-          'src' => [
-              'width' => 1600,
-              'height' => 900,
-              'quality' => 80,
-              'crop' => 'center',
-          ],
-          'srcset' => [
-              '1200w' => ['width' => 1200, 'height' => 675, 'crop' => 'center', 'quality' => 80],
-          ],
-          'sizes' => '(min-width: 1200px) 1200px, 100vw',
+        'image' => $image,
+        'class' => 'blog',
+        'src' => [
+          'width' => 1600,
+          'height' => 900,
+          'quality' => 80,
+          'crop' => 'center',
+        ],
+        'srcset' => [
+          '1200w' => ['width' => 1200, 'height' => 675, 'crop' => 'center', 'quality' => 80],
+        ],
+        'sizes' => '(min-width: 1200px) 1200px, 100vw',
       ])
       ?>
     </div>
@@ -49,7 +49,7 @@ $tags = $tags ?? null;
       <div class="flex mt-s gap-xs">
         <?php foreach ($tags as $tag) : ?>
           <?php snippet('components/tag', [
-              'text' => $tag,
+            'text' => $tag,
           ]) ?>
         <?php endforeach ?>
       </div>

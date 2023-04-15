@@ -27,6 +27,7 @@
   },
   "packageManager": "yarn@3.5.0",
   "dependencies": {
+    "@thoughtbot/tailwindcss-aria-attributes": "^0.2.0",
     "alpinejs": "^3.12.0"
   }
 }

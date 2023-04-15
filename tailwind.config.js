@@ -74,5 +74,5 @@ export default {
   corePlugins: {
     aspectRatio: false
   },
-  plugins: [require("@tailwindcss/aspect-ratio")]
+  plugins: [require("@thoughtbot/tailwindcss-aria-attributes"), require("@tailwindcss/aspect-ratio")]
 };
