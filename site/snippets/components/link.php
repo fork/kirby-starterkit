@@ -15,7 +15,7 @@ $class = 'flex text-copy md:text-copy-md font-bold underline-offset-4 decoration
 
   <?php if ($icon) : ?>
     <div class="w-m ml-xs">
-      <?= svg('assets/icons/' . $icon . '.svg') ?>
+      <?= svg('assets/icons/'.$icon.'.svg') ?>
     </div>
   <?php endif; ?>
 </<?= $tag ?>>

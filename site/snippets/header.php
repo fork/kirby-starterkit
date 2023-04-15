@@ -11,10 +11,10 @@
             <?php foreach ($site->navigation()->toStructure() as $item) : ?>
               <li>
                 <?php snippet('components/link', [
-                  'text' => $item->text(),
-                  'href' => $item->url(),
-                  'target' => $item->popup()->toBool(), '_blank', '_self',
-                  'current' => $item->url()->value() === kirby()->url('current'),
+                    'text' => $item->text(),
+                    'href' => $item->url(),
+                    'target' => $item->popup()->toBool(), '_blank', '_self',
+                    'current' => $item->url()->value() === kirby()->url('current'),
                 ]) ?>
               </li>
             <?php endforeach ?>
