@@ -15,11 +15,11 @@ snippet('layout', slots: true) ?>
     <div class="flex flex-col col-span-4 md:col-span-12 md:grid md:grid-cols-2 lg:grid-cols-3 gap-x-m gap-y-xl">
       <?php foreach ($articles['items'] ?? [] as $article) : ?>
         <?php snippet('components/teaser', [
-          'topline' => $article->created()->toDate('d.m.Y'),
-          'title' => $article->title(),
-          'excerpt' => $article->excerpt(),
-          'url' => $article->url(),
-          'image' => $article->cover()->toFile(),
+            'topline' => $article->created()->toDate('d.m.Y'),
+            'title' => $article->title(),
+            'excerpt' => $article->excerpt(),
+            'url' => $article->url(),
+            'image' => $article->cover()->toFile(),
         ]) ?>
       <?php endforeach ?>
     </div>
