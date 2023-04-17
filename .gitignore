@@ -28,16 +28,6 @@ Icon
 # Contents
 # --------
 /content/*
-!/content/home
-!/content/error
-!/content/articles
-/content/articles/*
-!/content/articles/articles.en.txt
-!/content/media
-/content/media/*
-!/content/media/media.en.txt
-!/content/search
-!/content/site.en.txt
 
 # Frontend
 # --------
@@ -61,12 +51,3 @@ content/home/.lock
 # --------
 .php-cs-fixer.cache
 site/logs/retour
-
-# Preview Content
-!/content/articles/20230414_what-we-offer
-!/content/articles/20230414_work-in-progress
-!/content/media/vase.jpg
-!/content/media/vase.jpg.en.txt
-!/content/media/eggs.jpg
-!/content/media/eggs.jpg.en.txt
-!/content/1_about-us
