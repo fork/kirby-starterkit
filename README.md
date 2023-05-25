@@ -64,3 +64,8 @@ If you are working with Visual Studio Code you could use the following launch.js
 ## License
 
 This "Kirby Docker Starterkit" is licensed under the MIT License. Please see License File for more information. [Kirby](https://getkirby.com/) itself is [commercial software](https://getkirby.com/buy) and has its own [commercial license](https://getkirby.com/license).
+
+---
+
+<a href="https://www.fork.de" target="_blank"><img src="https://github.com/fork/kirby-starterkit/assets/55244/242acd9a-7936-414e-9c9e-984d4f690728" width="38" height="41" alt="Fork Logo" /></a><br />
+Brought to you by [Fork Unstable Media GmbH](https://www.fork.de)
