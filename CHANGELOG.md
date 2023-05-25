@@ -1,5 +1,47 @@
 # Changelog
 
+## [1.1.0](https://github.com/fork/kirby-starterkit/compare/v1.0.0...v1.1.0) (2023-05-25)
+
+
+### Features
+
+* added aria attributes plugin and updated link styles ([0b71af7](https://github.com/fork/kirby-starterkit/commit/0b71af71ce5aa6748668f674cceea0c716a46155))
+* added demo content and updated article component styles ([f60c59e](https://github.com/fork/kirby-starterkit/commit/f60c59efe6222d94f217a2c131b3f89b3a106996))
+* added gallery block ([511e8cd](https://github.com/fork/kirby-starterkit/commit/511e8cdb887bf38a700593ce979b72ac5617cb40))
+* added image text block ([40e00c0](https://github.com/fork/kirby-starterkit/commit/40e00c0ac0959cf8f7efbfa371382d0e414b2b16))
+* Added PHPStan as dev dependency so workflows can use it ([c02c634](https://github.com/fork/kirby-starterkit/commit/c02c634ca6501b32461a5f5c42a8d7d772bab1b9))
+* changed default locale ([d0cf0bf](https://github.com/fork/kirby-starterkit/commit/d0cf0bf1dd201e787010a21605257be13a16736d))
+* removed richtext and text components in favor of custom component css ([4fded22](https://github.com/fork/kirby-starterkit/commit/4fded224a6543032bbd86a0cc8373af26b759950))
+* updated accordion aria labels and home margins ([4ed5b41](https://github.com/fork/kirby-starterkit/commit/4ed5b41f9c662a26b281ff28f53bf21f5094a915))
+* updated articles page and teaser containers ([0a9a39a](https://github.com/fork/kirby-starterkit/commit/0a9a39add4690533bf7269a03ca9efba3215bf99))
+* updated content blocks ([53b8973](https://github.com/fork/kirby-starterkit/commit/53b89739698b18daaff5f50eab1409dff808484a))
+
+
+### Bug Fixes
+
+* Added default media folder ([e216099](https://github.com/fork/kirby-starterkit/commit/e216099e4cf24b54a4587fc56c092cb409665abe))
+* brought back some missing components ([b1283d1](https://github.com/fork/kirby-starterkit/commit/b1283d1d71d74ba20de2f80a92db77054d09374c))
+* fixed accordion styles ([7cc3ac0](https://github.com/fork/kirby-starterkit/commit/7cc3ac01daae219588591120d6eb10886a73773f))
+* fixed php stan issues ([6ecf12f](https://github.com/fork/kirby-starterkit/commit/6ecf12fe2785853b9a22a0ed0886a6ab6b1af8cd))
+* fixed php stan issues ([a398d01](https://github.com/fork/kirby-starterkit/commit/a398d010584a3a01c874fc39c69675fe3caf444f))
+* fixed wrong headline styles ([43104eb](https://github.com/fork/kirby-starterkit/commit/43104eb34c22b0f62d6aa68780a04fae2750d2dd))
+* Ignore CS Fixer cache ([de11567](https://github.com/fork/kirby-starterkit/commit/de11567e83f60d838e27732df024ac264b897b25))
+* php cs fixer syntax issue ([e61fbed](https://github.com/fork/kirby-starterkit/commit/e61fbedb2776a5b661cd805572f09f008dc19828))
+* php-cs-fixer push rules ([ac6e294](https://github.com/fork/kirby-starterkit/commit/ac6e294c55ab2ebfb6e539ce486826f0ab91af3a))
+* PHPStan issues ([672a579](https://github.com/fork/kirby-starterkit/commit/672a579cc2e8c1fcbca43f89d856b602bb400921))
+* SCSS and PHP linting issues ([8ba3199](https://github.com/fork/kirby-starterkit/commit/8ba3199965d27fb74e53c976e603a17a572ca732))
+* Stop unordered list line breaking ([23569b4](https://github.com/fork/kirby-starterkit/commit/23569b4dcf1f1e22b3f7ce12734f9458c3f78409))
+* updated gitignore ([bfe4953](https://github.com/fork/kirby-starterkit/commit/bfe49539fd53091f7a2dd0e6d3f866b8691bf0e9))
+* updated intendation ([411d0bf](https://github.com/fork/kirby-starterkit/commit/411d0bf98ad0f9560a2004b0dbd44e1230d560b9))
+* Various PHPStan issues ([5c190e9](https://github.com/fork/kirby-starterkit/commit/5c190e92cc38ed594f72eccc3364bfdfc28facbd))
+
+
+### Miscellaneous Chores
+
+* updated assets ([a92a4a1](https://github.com/fork/kirby-starterkit/commit/a92a4a1919b692bfa0edb5fe76b06364c511e1ce))
+* updated assets ([ac2b031](https://github.com/fork/kirby-starterkit/commit/ac2b03122ce80816511ec191b6f1db67edf25b48))
+* updated gitignore ([847f68b](https://github.com/fork/kirby-starterkit/commit/847f68b9cc6bd5fdd95b843c8e61106b9f2a6781))
+
 ## 1.0.0 (2023-04-14)
 
 
