@@ -40,10 +40,6 @@
     @apply text-headline-3 md:text-headline-3-md font-bold hyphens-auto;
   }
 
-  .headline-3 {
-    @apply text-headline-3 md:text-headline-3-md font-bold hyphens-auto;
-  }
-
   .copy {
     @apply text-copy md:text-copy-md hyphens-auto;
   }
@@ -55,6 +51,10 @@
   .richtext {
     h2 {
       @apply text-headline-2 md:text-headline-2-md font-bold hyphens-auto;
+
+      &:not(:first-child) {
+        @apply mt-xl;
+      }
     }
 
     h3 {
@@ -67,6 +67,10 @@
 
     p {
       @apply text-copy md:text-copy-md inline-block;
+
+      &:not(:last-child) {
+        @apply mb-s;
+      }
     }
 
     p + h2,
@@ -85,22 +89,10 @@
       }
     }
 
-    h2 {
-      &:not(:first-child) {
-        @apply mt-xl;
-      }
-    }
-
     h3,
     h4 {
       &:not(:first-child) {
         @apply mt-l;
-      }
-    }
-
-    p {
-      &:not(:last-child) {
-        @apply mb-s;
       }
     }
 
