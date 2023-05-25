@@ -66,7 +66,7 @@
     }
 
     p {
-      @apply text-copy md:text-copy-md;
+      @apply text-copy md:text-copy-md inline-block;
     }
 
     p + h2,

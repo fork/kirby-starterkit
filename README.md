@@ -1,6 +1,6 @@
 # Kirby Starterkit
 
-This project is an opinionated [Kirby](https://getkirby.com/) (v3.9) Starterkit using some established Kirby CMS Plugins. The folder structure is following the ["Public folder setup"](https://getkirby.com/docs/guide/configuration#custom-folder-setup__public-folder-setup) instructions from the Kirby Guide.<br>
+This project is a very basic but opinionated [Kirby](https://getkirby.com/) (v3.9) Starterkit using some established Kirby CMS Plugins. The folder structure is following the ["Public folder setup"](https://getkirby.com/docs/guide/configuration#custom-folder-setup__public-folder-setup) instructions from the Kirby Guide.<br>
 Frontend is based on [Vite](https://vitejs.dev/), [tailwindcss](https://tailwindcss.com/) and [Alpine.js](https://alpinejs.dev/).
 
 It comes with is a development setup based on [Docker](https://www.docker.com/) including [Xdebug](#xdebug) and [MailHog](#mailhog) as services, but you can choose to use your local environment instead.
