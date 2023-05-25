@@ -36,4 +36,13 @@ tabs:
             status: unlisted
             limit: 10
 
-  stage: sections/stage
+  content:
+    icon: grid-top
+    columns:
+      - width: 1/2
+        fields:
+          headline:
+            type: text
+          intro:
+            extends: fields/writer/simple
+            label: Intro

@@ -1,0 +1,157 @@
+Title: What we offer
+
+----
+
+Blocks: [{"content":{"text":"<h3>Digital Branding &amp; Design Systems</h3><p>Successful brands have an attitude, an uncompromising core, and–more often than not–a beautiful exterior. This makes them strong and versatile. They can react to changing environments and audience tastes – while always staying true to themselves. These are the kind of “digital first” brands we create and liberate from bygone rules and procedures. We also develop and implement processes and tools to effortlessly manage successful brands across diverse touchpoints.</p><ul><li><p>Brand Development &amp; Transformation</p></li><li><p>Corporate Identity, Corporate Design, Employer Branding</p></li><li><p>Digital Branding, Design System, Living Style Guides</p></li></ul>"},"id":"81bb0bf6-44df-4b5d-ade1-61d03a37b64d","isHidden":false,"type":"richtext"},{"content":{"images":["file://4W2LR4iyEkRmFeGm","file://J8NXXOKfjnxRENN2"]},"id":"7d1dc411-ac79-4417-9ff2-3f9e7e7ef785","isHidden":false,"type":"images"},{"content":{"text":"<h3>Products &amp; Services</h3><p>From researching and analysing human-centered needs and prototyping, to identifying the Minimum Viable Product (MVP) - we concept, design, and develop digital services and products that make people's lives easier e.g. using filter tools and configurators to make complex product ranges more accessible. Our products and services establish new norms and become an integral part of business models and processes.</p><ul><li><p>Strategic &amp; Service Design</p></li><li><p>Prototyping &amp; MVP Development</p></li><li><p>UX &amp; UI Design</p></li><li><p>Digital Event &amp; Training Platform</p><p></p></li></ul><h3>Digital Experience Platforms &amp; MarTech</h3><p>Marketing ecosystems enable the sustainable development and maintenance of customer relationships. They connect touchpoints and enable existing data to be used for individualized addressing of target groups. We advise on marketing and sales transformation, develop solutions and architectures from best of suite to best of breed, and implement them. We create holistic end-to-end solutions that grow with our customers and enable them to react to new circumstances.</p><ul><li><p>Marketing &amp; Sales Transformation</p></li><li><p>Architecture and System Consulting</p></li><li><p>Digital Experience Platforms</p></li><li><p>Content Management Systems</p></li><li><p>CRM-Solutions</p></li></ul>"},"id":"52d7a98c-1616-472e-9d46-04eb8f749271","isHidden":false,"type":"richtext"},{"content":{"headline":"Some key facts","items":[{"title":"70 creative minds","text":"<p>from Hamburg, Cologne and Berlin</p>"},{"title":"Unstable","text":"<p>since 1996</p>"},{"title":"Born and raised","text":"<p>in the Sternschanze</p>"}]},"id":"6c5b4b0c-363c-4f2c-af26-cf894b1dc8e5","isHidden":false,"type":"table"},{"content":{"text":"<h3>Campaign &amp; Content</h3><p>Our brand experiences and campaigns for all digital touchpoints (owned, earned, paid) attract attention and promote interactive engagement and long-term brand loyalty. Whether marketing or sales, B2C or B2B, funnel or flywheel, automated or authentic, St. Pauli or Shanghai - we reach target groups with the right content, at the right time and in the optimal context.</p><ul><li><p>Campaigning</p></li><li><p>Creative &amp; Media Solutions</p></li><li><p>Content Marketing</p></li><li><p>Brand Platforms</p></li><li><p>Marketing Automation</p></li></ul>"},"id":"f16ab5d4-42b2-40ae-a707-fd386e2e96c2","isHidden":false,"type":"richtext"},{"content":{"items":[{"title":"Copywriter","text":"<p>To strengthen our creative team, we are looking for a conceptual copywriter</p>"},{"title":"(Senior) Full Stack developer ","text":"<p>Are you looking for creative and challenging projects? Then you are just the right person to join our team as an experienced full stack developer at one of our locations in Cologne, Berlin or Hamburg.</p>"}]},"id":"b153b6f9-c1a7-4850-81a5-1dbbc05417c3","isHidden":false,"type":"accordion"},{"content":{"headline":"Time ticks faster on the Internet","image":["file://J8NXXOKfjnxRENN2"],"text":"<p>Others say that on the web, you're always a tick behind the present. Whether before or behind, we're focusing on the here and now and don't want to bore anyone with stories from the past. At this point, therefore, just this much…</p>","imageposition":"left"},"id":"e88371ad-9e88-4b60-8cb2-fa8221091298","isHidden":false,"type":"imageText"},{"content":{"headline":"In the late 1990s","image":["file://4W2LR4iyEkRmFeGm"],"text":"<p>Flat was one of the first internet agencies from the Bundesrepublik whose work attracted attention on the World Wide Web. Some of them were even included in the permanent collection of Architecture &amp; Design at the San Francisco Museum of Modern Art. A lot has happened since then and we have changed as much as we have remained the same. We are still experimenting with new technologies. We still aim to inspire with our design. We still create digital experiences that serve, entertain, support, inspire or touch people in different aspects of their personal and professional lives. In some moments, even all at once.</p>","imageposition":"right"},"id":"8264722f-bfa6-41e3-8535-de840b48f337","isHidden":false,"type":"imageText"}]
+
+----
+
+Cover: - file://J8NXXOKfjnxRENN2
+
+----
+
+Excerpt: Content, design, and technology: from this triad we’ve developed a variety of products and services to accompany any customer journey.
+
+----
+
+Created: 2023-04-14 20:20:00
+
+----
+
+Tags: Unstable, Media
+
+----
+
+Related: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: Content, design, and technology: from this triad we’ve developed a variety of products and services to accompany any customer journey.
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2023-04-14 20:20:00
+
+----
+
+Og-type-article-modified-time: 2023-04-14 20:20:00
+
+----
+
+Og-type-article-expiration-time: 2023-04-14 20:20:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default
+
+----
+
+Uuid: 5pU5I7YgbMwjTN4d

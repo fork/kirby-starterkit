@@ -3,9 +3,8 @@ label: Content
 
 fieldsets:
   accordion: blocks/accordion
-  contact: blocks/contact
   gallery: blocks/gallery
   images: blocks/images
-  imageText: blocks/image-text
+  imageText: blocks/imageText
   richtext: blocks/richtext
   table: blocks/table

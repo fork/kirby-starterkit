@@ -2,9 +2,10 @@
 
 <main>
   <?php snippet('components/stage', [
-    'title' => $page->title(),
-    'image' => $page->cover()->toFile()
+      'title' => $page->title(),
+      'image' => $page->cover()->toFile(),
   ]) ?>
+
+  <?= snippet('blocks') ?>
 </main>
 
-<?= snippet('blocks') ?>

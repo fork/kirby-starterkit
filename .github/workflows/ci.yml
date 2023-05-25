@@ -1,0 +1,34 @@
+name: PHP Code Quality
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    paths:
+      - "**.php"
+
+jobs:
+  phpstan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Composer dependencies
+        run: composer install
+      - name: Run PHPStan
+        run: ./vendor/bin/phpstan analyse
+
+  php-cs-fixer:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Composer dependencies
+        run: composer install
+      - name: Run php-cs-fixer
+        run: ./vendor/bin/php-cs-fixer fix
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply php-cs-fixer changes

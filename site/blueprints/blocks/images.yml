@@ -7,3 +7,4 @@ fields:
     label: Images
     multiple: true
     max: 2
+    help: Add a maximum of two images

@@ -20,19 +20,16 @@
   <meta name="msapplication-TileColor" content="#000000" />
   <meta name="theme-color" content="#000000" />
 
-  <?= vite()->css() ?>
-  <?= $slots->head() ?>
+  <?= vite()->css() /** @phpstan-ignore-line */ ?>
+  <?php if(isset($slots)): ?><?= $slots->head() ?><?php endif; ?>
 </head>
 
 <body>
   <?php snippet('header') ?>
-  
-  <?= $slot ?>
-  
+  <?php if(isset($slot)): ?><?= $slot ?><?php endif; ?>
   <?php snippet('footer') ?>
-
-  <?= vite()->js() ?>
-  <?= $slots->scripts() ?>
+  <?= vite()->js() /** @phpstan-ignore-line */?>
+  <?php if(isset($slots)): ?><?= $slots->scripts() ?><?php endif; ?>
 </body>
 
 </html>
