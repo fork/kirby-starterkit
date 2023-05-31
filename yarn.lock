@@ -301,6 +301,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/body-scroll-lock@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@types/body-scroll-lock@npm:3.1.0"
+  checksum: 9b0d88053cd65abfc7b0f4946da844f4c822f58d47413457e03220a62bc3de897f7682339e6a04eba07658020910bbfc5dcd0a12ef8f0282780d1ce6e4d71570
+  languageName: node
+  linkType: hard
+
 "@vue/reactivity@npm:^3.2.26":
   version: 3.2.47
   resolution: "@vue/reactivity@npm:3.2.47"
@@ -474,6 +481,13 @@ __metadata:
   version: 2.2.0
   resolution: "binary-extensions@npm:2.2.0"
   checksum: ccd267956c58d2315f5d3ea6757cf09863c5fc703e50fbeb13a7dc849b812ef76e3cf9ca8f35a0c48498776a7478d7b4a0418e1e2b8cb9cb9731f2922aaad7f8
+  languageName: node
+  linkType: hard
+
+"body-scroll-lock@npm:^4.0.0-beta.0":
+  version: 4.0.0-beta.0
+  resolution: "body-scroll-lock@npm:4.0.0-beta.0"
+  checksum: 61d40007fddf64ecc69e9e02ed9d96bb895f88d7da65cea7651081110225de48efa44ffc4acd376ed004788e242a9af12059fec728c096774b49365524ea6f46
   languageName: node
   linkType: hard
 
@@ -1288,8 +1302,10 @@ __metadata:
     "@tailwindcss/aspect-ratio": ^0.4.2
     "@thoughtbot/tailwindcss-aria-attributes": ^0.2.0
     "@types/alpinejs": ^3.7.1
+    "@types/body-scroll-lock": ^3.1.0
     alpinejs: ^3.12.1
     autoprefixer: ^10.4.14
+    body-scroll-lock: ^4.0.0-beta.0
     concurrently: ^7.6.0
     fs: ^0.0.1-security
     path: ^0.12.7

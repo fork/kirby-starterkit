@@ -11,6 +11,7 @@
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@types/alpinejs": "^3.7.1",
+    "@types/body-scroll-lock": "^3.1.0",
     "autoprefixer": "^10.4.14",
     "concurrently": "^7.6.0",
     "fs": "^0.0.1-security",
@@ -28,6 +29,7 @@
   "packageManager": "yarn@3.5.0",
   "dependencies": {
     "@thoughtbot/tailwindcss-aria-attributes": "^0.2.0",
-    "alpinejs": "^3.12.1"
+    "alpinejs": "^3.12.1",
+    "body-scroll-lock": "^4.0.0-beta.0"
   }
 }

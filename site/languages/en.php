@@ -13,5 +13,8 @@ return [
         'filterTags' => 'Filter by tags',
         'prevImages' => 'Scroll to previous images',
         'nextImages' => 'Scroll to next images',
+        'openMenu' => 'Open menu',
+        'closeMenu' => 'Close menu',
+        'home' => 'Home',
     ],
 ];

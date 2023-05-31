@@ -1,4 +1,5 @@
 import Gallery from "./blocks/gallery";
+import MobileNavigation from "./blocks/mobileNavigation";
 
 import "./main.scss";
 
@@ -9,5 +10,6 @@ import Alpine from "alpinejs";
 window.Alpine = Alpine;
 
 Alpine.data("Gallery", Gallery);
+Alpine.data("MobileNavigation", MobileNavigation);
 
 Alpine.start();

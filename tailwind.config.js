@@ -9,6 +9,7 @@ export default {
       xl: "1440px"
     },
     spacing: {
+      0: "0px",
       xxxs: "3px",
       xxs: "6px",
       xs: "12px",
