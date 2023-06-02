@@ -370,12 +370,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"alpinejs@npm:^3.12.1":
-  version: 3.12.1
-  resolution: "alpinejs@npm:3.12.1"
+"alpinejs@npm:^3.12.2":
+  version: 3.12.2
+  resolution: "alpinejs@npm:3.12.2"
   dependencies:
     "@vue/reactivity": ~3.1.1
-  checksum: af1250a83c9bc6161c16b09026521f994625d2e6a944bbde8ed87d75f07014beb7e2d9ca32f7ff87fc68ae13c39dcbac6fe930669b835922510ca037627606aa
+  checksum: b6899cbbea085ab9f7fe7a41f4c6b38557cf2ce06f27ff56bd6c7c2be16cf48737230e1b4f7aa2d0be7dd98e4fc4e11de8339bc60220bf1b806fc82ff8b2907c
   languageName: node
   linkType: hard
 
@@ -944,7 +944,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs@npm:^0.0.1-security":
+"fs@npm:0.0.1-security":
   version: 0.0.1-security
   resolution: "fs@npm:0.0.1-security"
   checksum: 53c6230e1faae9fa32c1df82c16a84b51b1243d20f3da2b64bd110bb472b73b9185169b703e008356e3cdc92d155088b617d9d39a63b5227a30b3621baad7f5d
@@ -1288,18 +1288,18 @@ __metadata:
     "@tailwindcss/aspect-ratio": ^0.4.2
     "@thoughtbot/tailwindcss-aria-attributes": ^0.2.0
     "@types/alpinejs": ^3.7.1
-    alpinejs: ^3.12.1
+    alpinejs: ^3.12.2
     autoprefixer: ^10.4.14
     concurrently: ^7.6.0
-    fs: ^0.0.1-security
+    fs: 0.0.1-security
     path: ^0.12.7
-    postcss: ^8.4.23
+    postcss: ^8.4.24
     postcss-plugin: ^1.0.0
     postcss-pxtorem: ^6.0.0
     sass: ^1.62.1
     tailwindcss: ^3.3.2
     typescript: ^4.9.5
-    vite: ^4.3.8
+    vite: ^4.3.9
     vite-plugin-kirby: 0.2.1
     vite-plugin-live-reload: ^3.0.2
   languageName: unknown
@@ -1775,14 +1775,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.23":
-  version: 8.4.23
-  resolution: "postcss@npm:8.4.23"
+"postcss@npm:^8.4.23, postcss@npm:^8.4.24":
+  version: 8.4.24
+  resolution: "postcss@npm:8.4.24"
   dependencies:
     nanoid: ^3.3.6
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 8bb9d1b2ea6e694f8987d4f18c94617971b2b8d141602725fedcc2222fdc413b776a6e1b969a25d627d7b2681ca5aabb56f59e727ef94072e1b6ac8412105a2f
+  checksum: 814e2126dacfea313588eda09cc99a9b4c26ec55c059188aa7a916d20d26d483483106dc5ff9e560731b59f45c5bb91b945dfadc670aed875cc90ddbbf4e787d
   languageName: node
   linkType: hard
 
@@ -2345,9 +2345,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^4.3.8":
-  version: 4.3.8
-  resolution: "vite@npm:4.3.8"
+"vite@npm:^4.3.9":
+  version: 4.3.9
+  resolution: "vite@npm:4.3.9"
   dependencies:
     esbuild: ^0.17.5
     fsevents: ~2.3.2
@@ -2378,7 +2378,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 454a7c0c1bd1fd5611c9df28c62e3adbe75f48e87fc787179c5af60c4ab9a87aa0eda44be446d898851a135766d36f65f8e7d56317556aa807d30e561de369c4
+  checksum: 8c45a516278d1e0425fac00c0877336790f71484a851a318346a70e0d2aef9f3b9651deb2f9f002c791ceb920eda7d6a3cda753bdefd657321c99f448b02dd25
   languageName: node
   linkType: hard
 
