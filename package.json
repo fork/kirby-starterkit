@@ -12,7 +12,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@types/alpinejs": "^3.7.1",
     "autoprefixer": "^10.4.14",
-    "concurrently": "^7.6.0",
+    "concurrently": "^8.1.0",
     "fs": "0.0.1-security",
     "path": "^0.12.7",
     "postcss": "^8.4.24",
