@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@thoughtbot/tailwindcss-aria-attributes": "^0.2.0",
     "@types/alpinejs": "^3.7.1",
     "@types/node": "^20.2.5",
     "autoprefixer": "^10.4.14",

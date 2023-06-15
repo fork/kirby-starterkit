@@ -70,6 +70,5 @@ export default {
       full: "1920px"
     },
     extend: {}
-  },
-  plugins: [require("@thoughtbot/tailwindcss-aria-attributes")]
+  }
 };
