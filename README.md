@@ -24,7 +24,7 @@ After installing the [essential requirements for Kirby](https://getkirby.com/doc
 $ git clone git@github.com:fork/kirby-starterkit.git .
 $ cd kirby-starterkit
 $ composer install
-$ php -S localhost:8000 kirby/router.php
+$ php -S localhost:8000 -t public kirby/router.php
 ```
 
 ### Build Frontend
