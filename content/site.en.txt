@@ -4,35 +4,35 @@ Title: Flat
 
 Navigation:
 
-- 
+-
   children: [ ]
   id: about-us
   text: About us
-  url: http://localhost/about-us
+  url: /about-us
   uuid: bsmki0yd90j
-- 
+-
   children: [ ]
   id: articles
   text: Articles
-  url: http://localhost/articles
+  url: /articles
   uuid: tpzts37woj
 
 ----
 
 Footernavigation:
 
-- 
+-
   children: [ ]
   id: home
   text: Home
-  url: http://localhost
+  url: /
   uuid: irisl6z2k4g
 
 ----
 
 Metanavigation:
 
-- 
+-
   children: [ ]
   text: Fork Unstable Media
   url: https://fork.de
@@ -47,135 +47,135 @@ Footertext: <h2>We are an agency for the digital aspects of life.</h2><p>Communi
 
 Socialmedia:
 
-- 
+-
   service: instagram
   url: >
     https://www.instagram.com/forkunstablemedia/
 
 ----
 
-Meta-title: 
+Meta-title:
 
 ----
 
-Meta-description: 
+Meta-description:
 
 ----
 
-Meta-canonical-url: 
+Meta-canonical-url:
 
 ----
 
-Meta-author: 
+Meta-author:
 
 ----
 
-Meta-image: 
+Meta-image:
 
 ----
 
-Meta-phone-number: 
+Meta-phone-number:
 
 ----
 
-Og-title: 
+Og-title:
 
 ----
 
-Og-description: 
+Og-description:
 
 ----
 
-Og-image: 
+Og-image:
 
 ----
 
-Og-site-name: 
+Og-site-name:
 
 ----
 
-Og-url: 
+Og-url:
 
 ----
 
-Og-audio: 
+Og-audio:
 
 ----
 
-Og-video: 
+Og-video:
 
 ----
 
-Og-determiner: 
+Og-determiner:
 
 ----
 
-Og-type: 
+Og-type:
 
 ----
 
-Og-type-article-published-time: 
+Og-type-article-published-time:
 
 ----
 
-Og-type-article-modified-time: 
+Og-type-article-modified-time:
 
 ----
 
-Og-type-article-expiration-time: 
+Og-type-article-expiration-time:
 
 ----
 
-Og-type-article-author: 
+Og-type-article-author:
 
 ----
 
-Og-type-article-section: 
+Og-type-article-section:
 
 ----
 
-Og-type-article-tag: 
+Og-type-article-tag:
 
 ----
 
-Twitter-title: 
+Twitter-title:
 
 ----
 
-Twitter-description: 
+Twitter-description:
 
 ----
 
-Twitter-image: 
+Twitter-image:
 
 ----
 
-Twitter-card-type: 
+Twitter-card-type:
 
 ----
 
-Twitter-site: 
+Twitter-site:
 
 ----
 
-Twitter-creator: 
+Twitter-creator:
 
 ----
 
-Robots-noindex: 
+Robots-noindex:
 
 ----
 
-Robots-nofollow: 
+Robots-nofollow:
 
 ----
 
-Robots-noarchive: 
+Robots-noarchive:
 
 ----
 
-Robots-noimageindex: 
+Robots-noimageindex:
 
 ----
 
-Robots-nosnippet: 
+Robots-nosnippet:
