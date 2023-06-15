@@ -1,8 +1,0 @@
-{
-  "map": false,
-  "plugins": {
-    "tailwindcss": {},
-    "autoprefixer": {},
-    "postcss-pxtorem": {}
-  }
-}
