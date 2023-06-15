@@ -103,7 +103,6 @@ For more information on Docker basics related to Kirby you can find a very good 
 -   [Kirby Vite Plugin](https://github.com/arnoson/kirby-vite)
 -   [Kirby Fields Block](https://github.com/jongacnik/kirby-fields-block)
 -   [Kirby 3 Extended Writer](https://github.com/coralic/kirby-extended-writer)
--   [Autoresize for Kirby 3](https://github.com/medienbaecker/kirby-autoresize)
 
 ## License
 

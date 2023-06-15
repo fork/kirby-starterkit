@@ -8,8 +8,7 @@
     "belugadigital/kirby-navigation": "^3.0",
     "arnoson/kirby-vite": "^3.0",
     "jg/kirby-fields-block": "^1.2",
-    "coralic/kirby-extended-writer": "^1.1",
-    "medienbaecker/autoresize": "^2.1"
+    "coralic/kirby-extended-writer": "^1.1"
   },
   "config": {
     "optimize-autoloader": true,
