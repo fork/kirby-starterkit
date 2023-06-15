@@ -10,7 +10,7 @@ $image = $image ?? null;
 
 <article>
   <a href="<?= $url ?>" class="block group">
-    <div class="aspect-w-16 aspect-h-9 mb-m bg-neutral-10">
+    <div class="aspect-video mb-m bg-neutral-10">
       <?php if ($image) : ?>
         <?=
         snippet('image', [

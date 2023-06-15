@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.2",
     "@thoughtbot/tailwindcss-aria-attributes": "^0.2.0",
     "@types/alpinejs": "^3.7.1",
     "@types/node": "^20.2.5",

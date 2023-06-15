@@ -10,7 +10,7 @@ $tags = $tags ?? null;
 
 <section class="grid-container my-xl">
   <?php if ($image) : ?>
-    <div class="col-span-4 md:col-span-12 aspect-w-16 aspect-h-9 mb-l">
+    <div class="col-span-4 md:col-span-12 aspect-video mb-l">
       <?=
       snippet('image', [
           'image' => $image,
