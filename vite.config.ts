@@ -1,13 +1,14 @@
+import { defineConfig } from "vite";
 import { resolve } from "path";
 import kirby from "vite-plugin-kirby";
 
 const cwd = process.cwd();
 
-const input = Object.fromEntries([
-  ["main", "src/main.ts"],
-]);
+const input = {
+  main: "src/main.ts"
+};
 
-export default ({ mode }) => ({
+export default defineConfig(({ mode }) => ({
   root: "src",
   base: mode === "development" ? "/" : "/assets/dist/",
 
@@ -22,4 +23,4 @@ export default ({ mode }) => ({
   },
 
   plugins: [kirby()]
-});
+}));

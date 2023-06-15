@@ -70,9 +70,5 @@ export default {
       full: "1920px"
     },
     extend: {}
-  },
-  corePlugins: {
-    aspectRatio: false
-  },
-  plugins: [require("@thoughtbot/tailwindcss-aria-attributes"), require("@tailwindcss/aspect-ratio")]
+  }
 };
