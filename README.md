@@ -101,8 +101,6 @@ For more information on Docker basics related to Kirby you can find a very good 
 -   [Meta Knight – SEO for Kirby](https://github.com/diesdasdigital/kirby-meta-knight)
 -   [Kirby Navigation Field](https://github.com/chrisbeluga/kirby-navigation)
 -   [Kirby Vite Plugin](https://github.com/arnoson/kirby-vite)
--   [Kirby Fields Block](https://github.com/jongacnik/kirby-fields-block)
--   [Kirby 3 Extended Writer](https://github.com/coralic/kirby-extended-writer)
 
 ## License
 

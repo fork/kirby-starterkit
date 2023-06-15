@@ -6,3 +6,5 @@ marks:
   - link
   - email
 nodes: false
+toolbar:
+  inline: false

@@ -5,9 +5,7 @@
     "getkirby/staticache": "1.0.2",
     "diesdasdigital/kirby-meta-knight": "^1.2",
     "belugadigital/kirby-navigation": "^3.0",
-    "arnoson/kirby-vite": "^3.0",
-    "jg/kirby-fields-block": "^1.2",
-    "coralic/kirby-extended-writer": "^1.1"
+    "arnoson/kirby-vite": "^3.0"
   },
   "config": {
     "optimize-autoloader": true,

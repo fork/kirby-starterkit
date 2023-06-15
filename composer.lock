@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35aed54abd44304a0d304b95a17e9009",
+    "content-hash": "4e271c1094e0a8214cc2eb6420b29ff9",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -308,54 +308,6 @@
                 }
             ],
             "time": "2022-04-01T19:23:25+00:00"
-        },
-        {
-            "name": "coralic/kirby-extended-writer",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/coralic/kirby-extended-writer.git",
-                "reference": "37ce5af01fdad1166ff374140461b2bc3f1d4671"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/coralic/kirby-extended-writer/zipball/37ce5af01fdad1166ff374140461b2bc3f1d4671",
-                "reference": "37ce5af01fdad1166ff374140461b2bc3f1d4671",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.2",
-                "php": ">=7.4.0"
-            },
-            "require-dev": {
-                "getkirby/cms": "^3.6"
-            },
-            "type": "kirby-plugin",
-            "extra": {
-                "kirby-cms-path": false
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tobias Möritz",
-                    "email": "tobias@moeritz.io",
-                    "homepage": "https://moeritz.io"
-                }
-            ],
-            "description": "Supercharge Kirby's Writer field with new nodes, marks and features",
-            "homepage": "https://github.com/coralic/kirby-extended-writer#readme",
-            "keywords": [
-                "kirby"
-            ],
-            "support": {
-                "issues": "https://github.com/coralic/kirby-extended-writer/issues",
-                "source": "https://github.com/coralic/kirby-extended-writer/tree/1.1.1"
-            },
-            "abandoned": true,
-            "time": "2022-02-10T01:44:56+00:00"
         },
         {
             "name": "diesdasdigital/kirby-meta-knight",
@@ -670,41 +622,6 @@
                 }
             ],
             "time": "2023-06-03T19:36:26+00:00"
-        },
-        {
-            "name": "jg/kirby-fields-block",
-            "version": "v1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jongacnik/kirby-fields-block.git",
-                "reference": "e56c4d109edd921a1b4436e3df0e64b1117f1b83"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jongacnik/kirby-fields-block/zipball/e56c4d109edd921a1b4436e3df0e64b1117f1b83",
-                "reference": "e56c4d109edd921a1b4436e3df0e64b1117f1b83",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1"
-            },
-            "type": "kirby-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jon Gacnik",
-                    "email": "jon@folderstudio.com"
-                }
-            ],
-            "description": "Kirby Fields Block",
-            "support": {
-                "issues": "https://github.com/jongacnik/kirby-fields-block/issues",
-                "source": "https://github.com/jongacnik/kirby-fields-block/tree/v1.2.1"
-            },
-            "time": "2023-01-22T19:02:00+00:00"
         },
         {
             "name": "laminas/laminas-escaper",

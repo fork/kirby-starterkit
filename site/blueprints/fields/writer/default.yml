@@ -5,9 +5,9 @@ marks:
   - italic
   - link
   - email
-nodes:
-  - h2
-  - h3
-  - h4
-  - bulletList
-  - orderedList
+headings:
+  - 2
+  - 3
+  - 4
+toolbar:
+  inline: false

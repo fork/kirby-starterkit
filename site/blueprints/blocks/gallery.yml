@@ -1,5 +1,6 @@
 name: Gallery
 icon: images
+wysiwyg: true
 preview: fields
 fields:
   images:

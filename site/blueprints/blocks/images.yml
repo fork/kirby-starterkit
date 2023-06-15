@@ -1,5 +1,6 @@
 name: Images
 icon: image
+wysiwyg: true
 preview: fields
 fields:
   images:
