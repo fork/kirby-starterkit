@@ -1,22 +1,22 @@
 <?php if (isset($block)) : ?>
   <div class="grid-container">
-    <div class="col-span-4 md:col-start-3 md:col-span-8 mb-xl pb-m border-t-2">
+    <div class="col-span-4 border-t-2 md:col-start-3 md:col-span-8 mb-xl pb-m">
       <?php foreach ($block->items()->toStructure() as $index => $item) : ?>
-        <div x-data="{ activeAccordion: false }" class="group border-b-2">
-          <button @click="activeAccordion = !activeAccordion" :aria-expanded="activeAccordion" aria-controls="accordion-panel-<?= $index ?>" class="group flex justify-between items-center py-m w-full text-left">
-            <p class="copy font-bold"><?= $item->title() ?></p>
+        <details class="border-b-2 group">
+          <summary class="flex items-center justify-between w-full text-left cursor-pointer select-none py-m">
+            <p class="font-bold copy"><?= $item->title() ?></p>
 
-            <div class="group-aria-expanded:rotate-180 w-s">
+            <div class="group-open:rotate-180 w-s">
               <?= svg('assets/icons/chevron-down.svg') ?>
             </div>
-          </button>
+          </summary>
 
-          <section :hidden="!activeAccordion" id="accordion-panel-<?= $index ?>" aria-labelledby="accordion-header-<?= $index ?>" class="pb-m">
+          <div class="pb-m">
             <div class="richtext">
               <?= $item->text() ?>
             </div>
-          </section>
-        </div>
+          </div>
+        </details>
       <?php endforeach; ?>
     </div>
   </div>
