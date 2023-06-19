@@ -5,6 +5,7 @@ Frontend is based on [Vite](https://vitejs.dev/), [tailwindcss](https://tailwind
 
 It comes with is a development setup based on [Docker](https://www.docker.com/) including [Xdebug](#xdebug) and [MailHog](#mailhog) as services, but you can choose to use your local environment instead.
 
+![stage](https://github.com/fork/kirby-starterkit/assets/55244/cbb3ea0e-507f-473b-a5ca-368c407bd56f)
 ## Installation instructions
 
 ### Setup Kirby via Docker
