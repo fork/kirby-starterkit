@@ -20,7 +20,7 @@ services:
     depends_on:
       - php
     ports:
-      - "80:80"
+      - "8000:80"
     volumes:
       - ./:/var/www/html/:ro
     networks:
