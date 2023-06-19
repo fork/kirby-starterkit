@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.2.0](https://github.com/fork/kirby-starterkit/compare/v1.1.0...v1.2.0) (2023-06-19)
+
+
+### Features
+
+* added mobile navigation ([ac7cd16](https://github.com/fork/kirby-starterkit/commit/ac7cd160b379bfbd545fa54f38bc6b0c9bf3f8db))
+
+
+### Bug Fixes
+
+* Clean up package.json ([b7fdfce](https://github.com/fork/kirby-starterkit/commit/b7fdfcedcd0d053851d74d1282c296b9dee9f138))
+* **navigation:** add alpine plugins to dependencies ([cdfa1d2](https://github.com/fork/kirby-starterkit/commit/cdfa1d23337a5849b39802db16b5b08014ce41fb))
+
+
+### Miscellaneous Chores
+
+* Build assets ([4b93aa9](https://github.com/fork/kirby-starterkit/commit/4b93aa9757d3c5220e2d0f75def25f238de35c5b))
+
 ## [1.1.0](https://github.com/fork/kirby-starterkit/compare/v1.0.0...v1.1.0) (2023-05-25)
 
 
