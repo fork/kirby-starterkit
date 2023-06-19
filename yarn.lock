@@ -12,6 +12,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@alpinejs/collapse@npm:^3.12.2":
+  version: 3.12.2
+  resolution: "@alpinejs/collapse@npm:3.12.2"
+  checksum: abaab398d38402f7a116853d4523fdc6c2cfc159c2a46a716fade7a28addb88e429001ba0023265ee04cef7b37d7573ea9f5e98783ad092a5dc25b46b412f573
+  languageName: node
+  linkType: hard
+
+"@alpinejs/focus@npm:^3.12.2":
+  version: 3.12.2
+  resolution: "@alpinejs/focus@npm:3.12.2"
+  dependencies:
+    focus-trap: ^6.6.1
+  checksum: e6cb1ed59613eb254a4d35d57543cea8e62482522b13f7146673522014dea170f90c9301bd999d0eb6f526e8f2825d4c6267d1b29b7b562c88ec3c3036326fc0
+  languageName: node
+  linkType: hard
+
 "@esbuild/android-arm64@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/android-arm64@npm:0.17.19"
@@ -285,6 +301,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/body-scroll-lock@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@types/body-scroll-lock@npm:3.1.0"
+  checksum: 9b0d88053cd65abfc7b0f4946da844f4c822f58d47413457e03220a62bc3de897f7682339e6a04eba07658020910bbfc5dcd0a12ef8f0282780d1ce6e4d71570
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^20.2.5":
   version: 20.2.5
   resolution: "@types/node@npm:20.2.5"
@@ -447,6 +470,13 @@ __metadata:
   version: 2.2.0
   resolution: "binary-extensions@npm:2.2.0"
   checksum: ccd267956c58d2315f5d3ea6757cf09863c5fc703e50fbeb13a7dc849b812ef76e3cf9ca8f35a0c48498776a7478d7b4a0418e1e2b8cb9cb9731f2922aaad7f8
+  languageName: node
+  linkType: hard
+
+"body-scroll-lock@npm:^4.0.0-beta.0":
+  version: 4.0.0-beta.0
+  resolution: "body-scroll-lock@npm:4.0.0-beta.0"
+  checksum: 61d40007fddf64ecc69e9e02ed9d96bb895f88d7da65cea7651081110225de48efa44ffc4acd376ed004788e242a9af12059fec728c096774b49365524ea6f46
   languageName: node
   linkType: hard
 
@@ -796,6 +826,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"focus-trap@npm:^6.6.1":
+  version: 6.9.4
+  resolution: "focus-trap@npm:6.9.4"
+  dependencies:
+    tabbable: ^5.3.3
+  checksum: 0b4cebcc11010bd9397731092bd59a981e838c710c6497374ba70571875a14ab27c0db7d60f36005ec01bdabc3b9cfeda11d30ddf5b8874596dcc95e18913b3b
+  languageName: node
+  linkType: hard
+
 "fraction.js@npm:^4.2.0":
   version: 4.2.0
   resolution: "fraction.js@npm:4.2.0"
@@ -1116,10 +1155,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "kirby-starter@workspace:."
   dependencies:
+    "@alpinejs/collapse": ^3.12.2
+    "@alpinejs/focus": ^3.12.2
     "@types/alpinejs": ^3.7.1
+    "@types/body-scroll-lock": ^3.1.0
     "@types/node": ^20.2.5
     alpinejs: ^3.12.2
     autoprefixer: ^10.4.14
+    body-scroll-lock: ^4.0.0-beta.0
     postcss: ^8.4.24
     postcss-pxtorem: ^6.0.0
     sass: ^1.62.1
@@ -1849,6 +1892,13 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 53b1e247e68e05db7b3808b99b892bd36fb096e6fba213a06da7fab22045e97597db425c724f2bbd6c99a3c295e1e73f3e4de78592289f38431049e1277ca0ae
+  languageName: node
+  linkType: hard
+
+"tabbable@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "tabbable@npm:5.3.3"
+  checksum: 1aa56e1bb617cc10616c407f4e756f0607f3e2d30f9803664d70b85db037ca27e75918ed1c71443f3dc902e21dc9f991ce4b52d63a538c9b69b3218d3babcd70
   languageName: node
   linkType: hard
 
