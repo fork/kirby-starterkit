@@ -1,23 +1,13 @@
 {
   "main.css": {
-<<<<<<< HEAD
-    "file": "assets/main-405b1bb4.css",
-=======
-    "file": "assets/main-6f068225.css",
->>>>>>> main
+    "file": "assets/main-604057c1.css",
     "src": "main.css"
   },
   "main.ts": {
     "css": [
-<<<<<<< HEAD
-      "assets/main-405b1bb4.css"
+      "assets/main-604057c1.css"
     ],
-    "file": "assets/main-522f75eb.js",
-=======
-      "assets/main-6f068225.css"
-    ],
-    "file": "assets/main-c9b260e2.js",
->>>>>>> main
+    "file": "assets/main-b28c6a30.js",
     "isEntry": true,
     "src": "main.ts"
   }
