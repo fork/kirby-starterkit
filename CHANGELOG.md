@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/fork/kirby-starterkit/compare/v1.2.0...v1.2.1) (2023-06-28)
+
+
+### Bug Fixes
+
+* Fixed asset manifest ([4a70eaf](https://github.com/fork/kirby-starterkit/commit/4a70eafef6c8c4c6ff996155e0c042d0a321efa6))
+
 ## [1.2.0](https://github.com/fork/kirby-starterkit/compare/v1.1.0...v1.2.0) (2023-06-19)
 
 
