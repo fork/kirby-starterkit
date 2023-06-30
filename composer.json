@@ -25,10 +25,10 @@
   "extra": {
     "hooks": {
       "pre-commit": [
-        ".githooks/pre-commit"
+        "./.githooks/pre-commit"
       ],
       "commit-msg": [
-        ".githooks/commit-msg"
+        "./.githooks/commit-msg"
       ]
     }
   }
