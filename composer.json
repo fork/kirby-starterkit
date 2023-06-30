@@ -19,6 +19,17 @@
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.17",
-    "phpstan/phpstan": "^1.10.15"
+    "phpstan/phpstan": "^1.10.15",
+    "brainmaestro/composer-git-hooks": "v3.0.0-alpha.1"
+  },
+  "extra": {
+    "hooks": {
+      "pre-commit": [
+        ".githooks/pre-commit"
+      ],
+      "commit-msg": [
+        ".githooks/commit-msg"
+      ]
+    }
   }
 }
