@@ -308,10 +308,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.2.5":
-  version: 20.2.5
-  resolution: "@types/node@npm:20.2.5"
-  checksum: 38ce7c7e9d76880dc632f71d71e0d5914fcda9d5e9a7095d6c339abda55ca4affb0f2a882aeb29398f8e09d2c5151f0b6586c81c8ccdfe529c34b1ea3337425e
+"@types/node@npm:^20.3.3":
+  version: 20.3.3
+  resolution: "@types/node@npm:20.3.3"
+  checksum: 7a0d00800451ca8cd8df63a8cc218c697edadb3143bf46cd6afeb974542a6a1665c3679459be0016c29216ccfed6616b7e55851747527dfa71c5608d9157528c
   languageName: node
   linkType: hard
 
@@ -1159,7 +1159,7 @@ __metadata:
     "@alpinejs/focus": ^3.12.2
     "@types/alpinejs": ^3.7.1
     "@types/body-scroll-lock": ^3.1.0
-    "@types/node": ^20.2.5
+    "@types/node": ^20.3.3
     alpinejs: ^3.12.2
     autoprefixer: ^10.4.14
     body-scroll-lock: ^4.0.0-beta.0
