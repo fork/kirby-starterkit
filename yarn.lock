@@ -292,12 +292,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/alpinejs@npm:^3.7.1":
-  version: 3.7.1
-  resolution: "@types/alpinejs@npm:3.7.1"
+"@types/alpinejs@npm:^3.7.2":
+  version: 3.7.2
+  resolution: "@types/alpinejs@npm:3.7.2"
   dependencies:
     "@vue/reactivity": ^3.2.26
-  checksum: 17159497547baffe8b220e9dca3ae582f0bb82545402598e24632d5f262e7bb6ebc63b9e4e1ed825620816c9f0c5ce2dcf1525ef1e33d7edef7324e24025f63a
+  checksum: 6f1b97863f720da808db15eef08134109f548de62309f22f3047c3927ffcf7079570bf5570e292b5473e2a6e3cca56fc21fdac24217999cfe50648298ef9ee9f
   languageName: node
   linkType: hard
 
@@ -1157,7 +1157,7 @@ __metadata:
   dependencies:
     "@alpinejs/collapse": ^3.12.2
     "@alpinejs/focus": ^3.12.2
-    "@types/alpinejs": ^3.7.1
+    "@types/alpinejs": ^3.7.2
     "@types/body-scroll-lock": ^3.1.0
     "@types/node": ^20.2.5
     alpinejs: ^3.12.2
