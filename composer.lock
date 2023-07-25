@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "arnoson/kirby-vite",
-            "version": "3.0.7",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/arnoson/kirby-vite.git",
-                "reference": "7b1fd8d3578797e237638001940f9ed21e1de31b"
+                "reference": "9bf49d1321ec7dbe3315241b6b97826ad994d361"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/7b1fd8d3578797e237638001940f9ed21e1de31b",
-                "reference": "7b1fd8d3578797e237638001940f9ed21e1de31b",
+                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/9bf49d1321ec7dbe3315241b6b97826ad994d361",
+                "reference": "9bf49d1321ec7dbe3315241b6b97826ad994d361",
                 "shasum": ""
             },
             "require": {
@@ -40,9 +40,9 @@
             "description": "Vite helper for Kirby CMS",
             "support": {
                 "issues": "https://github.com/arnoson/kirby-vite/issues",
-                "source": "https://github.com/arnoson/kirby-vite/tree/v3.0.7"
+                "source": "https://github.com/arnoson/kirby-vite/tree/v3.1.0"
             },
-            "time": "2023-04-20T09:18:52+00:00"
+            "time": "2023-06-28T12:04:51+00:00"
         },
         {
             "name": "belugadigital/kirby-navigation",
@@ -177,16 +177,16 @@
         },
         {
             "name": "claviska/simpleimage",
-            "version": "4.0.2",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/claviska/SimpleImage.git",
-                "reference": "226d507cca0c8400d69bee7eb324158e3cbe246e"
+                "reference": "b25690f0fc25b2f0b91731370465a3b4e52ea587"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/226d507cca0c8400d69bee7eb324158e3cbe246e",
-                "reference": "226d507cca0c8400d69bee7eb324158e3cbe246e",
+                "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/b25690f0fc25b2f0b91731370465a3b4e52ea587",
+                "reference": "b25690f0fc25b2f0b91731370465a3b4e52ea587",
                 "shasum": ""
             },
             "require": {
@@ -218,7 +218,7 @@
             "description": "A PHP class that makes working with images as simple as possible.",
             "support": {
                 "issues": "https://github.com/claviska/SimpleImage/issues",
-                "source": "https://github.com/claviska/SimpleImage/tree/4.0.2"
+                "source": "https://github.com/claviska/SimpleImage/tree/4.0.5"
             },
             "funding": [
                 {
@@ -226,7 +226,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-03-20T15:27:20+00:00"
+            "time": "2023-06-05T14:32:39+00:00"
         },
         {
             "name": "composer/semver",
@@ -520,20 +520,20 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.9.4",
+            "version": "3.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "282b1e25faa0bc24c903237a7484dc45fa475c36"
+                "reference": "6b5dda600472b59a3a779f7e6b8e9e130cc414a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/282b1e25faa0bc24c903237a7484dc45fa475c36",
-                "reference": "282b1e25faa0bc24c903237a7484dc45fa475c36",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/6b5dda600472b59a3a779f7e6b8e9e130cc414a1",
+                "reference": "6b5dda600472b59a3a779f7e6b8e9e130cc414a1",
                 "shasum": ""
             },
             "require": {
-                "claviska/simpleimage": "4.0.2",
+                "claviska/simpleimage": "4.0.5",
                 "composer/semver": "3.3.2",
                 "ext-ctype": "*",
                 "ext-curl": "*",
@@ -554,7 +554,7 @@
                 "phpmailer/phpmailer": "6.8.0",
                 "symfony/polyfill-intl-idn": "1.27.0",
                 "symfony/polyfill-mbstring": "1.27.0",
-                "symfony/yaml": "5.4.21"
+                "symfony/yaml": "5.4.23"
             },
             "replace": {
                 "symfony/polyfill-php72": "*"
@@ -617,7 +617,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-04-21T09:23:46+00:00"
+            "time": "2023-06-07T12:10:15+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -668,20 +668,20 @@
         },
         {
             "name": "getkirby/staticache",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/staticache.git",
-                "reference": "b16c5e3a55222a7ae5d151fafab7d979924ae232"
+                "reference": "ce577e449f19547359860b0739b46523aad6140f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/staticache/zipball/b16c5e3a55222a7ae5d151fafab7d979924ae232",
-                "reference": "b16c5e3a55222a7ae5d151fafab7d979924ae232",
+                "url": "https://api.github.com/repos/getkirby/staticache/zipball/ce577e449f19547359860b0739b46523aad6140f",
+                "reference": "ce577e449f19547359860b0739b46523aad6140f",
                 "shasum": ""
             },
             "require": {
-                "getkirby/cms": "^3.8",
+                "getkirby/cms": "^3.8 || ^4.0",
                 "getkirby/composer-installer": "^1.2"
             },
             "type": "kirby-plugin",
@@ -709,7 +709,7 @@
             "homepage": "https://getkirby.com/plugins/getkirby/staticache",
             "support": {
                 "issues": "https://github.com/getkirby/staticache/issues",
-                "source": "https://github.com/getkirby/staticache/tree/1.0.1"
+                "source": "https://github.com/getkirby/staticache/tree/1.0.2"
             },
             "funding": [
                 {
@@ -717,7 +717,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-03-24T20:59:49+00:00"
+            "time": "2023-06-03T19:36:26+00:00"
         },
         {
             "name": "jg/kirby-fields-block",
@@ -1691,16 +1691,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.4.21",
+            "version": "v5.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "3713e20d93e46e681e51605d213027e48dab3469"
+                "reference": "4cd2e3ea301aadd76a4172756296fe552fb45b0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/3713e20d93e46e681e51605d213027e48dab3469",
-                "reference": "3713e20d93e46e681e51605d213027e48dab3469",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/4cd2e3ea301aadd76a4172756296fe552fb45b0b",
+                "reference": "4cd2e3ea301aadd76a4172756296fe552fb45b0b",
                 "shasum": ""
             },
             "require": {
@@ -1746,7 +1746,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v5.4.21"
+                "source": "https://github.com/symfony/yaml/tree/v5.4.23"
             },
             "funding": [
                 {
@@ -1762,7 +1762,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-21T19:46:44+00:00"
+            "time": "2023-04-23T19:33:36+00:00"
         }
     ],
     "packages-dev": [
@@ -2058,16 +2058,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.17.0",
+            "version": "v3.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "3f0ed862f22386c55a767461ef5083bddceeed79"
+                "reference": "92b019f6c8d79aa26349d0db7671d37440dc0ff3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/3f0ed862f22386c55a767461ef5083bddceeed79",
-                "reference": "3f0ed862f22386c55a767461ef5083bddceeed79",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/92b019f6c8d79aa26349d0db7671d37440dc0ff3",
+                "reference": "92b019f6c8d79aa26349d0db7671d37440dc0ff3",
                 "shasum": ""
             },
             "require": {
@@ -2091,6 +2091,7 @@
                 "symfony/stopwatch": "^5.4 || ^6.0"
             },
             "require-dev": {
+                "facile-it/paraunit": "^1.3 || ^2.0",
                 "justinrainbow/json-schema": "^5.2",
                 "keradus/cli-executor": "^2.0",
                 "mikey179/vfsstream": "^1.6.11",
@@ -2142,7 +2143,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.17.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.22.0"
             },
             "funding": [
                 {
@@ -2150,20 +2151,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-22T19:59:32+00:00"
+            "time": "2023-07-16T23:08:06+00:00"
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.15",
+            "version": "1.10.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "762c4dac4da6f8756eebb80e528c3a47855da9bd"
+                "reference": "5d660cbb7e1b89253a47147ae44044f49832351f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/762c4dac4da6f8756eebb80e528c3a47855da9bd",
-                "reference": "762c4dac4da6f8756eebb80e528c3a47855da9bd",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/5d660cbb7e1b89253a47147ae44044f49832351f",
+                "reference": "5d660cbb7e1b89253a47147ae44044f49832351f",
                 "shasum": ""
             },
             "require": {
@@ -2212,7 +2213,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-09T15:28:01+00:00"
+            "time": "2023-07-19T12:44:37+00:00"
         },
         {
             "name": "psr/cache",
@@ -2681,16 +2682,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v6.3.0",
+            "version": "v6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "97b698e1d77d356304def77a8d0cd73090b359ea"
+                "reference": "edd36776956f2a6fcf577edb5b05eb0e3bdc52ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/97b698e1d77d356304def77a8d0cd73090b359ea",
-                "reference": "97b698e1d77d356304def77a8d0cd73090b359ea",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/edd36776956f2a6fcf577edb5b05eb0e3bdc52ae",
+                "reference": "edd36776956f2a6fcf577edb5b05eb0e3bdc52ae",
                 "shasum": ""
             },
             "require": {
@@ -2724,7 +2725,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v6.3.0"
+                "source": "https://github.com/symfony/filesystem/tree/v6.3.1"
             },
             "funding": [
                 {
@@ -2740,7 +2741,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-30T17:12:32+00:00"
+            "time": "2023-06-01T08:30:39+00:00"
         },
         {
             "name": "symfony/finder",
