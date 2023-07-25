@@ -5,13 +5,14 @@ Frontend is based on [Vite](https://vitejs.dev/), [tailwindcss](https://tailwind
 
 It comes with is a development setup based on [Docker](https://www.docker.com/) including [Xdebug](#xdebug) and [MailHog](#mailhog) as services, but you can choose to use your local environment instead.
 
+![stage](https://github.com/fork/kirby-starterkit/assets/55244/cbb3ea0e-507f-473b-a5ca-368c407bd56f)
+
 ## Installation instructions
 
 ### Setup Kirby via Docker
 
 ```bash
 $ git clone git@github.com:fork/kirby-starterkit.git .
-$ cd kirby-starterkit
 $ docker compose up -d
 $ docker compose exec -it php composer install
 ```
@@ -22,7 +23,6 @@ After installing the [essential requirements for Kirby](https://getkirby.com/doc
 
 ```bash
 $ git clone git@github.com:fork/kirby-starterkit.git .
-$ cd kirby-starterkit
 $ composer install
 $ php -S localhost:8000 -t public kirby/router.php
 ```
@@ -39,7 +39,7 @@ $ yarn build
 
 ### Finalize Kirby Setup in the panel
 
-Visit the admin panel at [http://localhost/panel](http://localhost/panel) and finalize the installation.
+Visit the admin panel at [http://localhost:8000/panel](http://localhost:8000/panel) and finalize the installation.
 
 ## Develop Frontend
 
