@@ -22,6 +22,14 @@
     "phpstan/phpstan": "^1.10.15",
     "brainmaestro/composer-git-hooks": "v3.0.0-alpha.1"
   },
+  "scripts": {
+    "post-install-cmd": [
+      "./vendor/bin/cghooks add --ignore-lock"
+    ],
+    "post-update-cmd": [
+      "./vendor/bin/cghooks update"
+    ]
+  },
   "extra": {
     "hooks": {
       "pre-commit": [
