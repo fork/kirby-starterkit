@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/fork/kirby-starterkit/compare/v1.2.1...v1.2.2) (2023-09-01)
+
+
+### Bug Fixes
+
+* add staticpages cli (again) ([f08e80a](https://github.com/fork/kirby-starterkit/commit/f08e80a05048aafdd9754d06e3152aff0c6417c4))
+
 ## [1.2.1](https://github.com/fork/kirby-starterkit/compare/v1.2.0...v1.2.1) (2023-06-28)
 
 
