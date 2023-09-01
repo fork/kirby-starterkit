@@ -61,7 +61,7 @@ TIME_ZONE: "Europe/Berlin"
 
 ### MailHog
 
-There is a handy [MailHog](https://github.com/mailhog/MailHog) service running and configured in the [localhost configuration](./site/config/config.localhost.php).
+There is a handy [MailHog](https://github.com/mailhog/MailHog) service running and configured in the [localhost configuration](./site/config/config.localhost.php). When starting the Docker setup, you can access Mailhog by navigating to http://localhost:8025/.
 
 ### Xdebug
 
