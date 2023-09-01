@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/fork/kirby-starterkit/compare/v1.2.3...v1.2.4) (2023-09-01)
+
+
+### Bug Fixes
+
+* Removed Static Pages CLI ([7152087](https://github.com/fork/kirby-starterkit/commit/7152087f79c501fc7fbdea13d4ca526ff9bd1e48))
+
 ## [1.2.3](https://github.com/fork/kirby-starterkit/compare/v1.2.2...v1.2.3) (2023-09-01)
 
 
