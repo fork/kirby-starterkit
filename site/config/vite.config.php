@@ -1,5 +1,7 @@
-<?php return [
-  'outDir' => 'public/assets/dist',
-  'assetsDir' => 'assets',
-  'legacy' => false
+<?php
+
+return [
+    'outDir' => 'public/assets/dist',
+    'assetsDir' => 'assets',
+    'legacy' => false,
 ];
