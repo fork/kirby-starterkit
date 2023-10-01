@@ -12,7 +12,7 @@
     "@types/alpinejs": "^3.7.2",
     "@types/body-scroll-lock": "^3.1.0",
     "@types/node": "^20.5.7",
-    "autoprefixer": "^10.4.15",
+    "autoprefixer": "^10.4.16",
     "postcss": "^8.4.29",
     "postcss-pxtorem": "^6.0.0",
     "sass": "^1.66.1",
