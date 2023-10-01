@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install Composer dependencies
         run: composer install
       - name: Run PHPStan
@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           # Fetch the last 2 commits instead of just 1. (Fetching just 1 commit would overwrite the whole history)
           fetch-depth: 2
