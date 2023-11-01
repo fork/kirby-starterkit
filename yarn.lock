@@ -1170,7 +1170,7 @@ __metadata:
     tailwindcss: ^3.3.3
     typescript: ^5.2.2
     vite: ^4.4.9
-    vite-plugin-kirby: 4.0.6
+    vite-plugin-kirby: 4.0.9
     vite-plugin-live-reload: ^3.0.2
   languageName: unknown
   linkType: soft
@@ -2065,12 +2065,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-kirby@npm:4.0.6":
-  version: 4.0.6
-  resolution: "vite-plugin-kirby@npm:4.0.6"
+"vite-plugin-kirby@npm:4.0.9":
+  version: 4.0.9
+  resolution: "vite-plugin-kirby@npm:4.0.9"
   dependencies:
     vite-plugin-live-reload: ^3.0.2
-  checksum: 8635838196c46eea8969f231ab9686365b2a1dbfd99e234f4258c08132232278507c9dcc2a661c82e8dfb71f91809e641900efdbf5e048b8ef6d09a8a9503e54
+  peerDependencies:
+    vite: ^4.2.1
+  checksum: 9ed682eaa93ea79b8e69ab11b9ed4588e3f9158ddb1bdd0a94cf64cc125d263aa72a7658bd4d0404a4e3042cfbd736945fe731476382b58d53a299b5246ccec9
   languageName: node
   linkType: hard
 
