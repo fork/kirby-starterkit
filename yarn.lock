@@ -293,12 +293,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/alpinejs@npm:^3.7.2":
-  version: 3.7.2
-  resolution: "@types/alpinejs@npm:3.7.2"
-  dependencies:
-    "@vue/reactivity": ^3.2.26
-  checksum: 6f1b97863f720da808db15eef08134109f548de62309f22f3047c3927ffcf7079570bf5570e292b5473e2a6e3cca56fc21fdac24217999cfe50648298ef9ee9f
+"@types/alpinejs@npm:^3.13.3":
+  version: 3.13.3
+  resolution: "@types/alpinejs@npm:3.13.3"
+  checksum: b737a4138c1fe8968ad1327893b1c6b70f9334514238cc60a00cd03801434d0f3f5e83df916fc3aad4d2c3eb92236e06fec2e3b206238d9d2ea308d3c1b844cd
   languageName: node
   linkType: hard
 
@@ -316,15 +314,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/reactivity@npm:^3.2.26":
-  version: 3.3.4
-  resolution: "@vue/reactivity@npm:3.3.4"
-  dependencies:
-    "@vue/shared": 3.3.4
-  checksum: 81c3d0c587d23656a57a7a31afb51357274f6512b51baffc67cda183b2361a7e65e646029c26a8bc28587f26b65bba808dcd93cdd3bacab48d2b99d11ad0ec97
-  languageName: node
-  linkType: hard
-
 "@vue/reactivity@npm:~3.1.1":
   version: 3.1.5
   resolution: "@vue/reactivity@npm:3.1.5"
@@ -338,13 +327,6 @@ __metadata:
   version: 3.1.5
   resolution: "@vue/shared@npm:3.1.5"
   checksum: a34b942e1aeed5d2b0fe887d0804061d2e799ef9a0d641aaae368c6fa9e2bf311e415f02883f26963bd35d90cac165433cfe74360f7ee88304fccaa144422d83
-  languageName: node
-  linkType: hard
-
-"@vue/shared@npm:3.3.4":
-  version: 3.3.4
-  resolution: "@vue/shared@npm:3.3.4"
-  checksum: 12fe53ff816bfa29ea53f89212067a86512c626b8d30149ff28b36705820f6150e1fb4e4e46897ad9eddb1d1cfc02d8941053939910eed69a905f7a5509baabe
   languageName: node
   linkType: hard
 
@@ -385,12 +367,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"alpinejs@npm:^3.13.0":
-  version: 3.13.0
-  resolution: "alpinejs@npm:3.13.0"
+"alpinejs@npm:^3.13.2":
+  version: 3.13.2
+  resolution: "alpinejs@npm:3.13.2"
   dependencies:
     "@vue/reactivity": ~3.1.1
-  checksum: f28e69b5783670927703b035735b83767f328ee77749f4fdfa2d533d1857ebe2323d46a143db76878a21155e7804535336da90c36a68ca7e106f9905aa9cc0d8
+  checksum: 964d78cbee7f44b28ed2c4f632a88bd2c9ded1df5ee76dc700b14f65bd465ef93ed26ea375681bdc950ba85df1d03dbd7ee3bffc09552a1d19097afef2f1bc1e
   languageName: node
   linkType: hard
 
@@ -1158,10 +1140,10 @@ __metadata:
   dependencies:
     "@alpinejs/collapse": ^3.13.0
     "@alpinejs/focus": ^3.13.0
-    "@types/alpinejs": ^3.7.2
+    "@types/alpinejs": ^3.13.3
     "@types/body-scroll-lock": ^3.1.0
     "@types/node": ^20.5.7
-    alpinejs: ^3.13.0
+    alpinejs: ^3.13.2
     autoprefixer: ^10.4.15
     body-scroll-lock: ^4.0.0-beta.0
     postcss: ^8.4.29

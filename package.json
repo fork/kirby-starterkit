@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/alpinejs": "^3.7.2",
+    "@types/alpinejs": "^3.13.3",
     "@types/body-scroll-lock": "^3.1.0",
     "@types/node": "^20.5.7",
     "autoprefixer": "^10.4.15",
@@ -26,7 +26,7 @@
   "dependencies": {
     "@alpinejs/collapse": "^3.13.0",
     "@alpinejs/focus": "^3.13.0",
-    "alpinejs": "^3.13.0",
+    "alpinejs": "^3.13.2",
     "body-scroll-lock": "^4.0.0-beta.0"
   }
 }
