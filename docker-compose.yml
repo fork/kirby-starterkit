@@ -9,7 +9,7 @@ services:
       # See https://xdebug.org/docs/all_settings#mode
       XDEBUG_MODE: "${XDEBUG_MODE:-off}"
     ports:
-      - "9000:9000"
+      - 9000:9000
     volumes:
       - ./:/var/www/html/
     networks:
@@ -20,7 +20,7 @@ services:
     depends_on:
       - php
     ports:
-      - "8000:80"
+      - 8000:80
     volumes:
       - ./:/var/www/html/:ro
     networks:

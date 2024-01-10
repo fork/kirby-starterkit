@@ -1,11 +1,9 @@
 {
   "require": {
-    "getkirby/cms": "4.0.0-alpha.5",
-    "bnomei/kirby3-security-headers": "^2.5",
-    "getkirby/staticache": "1.0.2",
+    "getkirby/cms": "4.0.0",
+    "getkirby/staticache": "^1.0.0",
     "diesdasdigital/kirby-meta-knight": "^1.2",
-    "belugadigital/kirby-navigation": "^3.0",
-    "arnoson/kirby-vite": "^3.0"
+    "arnoson/kirby-vite": "^5.0"
   },
   "config": {
     "optimize-autoloader": true,

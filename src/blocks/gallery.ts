@@ -1,6 +1,6 @@
 import { AlpineComponent } from "alpinejs";
 
-const Gallery = (): AlpineComponent => ({
+const Gallery = (): AlpineComponent<any> => ({
   /**
    * Whether the prev button is hidden, i.e. we are on the very left
    */

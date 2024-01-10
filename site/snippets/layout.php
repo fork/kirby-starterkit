@@ -20,7 +20,7 @@
   <meta name="msapplication-TileColor" content="#000000" />
   <meta name="theme-color" content="#000000" />
 
-  <?= vite()->css() /** @phpstan-ignore-line */ ?>
+  <?= vite()->css("src/main.ts") ?>
   <?php if(isset($slots)): ?><?= $slots->head() ?><?php endif; ?>
 </head>
 
@@ -28,7 +28,7 @@
   <?php snippet('header') ?>
   <?php if(isset($slot)): ?><?= $slot ?><?php endif; ?>
   <?php snippet('footer') ?>
-  <?= vite()->js() /** @phpstan-ignore-line */?>
+  <?= vite()->js("src/main.ts") ?>
   <?php if(isset($slots)): ?><?= $slots->scripts() ?><?php endif; ?>
 </body>
 
