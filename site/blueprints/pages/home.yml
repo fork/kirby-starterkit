@@ -17,4 +17,4 @@ tabs:
 
   seo:
     label: SEO
-    extends: seo
+    extends: seo/page

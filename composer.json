@@ -1,9 +1,10 @@
 {
   "require": {
-    "getkirby/cms": "4.0.0",
+    "getkirby/cms": "^4.0.0",
     "getkirby/staticache": "^1.0.0",
-    "diesdasdigital/kirby-meta-knight": "^1.2",
-    "arnoson/kirby-vite": "^5.0"
+    "arnoson/kirby-vite": "^5.0",
+    "tobimori/kirby-seo": "^0.4.0",
+    "belugadigital/kirby-navigation": "^3.0"
   },
   "config": {
     "optimize-autoloader": true,

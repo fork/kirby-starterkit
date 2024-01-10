@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b2f659d21d440d84be4e6b2b0fc12ce1",
+    "content-hash": "87a07cd345f9fbe7be15fa05df5010c9",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -39,6 +39,51 @@
                 "source": "https://github.com/arnoson/kirby-vite/tree/v5.1.0"
             },
             "time": "2023-11-28T17:22:17+00:00"
+        },
+        {
+            "name": "belugadigital/kirby-navigation",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisbeluga/kirby-navigation.git",
+                "reference": "5bdb46a7834e24c4792e4cf71e4ac2beeba4a754"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisbeluga/kirby-navigation/zipball/5bdb46a7834e24c4792e4cf71e4ac2beeba4a754",
+                "reference": "5bdb46a7834e24c4792e4cf71e4ac2beeba4a754",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "kirby-navigation"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Martin",
+                    "email": "chris@builtbybeluga.com",
+                    "homepage": "https://builtbybeluga.com/"
+                },
+                {
+                    "name": "Ahmet Bora",
+                    "email": "ahmet@getkirby.com",
+                    "homepage": "https://owebstudio.com/"
+                }
+            ],
+            "description": "Kirby 3 field for hierarchical menus with drag & drop level indentation.",
+            "homepage": "https://github.com/chrisbeluga/kirby-navigation",
+            "support": {
+                "issues": "https://github.com/chrisbeluga/kirby-navigation/issues",
+                "source": "https://github.com/chrisbeluga/kirby-navigation/tree/3.0.1"
+            },
+            "time": "2022-09-29T13:28:58+00:00"
         },
         {
             "name": "christian-riesen/base32",
@@ -232,48 +277,6 @@
                 }
             ],
             "time": "2023-08-31T09:50:34+00:00"
-        },
-        {
-            "name": "diesdasdigital/kirby-meta-knight",
-            "version": "1.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/diesdasdigital/kirby-meta-knight.git",
-                "reference": "9c3da53a3abee5ffdd95c1363d679e9395794715"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/diesdasdigital/kirby-meta-knight/zipball/9c3da53a3abee5ffdd95c1363d679e9395794715",
-                "reference": "9c3da53a3abee5ffdd95c1363d679e9395794715",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1"
-            },
-            "type": "kirby-plugin",
-            "autoload": {
-                "psr-4": {
-                    "diesdasdigital\\kirby-meta-knight\\": "src/models/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Jonathan Muth",
-                    "email": "jonathan@diesdas.digital",
-                    "homepage": "https://diesdas.digital",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Meta Knight – SEO for Kirby",
-            "support": {
-                "issues": "https://github.com/diesdasdigital/kirby-meta-knight/issues",
-                "source": "https://github.com/diesdasdigital/kirby-meta-knight/tree/1.2.2"
-            },
-            "time": "2021-11-16T12:41:33+00:00"
         },
         {
             "name": "filp/whoops",
@@ -858,6 +861,79 @@
             "time": "2021-07-14T16:46:02+00:00"
         },
         {
+            "name": "spatie/schema-org",
+            "version": "3.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/schema-org.git",
+                "reference": "ada9f696ae958236d6707caced77b2630185bb76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/schema-org/zipball/ada9f696ae958236d6707caced77b2630185bb76",
+                "reference": "ada9f696ae958236d6707caced77b2630185bb76",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.6",
+                "graham-campbell/analyzer": "^3.0.5",
+                "illuminate/collections": "^8.62.0",
+                "league/flysystem": "^2.3.0 || ^3.0",
+                "pestphp/pest": "^1.21",
+                "symfony/console": "^5.3.7 || 6.0",
+                "twig/twig": "^3.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\SchemaOrg\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tom Witkowski",
+                    "email": "dev.gummibeer@gmail.com",
+                    "homepage": "https://gummibeer.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A fluent builder Schema.org types and ld+json generator",
+            "homepage": "https://github.com/spatie/schema-org",
+            "keywords": [
+                "schema-org",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/schema-org/issues",
+                "source": "https://github.com/spatie/schema-org/tree/3.14.0"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-02-14T16:46:30+00:00"
+        },
+        {
             "name": "symfony/deprecation-contracts",
             "version": "v3.4.0",
             "source": {
@@ -1331,6 +1407,62 @@
                 }
             ],
             "time": "2023-11-06T11:00:25+00:00"
+        },
+        {
+            "name": "tobimori/kirby-seo",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tobimori/kirby-seo.git",
+                "reference": "0966d4a627f037b38a5e79dbfe6448d433ea6650"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/0966d4a627f037b38a5e79dbfe6448d433ea6650",
+                "reference": "0966d4a627f037b38a5e79dbfe6448d433ea6650",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2.1",
+                "php": ">=8.1.0",
+                "spatie/schema-org": "^3.14"
+            },
+            "require-dev": {
+                "getkirby/cli": "^1.1",
+                "getkirby/cms": "^4.0-beta.1"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "tobimori\\Seo\\": "classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Möritz",
+                    "email": "tobias@moeritz.io"
+                }
+            ],
+            "description": "The ultimate Kirby SEO toolkit",
+            "homepage": "https://github.com/tobimori/kirby-seo#readme",
+            "support": {
+                "issues": "https://github.com/tobimori/kirby-seo/issues",
+                "source": "https://github.com/tobimori/kirby-seo/tree/0.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/tobimori",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-09-08T20:56:41+00:00"
         }
     ],
     "packages-dev": [

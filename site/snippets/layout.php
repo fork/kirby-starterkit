@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?= $site->lang() ?>">
 
 <head>
   <meta name="viewport" content="width=device-width" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <?php snippet('meta_information'); ?>
-  <?php snippet('robots'); ?>
+  <?php snippet('seo/head'); ?>
 
   <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
   <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/android-icon-192x192.png" />
@@ -30,6 +29,7 @@
   <?php snippet('footer') ?>
   <?= vite()->js("src/main.ts") ?>
   <?php if(isset($slots)): ?><?= $slots->scripts() ?><?php endif; ?>
+  <?php snippet('seo/schemas'); ?>
 </body>
 
 </html>
