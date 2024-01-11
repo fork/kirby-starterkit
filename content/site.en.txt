@@ -5,21 +5,17 @@ Title: Flat
 Navigation:
 
 - 
-  children: [ ]
-  id: articles
-  text: Articles
-  url: /articles
-  uuid: tpzts37woj
-- 
+  text: About us
+  link: page://5rloRGTSSdv6jmtd
   children: [ ]
   id: about-us
-  text: About us
   url: /about-us
   uuid: bsmki0yd90j
 - 
+  text: Articles
+  link: page://OfWmF3KRUe9dLMGn
   children: [ ]
   id: articles
-  text: Articles
   url: /articles
   uuid: vx2trbbbgn
 
@@ -28,19 +24,17 @@ Navigation:
 Footernavigation:
 
 - 
-  children: [ ]
-  id: home
   text: Home
-  url: /
-  uuid: irisl6z2k4g
+  link: page://OZY1JtRhNfCnKX5H
 
 ----
 
 Metanavigation:
 
 - 
-  children: [ ]
   text: Fork Unstable Media
+  link: https://fork.de
+  children: [ ]
   url: https://fork.de
   popup: true
   uuid: 2lokfny4ti8

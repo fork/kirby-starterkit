@@ -12,8 +12,7 @@
               <li>
                 <?php snippet('components/link', [
                     'text' => $item->text(),
-                    'href' => $item->url(),
-                    'target' => $item->popup()->toBool(), '_blank', '_self',
+                    'href' => $item->link()->toUrl(),
                     'current' => $item->url()->value() === kirby()->url('current'),
                 ]) ?>
               </li>
