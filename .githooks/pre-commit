@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+NC='\033[0m' # No Color
+
+echo "pre commit hook start"
+printf "committing as ${YELLOW}$(git config user.name) ${NC}/ ${YELLOW}$(git config user.email)${NC}\n"
+
+PHP_CS_FIXER="./vendor/bin/php-cs-fixer"
+PHP_CS_CONFIG=".php-cs-fixer.dist.php"
+PHP_STAN="./vendor/bin/phpstan"
+CHANGED_FILES=$(git diff --cached --name-only --diff-filter=ACM -- '*.php')
+
+if [ -n "$CHANGED_FILES" ]; then
+    echo "php-cs-fixer start"
+    $PHP_CS_FIXER fix --config "$PHP_CS_CONFIG" $CHANGED_FILES;
+    echo "php-cs-fixer finish"
+
+    echo "php-stan start"
+    if $PHP_STAN analyse -c ./phpstan.neon --memory_limit=512M $CHANGED_FILES; then
+      echo "php-stan finish"
+    else
+      printf "${RED}Aborting. ${YELLOW}Please fix the errors php-stan found.${NC}\n"
+      exit 1
+    fi
+
+    git add $CHANGED_FILES;
+fi
+
+echo "pre commit hook finish"

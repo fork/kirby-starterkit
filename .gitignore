@@ -54,3 +54,5 @@ content/home/.lock
 # --------
 .php-cs-fixer.cache
 site/logs/retour
+cghooks.lock
+
