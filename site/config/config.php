@@ -47,7 +47,7 @@ return [
             ],
         ],
     ],
-  'tobimori.seo' => [
-    'lang' => 'de_DE',
-  ]
+    'tobimori.seo' => [
+        'lang' => 'de_DE',
+    ],
 ];
