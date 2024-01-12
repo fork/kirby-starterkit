@@ -1,6 +1,7 @@
 {
   "name": "fork/kirby-starterkit",
   "description": "Kirby Starterkit",
+  "homepage": "https://fork.de",
   "type": "project",
   "keywords": [
     "kirby",
@@ -13,17 +14,21 @@
       "homepage": "https://fork.de"
     }
   ],
-  "homepage": "https://fork.de",
   "require": {
     "getkirby/cms": "^4.0",
     "getkirby/staticache": "^1.0",
     "arnoson/kirby-vite": "^5.0",
-    "tobimori/kirby-seo": "^0.4"
+    "tobimori/kirby-seo": "^0.4",
+    "distantnative/retour-for-kirby": "^5.0"
   },
   "config": {
     "optimize-autoloader": true,
     "allow-plugins": {
       "getkirby/composer-installer": true
     }
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.17",
+    "phpstan/phpstan": "^1.10.15"
   }
 }

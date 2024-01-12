@@ -14,6 +14,7 @@ pnpm-lock.yaml
 /kirby
 /site/plugins/*
 /site/config/vite.config.php
+/site/config/retour.yml
 
 # Editors
 # (sensitive workspace files)
@@ -55,4 +56,3 @@ content/home/.lock
 .php-cs-fixer.cache
 site/logs/retour
 cghooks.lock
-

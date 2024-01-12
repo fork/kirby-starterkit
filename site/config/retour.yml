@@ -1,7 +1,0 @@
-redirects:
-  - 
-    from: test
-    to: home
-    status: 301
-    priority: false
-    comment: null

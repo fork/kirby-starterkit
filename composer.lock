@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac4623c54641866db1feba69c9ac599a",
+    "content-hash": "bb2b8e46fb895cc818f1251e7bf35e21",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -232,6 +232,52 @@
                 }
             ],
             "time": "2023-08-31T09:50:34+00:00"
+        },
+        {
+            "name": "distantnative/retour-for-kirby",
+            "version": "5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/distantnative/retour-for-kirby.git",
+                "reference": "7c1946cc4aab8de56ee6f2e1adfc60dd18ba99ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/distantnative/retour-for-kirby/zipball/7c1946cc4aab8de56ee6f2e1adfc60dd18ba99ea",
+                "reference": "7c1946cc4aab8de56ee6f2e1adfc60dd18ba99ea",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=8.1.0 <8.4.0"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "retour",
+                "kirby-cms-path": false
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nico Hoffmann",
+                    "email": "on-github@nhoffmann.com"
+                }
+            ],
+            "description": "Redirects and 404 tracking for Kirby",
+            "support": {
+                "issues": "https://github.com/distantnative/retour-for-kirby/issues",
+                "source": "https://github.com/distantnative/retour-for-kirby/tree/5.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/distantnative",
+                    "type": "custom"
+                }
+            ],
+            "time": "2023-11-04T22:32:05+00:00"
         },
         {
             "name": "filp/whoops",
