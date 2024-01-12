@@ -11,3 +11,5 @@ parameters:
       paths:
         - site/snippets
         - site/templates
+    -
+      message: '#Function vite not found.#'
