@@ -863,16 +863,16 @@
         },
         {
             "name": "spatie/schema-org",
-            "version": "3.14.0",
+            "version": "3.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/schema-org.git",
-                "reference": "ada9f696ae958236d6707caced77b2630185bb76"
+                "reference": "c95abf7da59f16570aec18ca11d861255e645c39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/schema-org/zipball/ada9f696ae958236d6707caced77b2630185bb76",
-                "reference": "ada9f696ae958236d6707caced77b2630185bb76",
+                "url": "https://api.github.com/repos/spatie/schema-org/zipball/c95abf7da59f16570aec18ca11d861255e645c39",
+                "reference": "c95abf7da59f16570aec18ca11d861255e645c39",
                 "shasum": ""
             },
             "require": {
@@ -920,7 +920,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/schema-org/issues",
-                "source": "https://github.com/spatie/schema-org/tree/3.14.0"
+                "source": "https://github.com/spatie/schema-org/tree/3.23.0"
             },
             "funding": [
                 {
@@ -932,7 +932,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-14T16:46:30+00:00"
+            "time": "2024-01-11T14:58:44+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
