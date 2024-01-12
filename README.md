@@ -40,6 +40,8 @@ $ yarn build
 
 Visit the admin panel at [http://localhost:8000/panel](http://localhost:8000/panel) and finalize the installation.
 
+---
+
 ## Develop Frontend
 
 You could also just start developing Frontend components by starting Vite.
@@ -47,6 +49,8 @@ You could also just start developing Frontend components by starting Vite.
 ```bash
 $ yarn dev
 ```
+
+---
 
 ## Additional features when using Docker
 
@@ -91,6 +95,8 @@ If you are working with Visual Studio Code you could use the following launch.js
 ```
 
 For more information on Docker basics related to Kirby you can find a very good guide in the [Kirby Cookbook](https://getkirby.com/docs/cookbook/setup/kirby-meets-docker#example-4-docker-compose).
+
+---
 
 ## Kirby Plugins used
 
