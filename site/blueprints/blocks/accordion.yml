@@ -1,5 +1,6 @@
 name: Accordion
 icon: server
+wysiwyg: true
 preview: fields
 fields:
   items:

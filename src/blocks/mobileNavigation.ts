@@ -1,7 +1,7 @@
 import { AlpineComponent } from "alpinejs";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
-const MobileNavigation = (): AlpineComponent => ({
+const MobileNavigation = (): AlpineComponent<any> => ({
   isOpen: false,
   open() {
     this.isOpen = true;

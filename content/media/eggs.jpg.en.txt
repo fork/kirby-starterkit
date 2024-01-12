@@ -11,3 +11,7 @@ Alt: An egg case filled with ballon eggs
 ----
 
 Uuid: J8NXXOKfjnxRENN2
+
+----
+
+Focus: 48.2% 57.6%

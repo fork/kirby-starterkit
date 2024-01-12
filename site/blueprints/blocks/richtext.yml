@@ -1,5 +1,6 @@
 name: Richtext
 icon: text
+wysiwyg: true
 preview: fields
 fields:
   text: fields/writer/default

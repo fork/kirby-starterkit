@@ -1,15 +1,25 @@
 {
+  "name": "fork/kirby-starterkit",
+  "description": "Kirby Starterkit",
+  "homepage": "https://fork.de",
+  "type": "project",
+  "keywords": [
+    "kirby",
+    "cms",
+    "starterkit"
+  ],
+  "authors": [
+    {
+      "name": "Fork Unstable Media GmbH",
+      "homepage": "https://fork.de"
+    }
+  ],
   "require": {
-    "getkirby/cms": "^3.9.4",
-    "bnomei/kirby3-security-headers": "^2.5.4",
-    "getkirby/staticache": "^1.0.1",
-    "distantnative/retour-for-kirby": "^4.4.2",
-    "diesdasdigital/kirby-meta-knight": "^1.2.2",
-    "belugadigital/kirby-navigation": "^3.0.1",
-    "arnoson/kirby-vite": "^3.0.7",
-    "jg/kirby-fields-block": "^1.2.1",
-    "coralic/kirby-extended-writer": "^1.1.1",
-    "medienbaecker/autoresize": "^2.1.4"
+    "getkirby/cms": "^4.0",
+    "getkirby/staticache": "^1.0",
+    "arnoson/kirby-vite": "^5.0",
+    "tobimori/kirby-seo": "^0.4",
+    "distantnative/retour-for-kirby": "^5.0"
   },
   "config": {
     "optimize-autoloader": true,
@@ -19,25 +29,6 @@
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.17",
-    "phpstan/phpstan": "^1.10.15",
-    "brainmaestro/composer-git-hooks": "v3.0.0-alpha.1"
-  },
-  "scripts": {
-    "post-install-cmd": [
-      "./vendor/bin/cghooks add --ignore-lock"
-    ],
-    "post-update-cmd": [
-      "./vendor/bin/cghooks update"
-    ]
-  },
-  "extra": {
-    "hooks": {
-      "pre-commit": [
-        "./.githooks/pre-commit"
-      ],
-      "commit-msg": [
-        "./.githooks/commit-msg"
-      ]
-    }
+    "phpstan/phpstan": "^1.10.15"
   }
 }

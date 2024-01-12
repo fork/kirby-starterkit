@@ -12,9 +12,8 @@ tabs:
   content:
     icon: dashboard
     fields:
-      text:
-        type: blocks
+      blocks: fields/blocks
 
   seo:
     label: SEO
-    extends: seo
+    extends: seo/page

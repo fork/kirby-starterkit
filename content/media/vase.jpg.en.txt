@@ -11,3 +11,7 @@ Alt: An inverted image of a vase
 ----
 
 Uuid: 4W2LR4iyEkRmFeGm
+
+----
+
+Focus: 49.2% 56.3%
