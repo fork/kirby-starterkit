@@ -2,11 +2,11 @@ Title: Home
 
 ----
 
-Text: 
+Blocks: 
 
 ----
 
-Metatitle: home
+Metatitle: 
 
 ----
 
