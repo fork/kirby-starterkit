@@ -6,7 +6,7 @@ Navigation:
 
 - 
   text: About us
-  link: page://5rloRGTSSdv6jmtd
+  link: page://UOStnOXtB0DtVBEr
   children: [ ]
   id: about-us
   url: /about-us
