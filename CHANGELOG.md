@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.4](https://github.com/fork/kirby-starterkit/compare/v1.2.3...v1.2.4) (2023-09-01)
+
+
+### Bug Fixes
+
+* Removed Static Pages CLI ([7152087](https://github.com/fork/kirby-starterkit/commit/7152087f79c501fc7fbdea13d4ca526ff9bd1e48))
+
+## [1.2.3](https://github.com/fork/kirby-starterkit/compare/v1.2.2...v1.2.3) (2023-09-01)
+
+
+### Bug Fixes
+
+* Added missing .gitignore for cghooks ([ab9b9c8](https://github.com/fork/kirby-starterkit/commit/ab9b9c89d4502290fb889488dc82a796e777289c))
+
 ## [1.2.2](https://github.com/fork/kirby-starterkit/compare/v1.2.1...v1.2.2) (2023-09-01)
 
 
