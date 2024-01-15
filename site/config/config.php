@@ -47,8 +47,7 @@ return [
             ],
         ],
     ],
-    'arnoson.kirby-vite' => [
-        'entry' => 'main.ts',
-        'outDir' => 'assets/dist',
+    'tobimori.seo' => [
+        'lang' => 'de_DE',
     ],
 ];

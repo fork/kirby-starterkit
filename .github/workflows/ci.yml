@@ -14,7 +14,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.3
       - name: Install Composer dependencies
         run: composer install
       - name: Run PHPStan
@@ -24,10 +29,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
         with:
           # Fetch the last 2 commits instead of just 1. (Fetching just 1 commit would overwrite the whole history)
           fetch-depth: 2
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.3
       - name: Install Composer dependencies
         run: composer install
       - name: Run php-cs-fixer

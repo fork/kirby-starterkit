@@ -1,5 +1,6 @@
 name: Image Text
 icon: page
+wysiwyg: true
 preview: fields
 
 fields:

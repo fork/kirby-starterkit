@@ -7,21 +7,53 @@ fields:
     type: headline
   navigation:
     label: Navigation
-    type: navigation
-    levels: 2
+    type: structure
+    fields:
+      text:
+        label: Text
+        type: text
+        required: true
+      link:
+        label: Link
+        type: link
+        required: true
+        options:
+          - page
 
   footer:
     label: Footer
     type: headline
   footerNavigation:
     label: Footer Navigation
-    type: navigation
-    levels: 1
+    type: structure
+    fields:
+      text:
+        label: Text
+        type: text
+        required: true
+      link:
+        label: Link
+        type: link
+        required: true
+        options:
+          - page
+          - url
     width: 1/2
   metaNavigation:
     label: Meta Navigation
-    type: navigation
-    levels: 1
+    type: structure
+    fields:
+      text:
+        label: Text
+        type: text
+        required: true
+      link:
+        label: Link
+        type: link
+        required: true
+        options:
+          - page
+          - url
     width: 1/2
   footerText:
     extends: fields/writer/default

@@ -31,4 +31,4 @@ tabs:
 
   seo:
     label: Default SEO
-    extends: seo
+    extends: seo/site

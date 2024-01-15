@@ -14,131 +14,67 @@ Excerpt: Explanation attempt in Theseus' nutshell
 
 ----
 
-Meta-title: 
+Metatitle: 
 
 ----
 
-Meta-description: Explanation attempt in Theseus' nutshell
+Metatemplate: 
 
 ----
 
-Meta-canonical-url: 
+Usetitletemplate: true
 
 ----
 
-Meta-author: 
+Metadescription: 
 
 ----
 
-Meta-image: 
+Ogtemplate: 
 
 ----
 
-Meta-phone-number: 
+Useogtemplate: true
 
 ----
 
-Og-title: 
+Ogdescription: 
 
 ----
 
-Og-description: 
+Ogimage: 
 
 ----
 
-Og-image: 
+Twittercardtype: 
 
 ----
 
-Og-site-name: 
+Twitterauthor: 
 
 ----
 
-Og-url: 
+Robotsindex: default
 
 ----
 
-Og-audio: 
+Robotsfollow: default
 
 ----
 
-Og-video: 
+Robotsarchive: default
 
 ----
 
-Og-determiner: 
+Robotsimageindex: default
 
 ----
 
-Og-type: website
+Robotssnippet: default
 
 ----
 
-Og-type-article-published-time: 2023-04-14 20:50:00
-
-----
-
-Og-type-article-modified-time: 2023-04-14 20:50:00
-
-----
-
-Og-type-article-expiration-time: 2023-04-14 20:50:00
-
-----
-
-Og-type-article-author: 
-
-----
-
-Og-type-article-section: 
-
-----
-
-Og-type-article-tag: 
-
-----
-
-Twitter-title: 
-
-----
-
-Twitter-description: 
-
-----
-
-Twitter-image: 
-
-----
-
-Twitter-card-type: 
-
-----
-
-Twitter-site: 
-
-----
-
-Twitter-creator: 
-
-----
-
-Robots-noindex: default
-
-----
-
-Robots-nofollow: default
-
-----
-
-Robots-noarchive: default
-
-----
-
-Robots-noimageindex: default
-
-----
-
-Robots-nosnippet: default
+Metainherit: 
 
 ----
 
