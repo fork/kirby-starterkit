@@ -1,5 +1,34 @@
 # Changelog
 
+## [1.3.0](https://github.com/fork/kirby-starterkit/compare/v1.2.4...v1.3.0) (2024-01-15)
+
+
+### Features
+
+* **plugin:** Adding retour plugin ([87faac6](https://github.com/fork/kirby-starterkit/commit/87faac61e17e3610e71cac71285a269bcc82d6db))
+* Replace SEO Plugin ([a09f7bc](https://github.com/fork/kirby-starterkit/commit/a09f7bc2811741b50407a692df8853c0b0a34b54))
+* Updated dependencies ([1aba79f](https://github.com/fork/kirby-starterkit/commit/1aba79f024470e31bf9fdff969be58990fd774b4))
+
+
+### Bug Fixes
+
+* add about us to navigation instead of error ([9a51f6b](https://github.com/fork/kirby-starterkit/commit/9a51f6bb660655d411210342d03ab5892dfa7def))
+* Fixed GitHub Action syntax issue ([ac29e49](https://github.com/fork/kirby-starterkit/commit/ac29e497f57bf8bdf6f29d5acb1a2ff29f2fa400))
+* Fixed GitHub Action syntax issue ([f8f7679](https://github.com/fork/kirby-starterkit/commit/f8f76792c7fdec72b5d8394649949e00a077cc59))
+* Removed log ([cb08d6e](https://github.com/fork/kirby-starterkit/commit/cb08d6ebffa3a354e5e7ef6c77c126b71fe038b0))
+* Use customized blocks for home ([7160c4f](https://github.com/fork/kirby-starterkit/commit/7160c4fe9505d3facad40fbb7eff64b96747d92f))
+* Use customized blocks for home ([3a4d300](https://github.com/fork/kirby-starterkit/commit/3a4d300dd6b2d47439da88836ba0553ac6b135bc))
+
+
+### Miscellaneous Chores
+
+* Added specific PHP Version to GitHub Action ([1aff8fc](https://github.com/fork/kirby-starterkit/commit/1aff8fc025ee0f85f6cd13e1368e238f9a11a846))
+* Fixed PHPStan issues ([fffd92e](https://github.com/fork/kirby-starterkit/commit/fffd92eb1583ff97128f1c219f7f67e9fb07f7b7))
+* Removed navigation plugin ([84f2537](https://github.com/fork/kirby-starterkit/commit/84f25374daefdd488db0116c86195586b0af9f3f))
+* Switch from mailhog to mailpit ([d60b98a](https://github.com/fork/kirby-starterkit/commit/d60b98ab445a68731952cdfbe21e966ea2f86cda))
+* Updated composer dependencies ([0ecff15](https://github.com/fork/kirby-starterkit/commit/0ecff15caa75d9d5ab65e6c07560c44b054f111c))
+* Updated node dependencies ([2668181](https://github.com/fork/kirby-starterkit/commit/266818138bc5104fc7f7150a85e121b4b1fe617b))
+
 ## [1.2.4](https://github.com/fork/kirby-starterkit/compare/v1.2.3...v1.2.4) (2023-09-01)
 
 
