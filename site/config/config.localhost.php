@@ -11,7 +11,7 @@ return [
     'email' => [
         'transport' => [
             'type' => 'smtp',
-            'host' => 'mailhog',
+            'host' => 'mailpit',
             'port' => 1025,
             'security' => false,
         ],

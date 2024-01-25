@@ -25,7 +25,7 @@ services:
       - ./:/var/www/html/:ro
     networks:
       - kirby
-  mailhog:
+  mailpit:
     image: axllent/mailpit:latest
     ports:
       - 1025:1025
