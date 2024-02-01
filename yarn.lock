@@ -474,12 +474,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"alpinejs@npm:^3.13.3":
-  version: 3.13.3
-  resolution: "alpinejs@npm:3.13.3"
+"alpinejs@npm:^3.13.5":
+  version: 3.13.5
+  resolution: "alpinejs@npm:3.13.5"
   dependencies:
     "@vue/reactivity": ~3.1.1
-  checksum: 5be6d62b02ee2888a64a7b6b5bb4fd6730a90931f7454cbb677c809421cf49288f93326520882b63f177b95250e1661c7098b923bb67d4bcb2741140a9373145
+  checksum: 3c9354f50d516baded37687e135ebb0c4f8c24019433974f46bd201c56249ad5b142d15660be652e60da94baaca8a8a82e23fd40078704ac250a631a9f065f15
   languageName: node
   linkType: hard
 
@@ -1272,7 +1272,7 @@ __metadata:
     "@types/alpinejs": ^3.13.6
     "@types/body-scroll-lock": ^3.1.2
     "@types/node": ^20.11.0
-    alpinejs: ^3.13.3
+    alpinejs: ^3.13.5
     autoprefixer: ^10.4.16
     body-scroll-lock: ^4.0.0-beta.0
     postcss: ^8.4.33

@@ -26,7 +26,7 @@
   "dependencies": {
     "@alpinejs/collapse": "^3.13.3",
     "@alpinejs/focus": "^3.13.3",
-    "alpinejs": "^3.13.3",
+    "alpinejs": "^3.13.5",
     "body-scroll-lock": "^4.0.0-beta.0"
   }
 }
