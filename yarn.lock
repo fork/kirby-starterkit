@@ -412,12 +412,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.11.0":
-  version: 20.11.0
-  resolution: "@types/node@npm:20.11.0"
+"@types/node@npm:^20.11.16":
+  version: 20.11.16
+  resolution: "@types/node@npm:20.11.16"
   dependencies:
     undici-types: ~5.26.4
-  checksum: 1bd6890db7e0404d11c33d28f46f19f73256f0ba35d19f0ef2a0faba09f366f188915fb9338eebebcc472075c1c4941e17c7002786aa69afa44980737846b200
+  checksum: 51f0831c1219bf4698e7430aeb9892237bd851deeb25ce23c5bb0ceefcc77c3b114e48f4e98d9fc26def5a87ba9d8079f0281dd37bee691140a93f133812c152
   languageName: node
   linkType: hard
 
@@ -1271,7 +1271,7 @@ __metadata:
     "@alpinejs/focus": ^3.13.3
     "@types/alpinejs": ^3.13.6
     "@types/body-scroll-lock": ^3.1.2
-    "@types/node": ^20.11.0
+    "@types/node": ^20.11.16
     alpinejs: ^3.13.3
     autoprefixer: ^10.4.16
     body-scroll-lock: ^4.0.0-beta.0
