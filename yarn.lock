@@ -12,10 +12,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@alpinejs/collapse@npm:^3.13.3":
-  version: 3.13.3
-  resolution: "@alpinejs/collapse@npm:3.13.3"
-  checksum: ab80f65f66d344432c3bcd2a4f67a6ade683e6b7c2b35b03854cc92b7cdf71766ce7a011d6142ca37bbaac214fc9d4feb7b554a9b6a4780253f29986cd18fad6
+"@alpinejs/collapse@npm:^3.13.5":
+  version: 3.13.5
+  resolution: "@alpinejs/collapse@npm:3.13.5"
+  checksum: 70a85d7aae36af76a9b3550df8dca67f147b3e81c13256643c376565272adbd7d6ada2b1bc508bf72a8d86524c719189f3ada6dd02af5f8a6bb207b2fd02dee3
   languageName: node
   linkType: hard
 
@@ -1267,7 +1267,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "kirby-starter@workspace:."
   dependencies:
-    "@alpinejs/collapse": ^3.13.3
+    "@alpinejs/collapse": ^3.13.5
     "@alpinejs/focus": ^3.13.3
     "@types/alpinejs": ^3.13.6
     "@types/body-scroll-lock": ^3.1.2
