@@ -19,13 +19,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@alpinejs/focus@npm:^3.13.3":
-  version: 3.13.3
-  resolution: "@alpinejs/focus@npm:3.13.3"
+"@alpinejs/focus@npm:^3.13.7":
+  version: 3.13.7
+  resolution: "@alpinejs/focus@npm:3.13.7"
   dependencies:
     focus-trap: ^6.9.4
     tabbable: ^5.3.3
-  checksum: 55175c52e43e2b87cd51fa33669bf32af5c62aaaabb1d2e0a626e1d2508d760da0653bc029ebe0a13a98be13be0140f84a128e92838236f6d5c495110bbc2fe6
+  checksum: 9e5615776611abc62d87ab64e4bf5b63d570b8cc0725a12aa763c376d9fc27956eba1a7ef709ee09e133329461cb0c76ae7123dff173aad893111cfba7b31bbb
   languageName: node
   linkType: hard
 
@@ -1268,7 +1268,7 @@ __metadata:
   resolution: "kirby-starter@workspace:."
   dependencies:
     "@alpinejs/collapse": ^3.13.3
-    "@alpinejs/focus": ^3.13.3
+    "@alpinejs/focus": ^3.13.7
     "@types/alpinejs": ^3.13.6
     "@types/body-scroll-lock": ^3.1.2
     "@types/node": ^20.11.0
