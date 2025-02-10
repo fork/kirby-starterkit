@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import { resolve } from "path";
 import kirby from "vite-plugin-kirby";
+import tailwindcss from '@tailwindcss/vite'
 
 const cwd = process.cwd();
 
@@ -22,5 +23,7 @@ export default defineConfig(({ mode }) => ({
     rollupOptions: { input }
   },
 
-  plugins: [kirby()]
+  plugins: [ tailwindcss(), kirby({
+    watch: ['./site/(templates|snippets|controllers|models|layouts)/**/*.php', './content/**/*']
+  })]
 }));
