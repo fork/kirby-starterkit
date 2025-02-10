@@ -1,6 +1,6 @@
 # Kirby Starterkit
 
-This project is a very basic but opinionated [Kirby](https://getkirby.com/) (v3.9) Starterkit using some established Kirby CMS Plugins. The folder structure is following the ["Public folder setup"](https://getkirby.com/docs/guide/configuration#custom-folder-setup__public-folder-setup) instructions from the Kirby Guide.<br>
+This project is a very basic but opinionated [Kirby](https://getkirby.com/) (v5.0) Starterkit using some established Kirby CMS Plugins. The folder structure is following the ["Public folder setup"](https://getkirby.com/docs/guide/configuration#custom-folder-setup__public-folder-setup) instructions from the Kirby Guide.<br>
 Frontend is based on [Vite](https://vitejs.dev/), [tailwindcss](https://tailwindcss.com/) and [Alpine.js](https://alpinejs.dev/).
 
 It comes with is a development setup based on [Docker](https://www.docker.com/) including [Xdebug](#xdebug) and [MailHog](#mailhog) as services, but you can choose to use your local environment instead.
@@ -97,12 +97,12 @@ For more information on Docker basics related to Kirby you can find a very good 
 
 -   [Kirby 3 Content Security Policy Header](https://github.com/bnomei/kirby3-security-headers)
 -   [Kirby Staticache Plugin](https://github.com/getkirby/staticache)
--   [Retour for Kirby](https://github.com/distantnative/retour-for-kirby)
+
 -   [Meta Knight – SEO for Kirby](https://github.com/diesdasdigital/kirby-meta-knight)
 -   [Kirby Navigation Field](https://github.com/chrisbeluga/kirby-navigation)
 -   [Kirby Vite Plugin](https://github.com/arnoson/kirby-vite)
 -   [Kirby Fields Block](https://github.com/jongacnik/kirby-fields-block)
--   [Kirby 3 Extended Writer](https://github.com/coralic/kirby-extended-writer)
+
 
 ## License
 
