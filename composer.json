@@ -1,15 +1,12 @@
 {
   "require": {
-    "getkirby/cms": "^3.9.4",
-    "bnomei/kirby3-security-headers": "^2.5.4",
-    "getkirby/staticache": "^1.0.1",
-    "distantnative/retour-for-kirby": "^4.4.2",
+    "getkirby/cms": "^5.0.0-beta.2",
+    "bnomei/kirby3-security-headers": "^5.0.3",
+    "getkirby/staticache": "^1.0.3",
     "diesdasdigital/kirby-meta-knight": "^1.2.2",
-    "belugadigital/kirby-navigation": "^3.0.1",
-    "arnoson/kirby-vite": "^3.0.7",
-    "jg/kirby-fields-block": "^1.2.1",
-    "coralic/kirby-extended-writer": "^1.1.1",
-    "medienbaecker/autoresize": "^2.1.4"
+    "belugadigital/kirby-navigation": "4.1.0",
+    "arnoson/kirby-vite": "^5.4.0",
+    "jg/kirby-fields-block": "^1.2.1"
   },
   "config": {
     "optimize-autoloader": true,
@@ -18,7 +15,7 @@
     }
   },
   "require-dev": {
-    "friendsofphp/php-cs-fixer": "^3.17",
-    "phpstan/phpstan": "^1.10.15"
+    "friendsofphp/php-cs-fixer": "^3.68.5",
+    "phpstan/phpstan": "^2.1.3"
   }
 }
