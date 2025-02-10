@@ -1,5 +1,4 @@
 import Alpine from "alpinejs";
-
 // @ts-ignore
 import focus from "@alpinejs/focus";
 // @ts-ignore
